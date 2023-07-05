@@ -1,0 +1,4 @@
+	<layout name="Text_OK_Popup">
+		<eLabel backgroundColor="CursorBackground" position="0,390" size="1040,60"/>
+		<eLabel backgroundColor="background" font="Regular;26" halign="center" position="920,400" size="100,38" text="OK" valign="center"/>
+	</layout>

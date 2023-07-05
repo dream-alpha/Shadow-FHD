@@ -1,0 +1,6 @@
+	<screen backgroundColor="Tile" flags="wfNoBorder" name="setup_usage" position="0,center" size="1200,1080">
+		<layout name="Title_broad"/>
+		<ePixmap pixmap="Shadow-FHD/menu/usage_setup.svg" position="25,15" size="70,70"/>
+		<widget enableWrapAround="1" name="config" position="20,115" scrollbarMode="showOnDemand" separation="600" size="1160,865"/>
+		<ePixmap pixmap="Shadow-FHD/skin_default/icons/arrow_down.svg" position="570,1020" size="60,60"/>
+	</screen>

@@ -1,0 +1,6 @@
+	<layout name="Title_broad">
+		<widget backgroundColor="Tile" font="Bold;32" noWrap="1" position="130,30" render="Label" size="520,40" source="Title" zPosition="-1"/>
+		<eLabel backgroundColor="background" position="10,115" size="1180,870" zPosition="-3"/>
+		<ePixmap gradient="transpBlack,transparent,vertical" position="10,115" size="1180,480" zPosition="-2"/>
+		<ePixmap gradient="transparent,gradient,vertical" position="10,505" size="1180,480" zPosition="-2"/>
+	</layout>

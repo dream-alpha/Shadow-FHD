@@ -1,0 +1,8 @@
+	<screen backgroundColor="Tile" flags="wfNoBorder" name="PartnerboxSetup" position="0,center" size="700,1080" title="Partnerbox Setup">
+		<layout name="Title_small"/>
+		<ePixmap pixmap="Shadow-FHD/images/timer.svg" position="25,15" size="70,70"/>
+		<ePixmap pixmap="Shadow-FHD/images/ok_neutral.svg" position="630,30" size="50,50"/>
+		<widget backgroundColor="background" enableWrapAround="1" name="config" position="20,150" scrollbarMode="showOnDemand" size="660,720" transparent="1"/>
+		<eLabel backgroundColor="yellow" position="0,1070" size="700,10"/>
+		<widget backgroundColor="gradient" font="Regular;26" halign="center" name="key_yellow" position="0,1000" size="700,60" transparent="1" valign="center"/>
+	</screen>

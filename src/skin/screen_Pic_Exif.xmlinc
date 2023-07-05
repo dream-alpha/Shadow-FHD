@@ -1,0 +1,11 @@
+	<screen backgroundColor="Tile" flags="wfNoBorder" name="Pic_Exif" position="0,0" size="700,1080">
+		<layout name="Title_small"/>
+		<ePixmap pixmap="Shadow-FHD/images/info.svg" position="25,15" size="70,70"/>
+		<widget backgroundColor="background" enableWrapAround="1" position="20,150" render="Listbox" scrollbarMode="showOnDemand" size="660,800" source="menu" transparent="1">
+			<convert type="TemplatedMultiContent">
+			{"template":[MultiContentEntryText(pos=(10,0),size=(340,50),flags=RT_VALIGN_CENTER,text=0),
+			MultiContentEntryText(pos=(360,0),size=(300,50),flags=RT_VALIGN_CENTER,text=1)],
+			"fonts":[gFont("Regular",26)],"itemHeight":50}
+			</convert>
+		</widget>
+	</screen>

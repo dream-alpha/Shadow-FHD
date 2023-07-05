@@ -1,0 +1,6 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="TimeDateInput" position="center,center" size="1040,450" title="Time/Date Input">
+		<layout name="Title_Popup"/>
+		<layout name="Text_OK_Popup"/>
+		<eLabel backgroundColor="CursorBackground" font="Bold;50" foregroundColor="#bababa" halign="center" position="60,20" size="100,100" text="Info" valign="center"/>
+		<widget enableWrapAround="1" name="config" position="20,200" scrollbarMode="showOnDemand" size="1000,120"/>
+	</screen>

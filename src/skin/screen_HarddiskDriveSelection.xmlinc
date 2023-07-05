@@ -1,0 +1,19 @@
+	<screen backgroundColor="ScreenBackground" flags="wfNoBorder" name="HarddiskDriveSelection" position="center,center" size="1920,1080">
+		<layout name="Title_ScreenBackground"/>
+		<layout name="back_bigbutton"/>
+		<layout name="bigbutton_source"/>
+		<eLabel backgroundColor="background" position="50,110" size="1820,860" zPosition="-1"/>
+		<widget backgroundColor="background" enableWrapAround="1" position="60,120" render="Listbox" scrollbarMode="showOnDemand" size="1800,700" source="hddlist" transparent="1">
+			<convert type="TemplatedMultiContent">
+			{"template":[MultiContentEntryText(pos=(100,5),size=(1670,35),font=0,text=0),
+			MultiContentEntryText(pos=(130,40),size=(1640,60),font=1,flags=RT_WRAP,text=2),
+			MultiContentEntryPixmapAlphaTest(pos=(0,10),size=(80,80),png=7),
+			MultiContentEntryPixmapAlphaTest(pos=(90,42),size=(25,25),png=8),
+			MultiContentEntryPixmapAlphaTest(pos=(0,0),size=(0,0),png=9),],
+			"fonts":[gFont("Bold",26),gFont("Regular",24)],"itemHeight":100}
+			</convert>
+		</widget>
+		<eLabel backgroundColor="grey" position="60,860" size="1800,1"/>
+		<widget backgroundColor="background" font="Regular;28" foregroundColor="Heading" halign="center" position="60,880" render="Label" size="1800,70" source="introduction" transparent="1" valign="center"/>
+		<eLabel backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1750,915" size="100,38" text="Info" valign="center"/>
+	</screen>

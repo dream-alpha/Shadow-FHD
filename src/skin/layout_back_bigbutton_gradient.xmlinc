@@ -1,0 +1,7 @@
+	<layout name="back_bigbutton_gradient">
+		<ePixmap gradient="transparent,gradient,vertical" position="0,600" size="1920,480" zPosition="-2"/>
+		<eLabel backgroundColor="red" position="0,1070" size="480,10"/>
+		<eLabel backgroundColor="green" position="480,1070" size="480,10"/>
+		<eLabel backgroundColor="yellow" position="960,1070" size="480,10"/>
+		<eLabel backgroundColor="blue" position="1440,1070" size="480,10"/>
+	</layout>

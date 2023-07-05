@@ -1,0 +1,23 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="NetworkServiceConfig" position="center,center" size="1920,1080">
+		<layout name="Title_Mid"/>
+		<layout name="bigbutton_name"/>
+		<layout name="back_bigbutton_gradient"/>
+		<ePixmap pixmap="Shadow-FHD/images/menu_point.svg" position="70,137" size="11,35"/>
+		<eLabel backgroundColor="background" font="Regular;28" position="100,138" size="500,40" text="Time server configuration" transparent="1"/>
+		<eLabel backgroundColor="CursorBackground" position="60,180" size="860,1"/>
+		<widget backgroundColor="gradient" enableWrapAround="1" position="60,195" render="Listbox" scrollbarMode="showOnDemand" size="860,672" source="list" transparent="1">
+			<convert type="TemplatedMultiContent">
+			{"template":[MultiContentEntryPixmapAlphaTest(pos=(10,3),size=(50,50),png=1),
+			MultiContentEntryText(pos=(765,13),size=(70,35),font=1,flags=RT_HALIGN_RIGHT,text=2),
+			MultiContentEntryText(pos=(75,13),size=(220,35),font=1,text=3),
+			MultiContentEntryText(pos=(310,3),size=(95,50),font=2,flags=RT_HALIGN_CENTER|RT_VALIGN_CENTER|RT_WRAP,text=7),
+			MultiContentEntryText(pos=(420,13),size=(180,35),font=1,flags=RT_HALIGN_RIGHT,text=4),
+			MultiContentEntryText(pos=(600,13),size=(160,35),font=1,flags=RT_HALIGN_RIGHT,text=5),
+			MultiContentEntryText(pos=(10,10),size=(500,40),font=0,text=6,color=MultiContentTemplateColor("Heading"),color_sel=MultiContentTemplateColor("Heading")),],
+			"fonts":[gFont("Bold",30),gFont("Regular",24),gFont("Regular",18)],"itemHeight":56}
+			</convert>
+		</widget>
+		<widget backgroundColor="CursorBackground" font="Regular;26" foregroundColor="CursorForeground" halign="center" name="hint" position="80,900" size="820,50" valign="center"/>
+		<widget backgroundColor="background" font="Regular;27" halign="center" name="details" position="950,180" size="900,780" transparent="1"/>
+		<eLabel backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1750,915" size="100,38" text="menu" valign="center"/>
+	</screen>

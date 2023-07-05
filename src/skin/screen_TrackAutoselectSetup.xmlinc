@@ -1,0 +1,6 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="TrackAutoselectSetup" position="center,580" size="1920,500">
+		<layout name="bigbutton_name_small"/>
+		<layout name="back_bigbutton_small"/>
+		<eLabel backgroundColor="background" font="Bold;40" position="120,10" size="760,47" text="Track Autoselect Setup" transparent="1"/>
+		<widget backgroundColor="background" enableWrapAround="1" name="config" position="120,80" scrollbarMode="showOnDemand" size="1690,300" transparent="1"/>
+	</screen>

@@ -1,0 +1,6 @@
+	<screen backgroundColor="Tile" flags="wfNoBorder" name="MovieContextMenu" position="0,0" size="700,1080" title="Movielist menu">
+		<layout name="Title_small"/>
+		<ePixmap pixmap="Shadow-FHD/images/movies.svg" position="25,15" size="70,70"/>
+		<widget backgroundColor="background" enableWrapAround="1" name="menu" position="20,150" scrollbarMode="showNever" size="660,750" transparent="1"/>
+		<ePixmap pixmap="Shadow-FHD/skin_default/icons/arrow_down.svg" position="320,1040" size="50,50"/>
+	</screen>

@@ -1,0 +1,6 @@
+	<screen backgroundColor="Tile" flags="wfNoBorder" name="VideoSetup" position="0,0" size="700,1080" title="Video Setup">
+		<layout name="Title_small"/>
+		<ePixmap pixmap="Shadow-FHD/menu/av_setup.svg" position="25,15" size="70,70"/>
+		<layout name="smallbutton_save"/>
+		<widget backgroundColor="background" enableWrapAround="1" name="config" position="20,150" scrollbarMode="showOnDemand" size="660,840" transparent="1"/>
+	</screen>

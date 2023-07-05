@@ -1,0 +1,21 @@
+	<layout name="Movielist">
+		<eLabel backgroundColor="gradient" position="900,20" size="1000,980" zPosition="-1"/>
+		<widget backgroundColor="transparent" position="25,20" render="Pig" size="850,478" source="session.VideoPicture" zPosition="-2"/>
+		<widget backgroundColor="background" font="Regular;26" foregroundColor="red" halign="center" name="warning" position="20,30" size="820,30" transparent="1" zPosition="1"/>
+		<ePixmap gradient="transparent,gradient,vertical" position="20,20" size="860,480" zPosition="-1"/>
+		<widget backgroundColor="background" font="Bold;28" position="920,20" render="Label" size="970,70" source="Title" transparent="1" valign="center"/>
+		<widget backgroundColor="background" enableWrapAround="1" name="list" position="920,95" scrollbarMode="showNever" size="970,900" transparent="1"/>
+		<widget backgroundColor="background" font="Bold;34" position="30,350" render="Label" size="830,80" source="Service" transparent="1" valign="bottom" zPosition="1">
+			<convert type="EventName">Name</convert>
+		</widget>
+		<widget backgroundColor="background" font="Regular;28" position="30,450" render="Label" size="140,32" source="Service" transparent="1">
+			<convert type="ServiceTime">Duration</convert>
+			<convert type="ClockToText">InMinutes</convert>
+		</widget>
+		<widget backgroundColor="background" font="Regular;28" position="170,450" render="Label" size="140,32" source="Service" transparent="1">
+			<convert type="MovieInfo">FileSize</convert>
+		</widget>
+		<widget backgroundColor="background" font="Regular;26" position="310,450" render="Label" size="570,32" source="session.CurrentService" transparent="1">
+			<convert type="ExtDiskSpaceInfo">MovieDir</convert>
+		</widget>
+	</layout>

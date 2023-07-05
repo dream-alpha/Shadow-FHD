@@ -1,0 +1,10 @@
+	<layout name="Tile_Top2">
+		<ePixmap gradient="#40000000,transparent,vertical" position="0,0" size="1920,680" zPosition="-3"/>
+		<ePixmap gradient="transparent,gradient,vertical" position="0,400" size="1920,680" zPosition="-3"/>
+		<widget backgroundColor="transpBlack" font="Bold;32" halign="right" position="1620,20" render="Label" size="280,40" source="global.CurrentTime" transparent="1">
+			<convert type="ClockToText">Format:%a %d.%m.  %H:%M</convert>
+		</widget>
+		<widget backgroundColor="background" font="Bold;40" position="230,35" render="Label" size="1250,47" source="Title" transparent="1"/>
+		<eLabel backgroundColor="CursorBackground" position="35,15" size="130,130" zPosition="-1"/>
+		<widget name="LogoSpinner" position="50,30" size="100,100"/>
+	</layout>

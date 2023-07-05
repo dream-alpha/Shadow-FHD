@@ -1,0 +1,6 @@
+	<screen backgroundColor="Tile" flags="wfNoBorder" name="WebIfConfigScreen" position="0,center" size="700,1080">
+		<layout name="Title_small"/>
+		<layout name="smallbutton_save"/>
+		<ePixmap pixmap="Shadow-FHD/images/setup.svg" position="25,15" size="70,70"/>
+		<widget backgroundColor="background" enableWrapAround="1" itemHeight="65" name="config" position="20,150" scrollbarMode="showOnDemand" size="660,715" transparent="1"/>
+	</screen>

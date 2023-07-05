@@ -1,0 +1,4 @@
+	<layout name="Info_gradient">
+		<eLabel backgroundColor="gradient" position="0,550" size="1920,530" zPosition="-1"/>
+		<ePixmap gradient="transparent,gradient,vertical" position="0,0" size="1920,550" zPosition="-2"/>
+	</layout>

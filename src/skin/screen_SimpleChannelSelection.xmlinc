@@ -1,0 +1,7 @@
+	<screen backgroundColor="ScreenBackground" flags="wfNoBorder" name="SimpleChannelSelection" position="center,center" size="1920,1080">
+		<layout name="Title_ScreenBackground"/>
+		<layout name="back_bigbutton"/>
+		<layout name="bigbutton_name"/>
+		<eLabel backgroundColor="background" position="50,110" size="1820,860" zPosition="-1"/>
+		<widget additionalInfoFont="Regular;26" backgroundColor="background" colorRecording="foreground" colorRecordingSelected="CursorForeground" colorServiceDescription="foreground" colorServiceDescriptionSelected="CursorForeground" foregroundColorServiceNotAvail="foreground" name="list" position="60,140" scrollbarMode="showOnDemand" serviceInfoFont="Regular;26" serviceNameFont="Bold;26" serviceNumberFont="Bold;26" size="1800,810" transparent="1"/>
+	</screen>

@@ -1,0 +1,15 @@
+	<screen backgroundColor="Tile" flags="wfNoBorder" name="AutoMountManager" position="0,0" size="700,1080">
+		<layout name="Title_small"/>
+		<layout name="smallbutton_close"/>
+		<ePixmap pixmap="Shadow-FHD/images/nwmntmng.svg" position="25,15" size="70,70"/>
+		<widget backgroundColor="background" enableWrapAround="1" position="20,150" render="Listbox" scrollbarMode="showOnDemand" size="660,600" source="config" transparent="1">
+			<convert type="TemplatedMultiContent">
+			{"template":[MultiContentEntryText(pos=(10,20),size=(640,35),font=0,text=0),
+			MultiContentEntryText(pos=(10,55),size=(640,25),font=1,text=2),
+			MultiContentEntryPixmapAlphaTest(pos=(0,0),size=(0,0),png=3),],
+			"fonts":[gFont("Bold",26),gFont("Regular",22)],"itemHeight":100}
+			</convert>
+		</widget>
+		<eLabel backgroundColor="grey" position="20,900" size="660,1"/>
+		<widget backgroundColor="gradient" font="Regular;28" foregroundColor="Heading" halign="center" position="20,910" render="Label" size="660,70" source="introduction" transparent="1" valign="center"/>
+	</screen>

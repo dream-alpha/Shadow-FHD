@@ -1,0 +1,6 @@
+	<layout name="bigbutton_source">
+		<widget backgroundColor="gradient" font="Regular;26" halign="center" position="0,1000" render="Label" size="480,60" source="key_red" transparent="1" valign="center"/>
+		<widget backgroundColor="gradient" font="Regular;26" halign="center" position="480,1000" render="Label" size="480,60" source="key_green" transparent="1" valign="center"/>
+		<widget backgroundColor="gradient" font="Regular;26" halign="center" position="960,1000" render="Label" size="480,60" source="key_yellow" transparent="1" valign="center"/>
+		<widget backgroundColor="gradient" font="Regular;26" halign="center" position="1440,1000" render="Label" size="480,60" source="key_blue" transparent="1" valign="center"/>
+	</layout>

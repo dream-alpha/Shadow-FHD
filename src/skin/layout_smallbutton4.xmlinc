@@ -1,0 +1,6 @@
+	<layout name="smallbutton4">
+		<eLabel backgroundColor="yellow" position="0,1070" size="350,10"/>
+		<eLabel backgroundColor="blue" position="350,1070" size="350,10"/>
+		<widget backgroundColor="gradient" font="Regular;26" halign="center" name="key_yellow" position="0,1000" size="350,60" transparent="1" valign="center"/>
+		<widget backgroundColor="gradient" font="Regular;26" halign="center" name="key_blue" position="350,1000" size="350,60" transparent="1" valign="center"/>
+	</layout>

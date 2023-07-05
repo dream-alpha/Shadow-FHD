@@ -1,0 +1,8 @@
+	<screen backgroundColor="Tile" flags="wfNoBorder" name="myProviderSelection" position="0,0" size="700,1080">
+		<layout name="Title_small"/>
+		<layout name="smallbutton_close"/>
+		<ePixmap pixmap="Shadow-FHD/images/lists.svg" position="25,15" size="70,70"/>
+		<widget additionalInfoFont="Regular;26" backgroundColor="background" colorRecording="foreground" colorRecordingSelected="CursorForeground" colorServiceDescription="foreground" colorServiceDescriptionSelected="CursorForeground" foregroundColorServiceNotAvail="foreground" name="list" position="20,150" scrollbarMode="showOnDemand" serviceInfoFont="Regular;26" serviceNameFont="Bold;26" serviceNumberFont="Bold;26" size="660,600" transparent="1"/>
+		<eLabel backgroundColor="grey" position="20,900" size="660,1"/>
+		<widget backgroundColor="gradient" font="Regular;28" foregroundColor="Heading" halign="center" position="20,910" render="Label" size="660,70" source="introduction" transparent="1" valign="center"/>
+	</screen>

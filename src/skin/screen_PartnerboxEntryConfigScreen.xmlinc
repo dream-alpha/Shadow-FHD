@@ -1,0 +1,7 @@
+	<screen backgroundColor="Tile" flags="wfNoBorder" name="PartnerboxEntryConfigScreen" position="0,center" size="700,1080" title="Partnerbox Config">
+		<layout name="Title_small"/>
+		<layout name="smallbutton_save"/>
+		<ePixmap pixmap="Shadow-FHD/images/del_blue.svg" position="630,30" size="50,50"/>
+		<ePixmap pixmap="Shadow-FHD/images/timer.svg" position="25,15" size="70,70"/>
+		<widget backgroundColor="background" enableWrapAround="1" name="config" position="20,150" scrollbarMode="showOnDemand" size="660,720" transparent="1"/>
+	</screen>

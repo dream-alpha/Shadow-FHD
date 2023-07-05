@@ -1,0 +1,6 @@
+	<screen backgroundColor="Tile" flags="wfNoBorder" name="RecordPathsSettings" position="0,0" size="1200,1080" title="Recording paths">
+		<widget backgroundColor="background" enableWrapAround="1" name="config" position="20,150" scrollbarMode="showOnDemand" size="1160,690" transparent="1"/>
+		<layout name="Title_broad"/>
+		<ePixmap pixmap="Shadow-FHD/menu/instantepgtimer.svg" position="25,15" size="70,70"/>
+		<xmlinc name="1Button1200Save" position="0,1028"/>
+	</screen>

@@ -1,0 +1,5 @@
+<layout name="Infobar Clock">
+	<widget backgroundColor="background" cornerRadius="52" font="Bold;30" halign="center" position="1755,19" render="Label" size="150,53" source="global.CurrentTime" valign="center" zPosition="-1">
+		<convert type="ClockToText">Default</convert>
+	</widget>
+</layout>

@@ -1,0 +1,14 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="VirtualZap" position="center,600" size="1920,480">
+		<ePixmap gradient="transparent,gradient,vertical" position="0,0" size="1920,400" zPosition="-2"/>
+		<eLabel backgroundColor="gradient" position="0,400" size="1920,80" zPosition="-1"/>
+		<widget name="video" position="20,190" size="490,276" transparent="1"/>
+		<ePixmap pixmap="Shadow-FHD/skin_default/icons/timerlist_zap.svg" position="560,200" size="50,50"/>
+		<widget backgroundColor="gradient" font="Bold;40" name="NowChannel" noWrap="1" position="560,280" size="1000,50" transparent="1">
+			<convert type="ServiceName">Name</convert>
+		</widget>
+		<widget backgroundColor="gradient" font="Regular;30" name="NowEPG" position="560,340" size="1000,40" transparent="1"/>
+		<widget backgroundColor="gradient" font="Regular;30" halign="right" name="NowTime" position="1700,340" size="200,40" transparent="1"/>
+		<eLabel backgroundColor="grey" position="560,390" size="1340,1"/>
+		<widget backgroundColor="gradient" font="Regular;30" name="NextEPG" position="560,410" size="1000,40" transparent="1"/>
+		<widget backgroundColor="gradient" font="Regular;30" halign="right" name="NextTime" position="1700,410" size="200,40" transparent="1"/>
+	</screen>

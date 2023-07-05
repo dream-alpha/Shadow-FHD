@@ -1,0 +1,6 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="EPGSelectionMulti" position="center,center" size="1920,1080" title="EPG Selection">
+		<layout name="back_bigbutton"/>
+		<layout name="bigbutton_name"/>
+		<layout name="EPG"/>
+		<widget backgroundColor="gradient" itemHeight="45" name="list" position="20,610" scrollbarMode="showOnDemand" size="1880,360" transparent="1"/>
+	</screen>

@@ -1,0 +1,8 @@
+	<screen backgroundColor="Tile" flags="wfNoBorder" name="SkinSelector" position="0,center" size="700,1080" title="Choose your Skin">
+		<layout name="Title_small"/>
+		<ePixmap pixmap="Shadow-FHD/images/skin_selector.svg" position="25,15" size="70,70"/>
+		<widget backgroundColor="background" enableWrapAround="1" name="SkinList" position="20,150" scrollbarMode="showOnDemand" size="660,400" transparent="1"/>
+		<widget name="Preview" position="50,565" size="600,415"/>
+		<eLabel backgroundColor="red" position="0,1070" size="700,10"/>
+		<widget backgroundColor="gradient" font="Regular;26" halign="center" position="0,1000" render="Label" size="700,60" source="key_red" transparent="1" valign="center"/>
+	</screen>

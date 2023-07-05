@@ -1,0 +1,6 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="CiSelection" position="center,center" size="1040,450" title="Common Interface">
+		<layout name="Title_Popup"/>
+		<eLabel backgroundColor="CursorBackground" font="Bold;50" foregroundColor="#bababa" halign="center" position="60,20" size="100,100" text="Info" valign="center"/>
+		<widget font="Bold;32" name="text" position="20,160" size="1000,40"/>
+		<widget enableWrapAround="1" itemHeight="45" name="entries" position="20,210" scrollbarMode="showOnDemand" size="1000,225"/>
+	</screen>

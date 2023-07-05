@@ -1,0 +1,9 @@
+	<screen name="TimerSanityConflict" position="center,170" size="1200,820" title="Timer sanity error">
+		<layout name="Button_Small"/>
+		<layout name="Button_Small_name"/>
+		<widget name="timer1" position="10,90" scrollbarMode="showNever" size="580,200"/>
+		<eLabel backgroundColor="grey" position="600,80" size="1,220"/>
+		<widget name="timer2" position="610,90" scrollbarMode="showNever" size="580,200"/>
+		<eLabel backgroundColor="grey" position="10,300" size="1180,1"/>
+		<widget enableWrapAround="1" name="list" position="10,310" scrollbarMode="showOnDemand" size="1180,500"/>
+	</screen>

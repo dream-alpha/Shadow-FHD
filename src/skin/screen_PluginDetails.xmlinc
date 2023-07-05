@@ -1,0 +1,9 @@
+	<screen backgroundColor="Tile" flags="wfNoBorder" name="PluginDetails" position="0,0" size="700,1080">
+		<layout name="Title_small"/>
+		<layout name="smallbutton_green"/>
+		<ePixmap pixmap="Shadow-FHD/images/softmanager.svg" position="25,15" size="70,70"/>
+		<widget name="statuspic" position="20,258" size="40,40"/>
+		<widget backgroundColor="background" font="Bold;30" foregroundColor="Heading" position="90,264" render="Label" size="560,36" source="author" transparent="1"/>
+		<widget backgroundColor="background" font="Regular;25" name="detailtext" position="20,330" size="660,160" transparent="1"/>
+		<widget name="screenshot" pixmap="Shadow-FHD/skin_default/no_coverArt.svg" position="20,530" size="660,460"/>
+	</screen>

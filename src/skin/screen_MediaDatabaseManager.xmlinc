@@ -1,0 +1,9 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="MediaDatabaseManager" position="center,580" size="1920,500" title="Media Database Manager">
+		<layout name="bigbutton_name_small"/>
+		<layout name="back_bigbutton_small"/>
+		<widget backgroundColor="background" font="Bold;40" position="120,10" render="Label" size="760,47" source="Title" transparent="1"/>
+		<widget backgroundColor="background" enableWrapAround="1" position="120,80" render="Listbox" scrollbarMode="showOnDemand" size="1690,300" source="list" transparent="1">
+			<convert type="StringList"/>
+		</widget>
+		<widget backgroundColor="background" font="Regular;30" foregroundColor="Heading" halign="right" name="status" position="650,15" size="1160,40" transparent="1"/>
+	</screen>

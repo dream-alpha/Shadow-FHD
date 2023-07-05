@@ -1,0 +1,8 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="GraphMultiEPGMenu" position="center,center" size="1040,450" title="GraphMultiEPG Settings">
+		<layout name="Title_Popup"/>
+		<ePixmap pixmap="Shadow-FHD/images/setup.svg" position="58,18" size="100,100"/>
+		<widget enableWrapAround="1" itemHeight="50" name="config" position="20,170" scrollbarMode="showOnDemand" size="1000,150"/>
+		<widget font="Bold;26" foregroundColor="Heading" halign="center" name="label" position="20,338" size="1000,32"/>
+		<widget backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" name="key_y" position="0,390" size="1040,50" valign="center"/>
+		<eLabel backgroundColor="yellow" position="0,440" size="1040,10"/>
+	</screen>

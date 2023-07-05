@@ -1,0 +1,16 @@
+	<component type="TvSpielfilmTvProgramm">
+		<template>
+			{"template":[MultiContentEntryText(pos=(6,6),size=(58,23),font=0,flags=RT_HALIGN_CENTER|RT_VALIGN_CENTER,text=0,backcolor=0xcc0000,backcolor_sel=0xcc0000),
+			MultiContentEntryText(pos=(73,5),size=(222,47),font=0,flags=RT_WRAP,text=1),
+			MultiContentEntryText(pos=(73,60),size=(222,65),font=1,flags=RT_WRAP,text=2),
+			MultiContentEntryPixmapAlphaTest(pos=(14,85),size=(40,40),png=3),
+			MultiContentEntryText(pos=(9,32),size=(51,20),font=0,flags=RT_HALIGN_CENTER|RT_VALIGN_CENTER,text=4,color=0xbababa,color_sel=0xbababa),
+			MultiContentEntryText(pos=(9,55),size=(51,20),font=0,flags=RT_HALIGN_CENTER|RT_VALIGN_CENTER,text=5,color=0xbababa,color_sel=0xbababa),
+			MultiContentEntryText(pos=(0,1),size=(1,135),flags=RT_VALIGN_CENTER,backcolor=0xa0a0a0),
+			MultiContentEntryText(pos=(300,0),size=(1,135),flags=RT_VALIGN_CENTER,backcolor=0xa0a0a0),
+			MultiContentEntryText(pos=(5,0),size=(290,1),flags=RT_VALIGN_CENTER,backcolor=0xa0a0a0),
+			MultiContentEntryText(pos=(5,134),size=(290,1),flags=RT_VALIGN_CENTER,backcolor=0xa0a0a0)],
+			"selectionEnabled":False,
+			"fonts":[gFont("Bold",19),gFont("Regular",18)],"itemHeight":135}
+			</template>
+	</component>

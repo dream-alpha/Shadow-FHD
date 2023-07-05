@@ -1,0 +1,9 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="ShowClock" size="350,80">
+		<eLabel backgroundColor="background" position="0,0" size="350,80" zPosition="-1"/>
+		<widget backgroundColor="background" font="Bold;36" halign="center" position="25,1" render="Label" size="300,36" source="global.CurrentTime" transparent="1" valign="center">
+			<convert type="ClockToText">WithSeconds</convert>
+		</widget>
+		<widget backgroundColor="background" font="Regular;28" halign="center" position="35,41" render="Label" size="300,34" source="global.CurrentTime" transparent="1" valign="center">
+			<convert type="ClockToText">Format:%A,%d.%m.%Y</convert>
+		</widget>
+	</screen>

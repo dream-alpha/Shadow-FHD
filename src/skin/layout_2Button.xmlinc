@@ -1,0 +1,11 @@
+	<layout name="2Button">
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/red.svg" position="10,5" size="350,70"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/green.svg" position="360,5" size="350,70"/>
+		<widget font="Regular;34" halign="right" position="1050,25" render="Label" size="120,40" source="global.CurrentTime">
+			<convert type="ClockToText">Default</convert>
+		</widget>
+		<widget font="Regular;34" halign="right" position="800,25" render="Label" size="240,40" source="global.CurrentTime">
+			<convert type="ClockToText">Date</convert>
+		</widget>
+		<eLabel backgroundColor="grey" position="10,80" size="1180,1"/>
+	</layout>

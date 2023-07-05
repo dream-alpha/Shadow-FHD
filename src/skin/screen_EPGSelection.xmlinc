@@ -1,0 +1,16 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="EPGSelection" position="center,center" size="1920,1080" title="EPG Selection">
+		<layout name="Title"/>
+		<layout name="Bigbutton_key_name"/>
+		<eLabel backgroundColor="Tile" position="12,81" size="848,930" zPosition="-1"/>
+		<widget backgroundColor="Tile" name="list" position="19,86" size="834,900" transparent="1"/>
+		<eLabel backgroundColor="background" position="900,90" size="190,120"/>
+		<widget position="908,98" render="Picon" size="175,105" source="Service" zPosition="1">
+			<convert type="ServiceName">Reference</convert>
+		</widget>
+		<widget font="Bold;32" noWrap="1" position="900,233" render="Label" size="990,40" source="Event" transparent="1">
+			<convert type="EventName">Name</convert>
+		</widget>
+		<widget font="Regular;27" position="900,293" render="Label" size="990,680" source="Event" transparent="1">
+			<convert type="EventName">FullDescription</convert>
+		</widget>
+	</screen>

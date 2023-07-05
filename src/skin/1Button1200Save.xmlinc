@@ -1,0 +1,2 @@
+	<eLabel backgroundColor="green" position="0,41" size="1200,11"/>
+	<eLabel font="Regular;27" halign="center" position="0,0" render="Label" size="1200,33" text="Save" transparent="1" valign="center"/>

@@ -1,0 +1,11 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="EPGRefreshConfigurationFunctionContextMenu" position="center,center" size="1040,450" title="EPGRefresh Functions">
+		<layout name="Title_Popup"/>
+		<layout name="Text_OK_Popup"/>
+		<eLabel backgroundColor="CursorBackground" font="Bold;50" foregroundColor="#bababa" halign="center" position="60,20" size="100,100" text="Info" valign="center"/>
+		<widget enableWrapAround="on" position="20,150" render="Listbox" scrollbarMode="showOnDemand" size="1000,200" source="menu">
+			<convert type="TemplatedMultiContent">
+			{"template":[MultiContentEntryText(pos=(10,0),size=(900,50),flags=RT_VALIGN_CENTER,text=0)],
+			"fonts":[gFont("Regular",26)],"itemHeight":50}
+			</convert>
+		</widget>
+	</screen>

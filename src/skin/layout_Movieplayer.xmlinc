@@ -1,0 +1,15 @@
+	<layout name="Movieplayer">
+		<widget backgroundColor="black" font="Bold;50" position="20,20" render="Label" size="1700,60" source="session.CurrentService" transparent="1">
+			<convert type="ExtMovieInfo">Name</convert>
+		</widget>
+		<widget backgroundColor="gradient" font="Regular;45" halign="right" position="725,1010" render="Label" size="200,50" source="session.CurrentService" transparent="1">
+			<convert type="ServicePosition">Remaining,Negate</convert>
+		</widget>
+		<eLabel backgroundColor="gradient" font="Regular;45" halign="center" position="935,1010" size="20,50" text="/" transparent="1"/>
+		<widget backgroundColor="gradient" font="Regular;45" position="965,1010" render="Label" size="200,50" source="session.CurrentService" transparent="1">
+			<convert type="ServicePosition">Length</convert>
+		</widget>
+		<widget path="/usr/share/enigma2/Shadow-FHD/skin_default/icons/" position="1555,1010" render="ExtAudioIcon" size="105,46" source="session.CurrentService">
+			<convert type="Extaudioinfo">AudioIcon</convert>
+		</widget>
+	</layout>

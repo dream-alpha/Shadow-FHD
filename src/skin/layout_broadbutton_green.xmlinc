@@ -1,0 +1,4 @@
+	<layout name="broadbutton_green">
+		<eLabel backgroundColor="green" position="0,1070" size="1200,10"/>
+		<widget backgroundColor="gradient" font="Regular;26" halign="center" position="0,1000" render="Label" size="1200,60" source="key_green" transparent="1" valign="center"/>
+	</layout>

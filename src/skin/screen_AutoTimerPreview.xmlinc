@@ -1,0 +1,14 @@
+	<screen backgroundColor="Tile" flags="wfNoBorder" name="AutoTimerPreview" position="0,0" size="700,1080">
+		<layout name="Title_small"/>
+		<layout name="smallbutton_yellow"/>
+		<ePixmap pixmap="Shadow-FHD/images/timer.svg" position="25,15" size="70,70"/>
+		<widget backgroundColor="background" enableWrapAround="1" position="20,150" render="Listbox" scrollbarMode="showOnDemand" size="660,700" source="timerlist" transparent="1">
+			<convert type="TemplatedMultiContent">
+			{"template":[MultiContentEntryText(pos=(10,5),size=(640,35),text=3,font=0),
+			MultiContentEntryText(pos=(10,38),size=(640,35),text=4,font=0),
+			MultiContentEntryText(pos=(10,70),size=(640,30),text=2,font=1),
+			MultiContentEntryText(pos=(10,100),size=(640,30),text=0,font=1),],
+			"fonts":[gFont("Bold",26),gFont("Regular",24)],"itemHeight":140}
+			</convert>
+		</widget>
+	</screen>

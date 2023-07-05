@@ -1,0 +1,9 @@
+	<layout name="Title_Mid">
+		<eLabel backgroundColor="background" position="50,130" size="1820,840" zPosition="-2"/>
+		<eLabel backgroundColor="CursorBackground" position="50,70" size="1820,80" zPosition="-3"/>
+		<eLabel backgroundColor="gradient" position="50,130" size="880,840" zPosition="-1"/>
+		<widget backgroundColor="CursorBackground" font="Bold;30" foregroundColor="HeaderForeground" position="80,85" render="Label" size="1400,35" source="Title"/>
+		<widget backgroundColor="CursorBackground" font="Bold;30" foregroundColor="HeaderForeground" halign="right" position="1560,85" render="Label" size="280,35" source="global.CurrentTime">
+			<convert type="ClockToText">Format:%a %d.%m.  %H:%M</convert>
+		</widget>
+	</layout>

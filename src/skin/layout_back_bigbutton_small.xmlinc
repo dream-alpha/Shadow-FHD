@@ -1,0 +1,8 @@
+	<layout name="back_bigbutton_small">
+		<eLabel backgroundColor="background" position="80,0" size="1760,400" zPosition="-1"/>
+		<ePixmap gradient="transparent,gradient,vertical" position="center,20" size="1920,480" zPosition="-2"/>
+		<eLabel backgroundColor="red" position="0,490" size="480,10"/>
+		<eLabel backgroundColor="green" position="480,490" size="480,10"/>
+		<eLabel backgroundColor="yellow" position="960,490" size="480,10"/>
+		<eLabel backgroundColor="blue" position="1440,490" size="480,10"/>
+	</layout>

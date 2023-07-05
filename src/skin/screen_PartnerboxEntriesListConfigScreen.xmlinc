@@ -1,0 +1,12 @@
+	<screen backgroundColor="Tile" flags="wfNoBorder" name="PartnerboxEntriesListConfigScreen" position="0,center" size="700,1080" title="Partnerbox List">
+		<layout name="Title_small"/>
+		<ePixmap pixmap="Shadow-FHD/images/timer.svg" position="25,15" size="70,70"/>
+		<ePixmap pixmap="Shadow-FHD/images/add_red.svg" position="490,30" size="50,50"/>
+		<ePixmap pixmap="Shadow-FHD/images/edit_yellow.svg" position="560,30" size="50,50"/>
+		<ePixmap pixmap="Shadow-FHD/images/del_blue.svg" position="630,30" size="50,50"/>
+		<widget backgroundColor="background" font="Bold;30" halign="left" name="name" position="20,150" size="200,35" transparent="1"/>
+		<widget backgroundColor="background" font="Bold;30" name="ip" position="center,260" size="200,35" transparent="1"/>
+		<widget backgroundColor="background" font="Bold;30" halign="right" name="port" position="580,260" size="100,35" transparent="1"/>
+		<eLabel backgroundColor="grey" position="20,300" size="660,1"/>
+		<widget backgroundColor="background" enableWrapAround="1" name="entrylist" position="20,320" scrollbarMode="showOnDemand" size="660,750" transparent="1"/>
+	</screen>

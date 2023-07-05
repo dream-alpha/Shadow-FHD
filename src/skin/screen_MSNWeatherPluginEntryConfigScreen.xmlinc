@@ -1,0 +1,11 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="MSNWeatherPluginEntryConfigScreen" position="center,center" size="1040,450">
+		<layout name="Title_Popup"/>
+		<ePixmap pixmap="Shadow-FHD/images/setup.svg" position="58,18" size="100,100"/>
+		<widget enableWrapAround="1" name="config" position="20,150" scrollbarMode="showOnDemand" size="1000,180"/>
+		<widget backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="0,390" render="Label" size="347,50" source="key_green" valign="center"/>
+		<widget backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="347,390" render="Label" size="346,50" source="key_yellow" valign="center"/>
+		<widget backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="693,390" render="Label" size="347,50" source="key_blue" valign="center"/>
+		<eLabel backgroundColor="green" position="0,440" size="347,10"/>
+		<eLabel backgroundColor="yellow" position="347,440" size="346,10"/>
+		<eLabel backgroundColor="blue" position="693,440" size="347,10"/>
+	</screen>

@@ -1,0 +1,5 @@
+	<layout name="gp_conf">
+		<widget backgroundColor="background" enableWrapAround="1" name="config" position="20,150" scrollbarMode="showOnDemand" size="660,720" transparent="1"/>
+		<eLabel backgroundColor="green" position="0,1070" size="700,10"/>
+		<eLabel backgroundColor="gradient" font="Regular;26" halign="center" position="0,1000" size="700,60" text="Save" transparent="1" valign="center"/>
+	</layout>

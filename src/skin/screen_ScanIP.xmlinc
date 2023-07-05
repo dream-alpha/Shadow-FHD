@@ -1,0 +1,9 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="ScanIP" position="center,center" size="1040,450" title="Scan IP">
+		<layout name="Title_Popup"/>
+		<ePixmap pixmap="Shadow-FHD/images/network.svg" position="58,18" size="100,100"/>
+		<widget enableWrapAround="1" name="config" position="20,200" scrollbarMode="showOnDemand" size="1000,60"/>
+		<widget backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="0,390" render="Label" size="520,50" source="key_green" valign="center"/>
+		<widget backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="520,390" render="Label" size="520,50" source="key_yellow" valign="center"/>
+		<eLabel backgroundColor="green" position="0,440" size="520,10"/>
+		<eLabel backgroundColor="yellow" position="520,440" size="520,10"/>
+	</screen>

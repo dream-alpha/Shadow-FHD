@@ -1,0 +1,17 @@
+	<layout name="Soundplayer">
+		<widget name="coverArt" pixmap="Shadow-FHD/skin_default/no_coverArt.svg" position="80,790" scale="fill" size="200,200"/>
+		<widget backgroundColor="background" font="Regular;45" name="title" position="310,800" size="1500,56" transparent="1"/>
+		<widget backgroundColor="background" font="Regular;30" name="artist" position="310,865" size="1500,35" transparent="1"/>
+		<widget backgroundColor="grey" pixmap="Shadow-FHD/images/progress.svg" position="310,915" render="Progress" size="1500,8" source="session.CurrentService">
+			<convert type="ServicePosition">Position</convert>
+		</widget>
+		<widget backgroundColor="background" font="Regular;30" position="310,940" render="Label" size="120,30" source="session.CurrentService" transparent="1">
+			<convert type="ServicePosition">Length</convert>
+		</widget>
+		<widget backgroundColor="background" font="Regular;30" halign="right" position="1690,940" render="Label" size="120,30" source="session.CurrentService" transparent="1">
+			<convert type="ServicePosition">Remaining,Negate</convert>
+		</widget>
+		<ePixmap pixmap="Shadow-FHD/skin_default/icons/ico_mp_skip_rewind.svg" position="710,940" size="30,30"/>
+		<ePixmap pixmap="Shadow-FHD/images/mediacenter.svg" position="980,929" size="50,50"/>
+		<ePixmap pixmap="Shadow-FHD/skin_default/icons/ico_mp_skip_forward.svg" position="1270,940" size="30,30"/>
+	</layout>

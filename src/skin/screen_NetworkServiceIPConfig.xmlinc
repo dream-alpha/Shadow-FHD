@@ -1,0 +1,7 @@
+	<screen backgroundColor="Tile" flags="wfNoBorder" name="NetworkServiceIPConfig" position="0,center" size="700,1080" title="Network:Service configuration">
+		<layout name="Title_small"/>
+		<ePixmap pixmap="Shadow-FHD/images/network.svg" position="25,15" size="70,70"/>
+		<widget backgroundColor="background" enableWrapAround="1" name="config" position="20,150" scrollbarMode="showOnDemand" size="660,700" transparent="1"/>
+		<eLabel backgroundColor="blue" position="0,1070" size="700,10"/>
+		<widget backgroundColor="gradient" font="Regular;26" halign="center" position="0,1000" render="Label" size="700,60" source="key_blue" transparent="1" valign="center"/>
+	</screen>

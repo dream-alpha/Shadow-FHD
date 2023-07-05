@@ -1,0 +1,12 @@
+	<screen backgroundColor="ScreenBackground" flags="wfNoBorder" name="easyCIconfigMenu" position="center,center" size="1920,1080">
+		<layout name="Title_ScreenBackground"/>
+		<layout name="threebutton_long"/>
+		<eLabel backgroundColor="background" position="50,110" size="1820,860" zPosition="-1"/>
+		<widget backgroundColor="background" font="Regular;30" position="60,120" render="Label" size="1800,40" source="ServiceList_desc" transparent="1"/>
+		<eLabel backgroundColor="grey" position="60,170" size="1800,1"/>
+		<widget backgroundColor="background" enableWrapAround="1" name="ServiceList" position="60,180" scrollbarMode="showOnDemand" size="1800,660" transparent="1"/>
+		<widget backgroundColor="background" font="Regular;28" position="60,180" render="Label" size="1800,660" source="ServiceList_info" transparent="1"/>
+		<widget backgroundColor="gradient" font="Regular;26" halign="center" position="0,1000" render="Label" size="640,60" source="key_red" transparent="1" valign="center"/>
+		<widget backgroundColor="gradient" font="Regular;26" halign="center" position="640,1000" render="Label" size="640,60" source="key_green" transparent="1" valign="center"/>
+		<widget backgroundColor="gradient" font="Regular;26" halign="center" position="1280,1000" render="Label" size="640,60" source="key_yellow" transparent="1" valign="center"/>
+	</screen>

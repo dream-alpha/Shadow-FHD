@@ -1,0 +1,7 @@
+	<screen name="TimerLog" position="center,170" size="1200,820" title="Timer log">
+		<layout name="Button_Small"/>
+		<layout name="Button_Small_name"/>
+		<widget enableWrapAround="1" name="loglist" position="10,90" scrollbarMode="showOnDemand" size="1180,450"/>
+		<eLabel backgroundColor="grey" position="10,550" size="1180,2"/>
+		<widget font="Regular;30" name="logentry" position="10,560" size="1180,240"/>
+	</screen>

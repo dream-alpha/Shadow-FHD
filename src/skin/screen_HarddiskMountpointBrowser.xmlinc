@@ -1,0 +1,6 @@
+	<screen backgroundColor="Tile" flags="wfNoBorder" name="HarddiskMountpointBrowser" position="0,center" size="700,1080">
+		<layout name="Title_small"/>
+		<layout name="smallbutton2"/>
+		<ePixmap pixmap="Shadow-FHD/extensions/directory.svg" position="25,15" size="70,70"/>
+		<widget backgroundColor="background" enableWrapAround="1" name="filelist" position="20,150" scrollbarMode="showOnDemand" size="660,700" transparent="1"/>
+	</screen>

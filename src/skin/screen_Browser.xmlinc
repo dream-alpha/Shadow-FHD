@@ -1,0 +1,14 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="Browser" position="center,center" size="1920,1080">
+		<layout name="Title_Time"/>
+		<widget backgroundColor="background" font="Regular;28" name="url" position="20,67" size="1450,35" transparent="1" zPosition="1"/>
+		<widget backgroundColor="background" font="Regular;40" halign="center" name="text" position="0,66" size="1920,50" transparent="0" zPosition="2"/>
+		<widget backgroundColor="background" font="Regular;28" halign="right" name="statuslabel" position="1500,67" size="400,35" transparent="1" zPosition="2"/>
+		<widget backgroundColor="background" name="urlList" position="0,66" size="1920,150" transparent="0" zPosition="2"/>
+		<widget font="Regular;28" foregroundColor="red" halign="right" name="loading" position="1600,67" size="300,35" transparent="1" zPosition="3"/>
+		<widget name="cursor" position="0,0" size="19,30" zPosition="1"/>
+		<widget position="0,120" render="Canvas" size="1920,900" source="canvas"/>
+		<widget position="0,120" render="WebView" size="1920,900" source="webnavigation" zPosition="1"/>
+		<widget backgroundColor="gradient" font="Regular;26" foregroundColor="red" halign="center" name="red" position="0,1030" size="640,50" transparent="1" valign="center"/>
+		<widget backgroundColor="gradient" font="Regular;26" foregroundColor="yellow" halign="center" name="yellow" position="640,1030" size="640,50" transparent="1" valign="center"/>
+		<widget backgroundColor="gradient" font="Regular;26" foregroundColor="blue" halign="center" name="blue" position="1280,1030" size="640,50" transparent="1" valign="center"/>
+	</screen>

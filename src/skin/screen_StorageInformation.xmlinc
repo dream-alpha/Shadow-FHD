@@ -1,0 +1,14 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="StorageInformation" position="center,center" size="1040,450">
+		<layout name="Title_Popup"/>
+		<widget position="60,20" render="Pixmap" size="100,100" source="icon">
+			<convert type="ValueToPixmap">Path</convert>
+		</widget>
+		<widget font="Regular;28" position="20,170" render="Label" size="1000,35" source="model"/>
+		<widget font="Regular;28" position="20,214" render="Label" size="1000,35" source="device_capacity"/>
+		<widget font="Regular;28" position="20,258" render="Label" size="1000,35" source="device_free"/>
+		<widget font="Regular;28" position="20,302" render="Label" size="1000,35" source="bus"/>
+		<widget font="Regular;28" position="20,346" render="Label" size="1000,35" source="filesystem"/>
+		<widget font="Regular;26" foregroundColor="Heading" position="20,410" render="Label" size="300,35" source="num_partitions"/>
+		<widget font="Regular;26" foregroundColor="Heading" halign="center" position="center,410" render="Label" size="300,35" source="partition"/>
+		<widget font="Regular;26" foregroundColor="Heading" halign="right" position="720,410" render="Label" size="300,35" source="partition_capacity"/>
+	</screen>

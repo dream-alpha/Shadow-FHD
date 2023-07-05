@@ -1,0 +1,28 @@
+	<layout name="Movieplayer_small">
+		<ePixmap gradient="transparent,gradient,vertical" position="0,400" size="1920,580" zPosition="-2"/>
+		<eLabel backgroundColor="gradient" position="0,980" size="1920,100" zPosition="-1"/>
+		<ePixmap pixmap="Shadow-FHD/images/mediacenter.svg" position="30,815" size="140,140"/>
+		<widget backgroundColor="gradient" font="Bold;50" position="240,796" render="Label" size="1260,104" source="session.CurrentService" transparent="1" valign="bottom">
+			<convert type="ExtMovieInfo">Name</convert>
+		</widget>
+		<widget backgroundColor="gradient" font="Regular;28" position="240,1020" render="Label" size="600,30" source="session.CurrentService" transparent="1">
+			<convert type="ServiceResolution">VideoInfoCodec</convert>
+		</widget>
+		<eLabel backgroundColor="gradient" font="Regular;32" halign="right" position="700,1020" size="100,35" text="Now" transparent="1"/>
+		<widget backgroundColor="gradient" font="Regular;32" position="820,1020" render="Label" size="120,35" source="global.CurrentTime" transparent="1">
+			<convert type="ClockToText">Default</convert>
+		</widget>
+		<eLabel backgroundColor="gradient" font="Regular;32" halign="center" position="920,1020" size="20,35" text="-" transparent="1"/>
+		<eLabel backgroundColor="gradient" font="Regular;32" halign="center" position="940,1020" size="120,35" text="Ends" transparent="1"/>
+		<widget backgroundColor="gradient" font="Regular;32" halign="right" position="1655,910" render="Label" size="110,35" source="session.CurrentService" transparent="1">
+			<convert type="ServicePosition">Remaining,Negate</convert>
+		</widget>
+		<eLabel backgroundColor="gradient" font="Regular;32" halign="center" position="1770,909" size="20,35" text="|" transparent="1"/>
+		<widget backgroundColor="gradient" font="Regular;32" position="1790,910" render="Label" size="110,35" source="session.CurrentService" transparent="1">
+			<convert type="ServicePosition">Length</convert>
+		</widget>
+		<widget path="/usr/share/enigma2/Shadow-FHD/skin_default/icons/" position="1660,1010" render="ExtAudioIcon" size="105,46" source="session.CurrentService">
+			<convert type="Extaudioinfo">AudioIcon</convert>
+		</widget>
+		<eLabel backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1805,995" size="70,70" text="Info" valign="center"/>
+	</layout>

@@ -1,0 +1,11 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="TeleTextTransponderMenu" position="center,center" size="1040,450" title="Select teletext">
+		<layout name="Title_Popup"/>
+		<eLabel backgroundColor="CursorBackground" font="Bold;50" foregroundColor="#bababa" halign="center" position="60,20" size="100,100" text="Info" valign="center"/>
+		<eLabel backgroundColor="CursorBackground" position="20,200" size="1000,60"/>
+		<ePixmap pixmap="Shadow-FHD/skin_default/icons/arrow_left.svg" position="20,195" size="70,70"/>
+		<widget backgroundColor="CursorBackground" font="Regular;36" foregroundColor="CursorForeground" name="channel" position="120,210" size="700,46" zPosition="1"/>
+		<widget backgroundColor="CursorBackground" font="Regular;55" foregroundColor="CursorForeground" halign="right" name="zapped" position="850,209" size="50,50" zPosition="1"/>
+		<ePixmap pixmap="Shadow-FHD/skin_default/icons/arrow_right.svg" position="950,195" size="70,70"/>
+		<widget backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" name="key_g" position="0,390" size="1040,50" valign="center"/>
+		<eLabel backgroundColor="green" position="0,440" size="1040,10"/>
+	</screen>

@@ -1,0 +1,13 @@
+	<screen backgroundColor="ScreenBackground" flags="wfNoBorder" name="CIconfigMenu" position="center,center" size="1920,1080">
+		<layout name="Title_ScreenBackground"/>
+		<layout name="back_bigbutton"/>
+		<layout name="bigbutton_source"/>
+		<eLabel backgroundColor="background" position="50,110" size="1820,860" zPosition="-1"/>
+		<widget backgroundColor="background" font="Regular;30" position="60,120" render="Label" size="1800,40" source="CAidList_desc" transparent="1"/>
+		<eLabel backgroundColor="grey" position="60,170" size="1800,1"/>
+		<widget backgroundColor="background" font="Regular;28" position="60,180" render="Label" size="1800,300" source="CAidList" transparent="1"/>
+		<widget backgroundColor="background" font="Regular;30" position="60,500" render="Label" size="1800,40" source="ServiceList_desc" transparent="1"/>
+		<eLabel backgroundColor="grey" position="60,550" size="1800,1"/>
+		<widget backgroundColor="background" enableWrapAround="1" name="ServiceList" position="60,560" scrollbarMode="showOnDemand" size="1800,240" transparent="1"/>
+		<widget backgroundColor="background" font="Regular;28" position="60,560" render="Label" size="1800,240" source="ServiceList_info" transparent="1"/>
+	</screen>

@@ -1,0 +1,14 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="MainMenu" position="center,580" size="1920,500" title="Media Center">
+		<widget backgroundColor="background" font="Bold;40" position="120,10" render="Label" size="760,47" source="Title" transparent="1"/>
+		<widget name="menuIcon" position="130,120" size="200,200"/>
+		<eLabel backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1710,15" size="100,38" text="menu" valign="center"/>
+		<widget backgroundColorSelected="background" enableWrapAround="1" foregroundColorSelected="Heading" position="520,80" render="Listbox" scrollbarMode="showNever" size="880,240" source="menulist" transparent="1">
+			<convert type="TemplatedMultiContent">
+			{"template":[MultiContentEntryText(pos=(0,0),size=(880,80),flags=RT_HALIGN_CENTER|RT_VALIGN_CENTER,text=0),],
+			"fonts":[gFont("Regular",40)],"itemHeight":80}
+			</convert>
+		</widget>
+		<ePixmap pixmap="Shadow-FHD/skin_default/icons/arrow_down.svg" position="center,370" size="60,60" zPosition="1"/>
+		<eLabel backgroundColor="CursorBackground" position="center,375" size="50,50"/>
+		<widget backgroundColor="gradient" font="Regular;30" halign="center" name="subheader" position="120,445" size="1690,35" transparent="1"/>
+	</screen>

@@ -1,0 +1,19 @@
+	<component type="TvSpielfilmTipps">
+		<template>
+			{"template":[MultiContentEntryText(pos=(115,135),size=(190,50),font=2,flags=RT_HALIGN_LEFT|RT_WRAP,text=2),
+			MultiContentEntryPixmapAlphaTest(pos=(118,5),size=(190,125),png=8),
+			MultiContentEntryText(pos=(15,5),size=(80,30),font=3,flags=RT_HALIGN_CENTER|RT_VALIGN_CENTER,text=1,backcolor=0xcc0000,backcolor_sel=0xcc0000),
+			MultiContentEntryText(pos=(5,35),size=(100,30),font=0,flags=RT_HALIGN_CENTER|RT_VALIGN_CENTER,text=4,color=0xbababa,color_sel=0xbababa),
+			MultiContentEntryText(pos=(5,65),size=(100,30),font=0,flags=RT_HALIGN_CENTER|RT_VALIGN_CENTER,text=5,color=0xbababa,color_sel=0xbababa),
+			MultiContentEntryText(pos=(5,100),size=(100,22),font=1,flags=RT_HALIGN_CENTER|RT_VALIGN_CENTER,text=6),
+			MultiContentEntryText(pos=(5,130),size=(100,45),font=1,flags=RT_HALIGN_CENTER|RT_VALIGN_CENTER|RT_WRAP,text=0),
+			MultiContentEntryText(pos=(115,186),size=(190,45),font=1,flags=RT_VALIGN_CENTER|RT_WRAP,text=3),
+			MultiContentEntryPixmapAlphaTest(pos=(16,180),size=(75,45),png=11),
+			MultiContentEntryText(pos=(0,0),size=(1,240),flags=RT_VALIGN_CENTER,backcolor=0xa0a0a0),
+			MultiContentEntryText(pos=(312,0),size=(1,240),flags=RT_VALIGN_CENTER,backcolor=0xa0a0a0),
+			MultiContentEntryText(pos=(0,239),size=(313,1),flags=RT_VALIGN_CENTER,backcolor=0xa0a0a0),
+			MultiContentEntryText(pos=(0,0),size=(313,1),flags=RT_VALIGN_CENTER,backcolor=0xa0a0a0)],
+			"selectionEnabled":False,
+			"fonts":[gFont("Regular",24),gFont("Regular",18),gFont("Bold",20),gFont("Bold",24)],"itemHeight":240}
+			</template>
+	</component>

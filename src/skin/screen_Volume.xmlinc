@@ -1,0 +1,6 @@
+<screen backgroundColor="transparent" flags="wfNoBorder" name="Volume" position="0,center" size="150,1080">
+	<ePixmap gradient="#60000000,transparent,horizontal" position="0,center" size="150,1080" zPosition="-3"/>
+	<widget backgroundColor="white" cornerRadius="48" font="Regular;34" foregroundColor="black" halign="center" position="8,725" render="ExtvolumeText" size="70,48" slider="0,420" source="global.CurrentTime" valign="center"/>
+	<eLabel backgroundColor="white" position="39,center" size="8,450" zPosition="-2"/>
+	<widget backgroundColor="white" foregroundColor="Progress" name="Volume" orientation="orBottomToTop" position="39,center" size="8,450" zPosition="-1"/>
+</screen>

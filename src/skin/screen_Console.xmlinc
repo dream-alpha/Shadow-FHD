@@ -1,0 +1,6 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="Console" position="center,center" size="1040,450">
+		<layout name="Title_Popup"/>
+		<layout name="Text_OK_Popup"/>
+		<eLabel backgroundColor="CursorBackground" font="Bold;50" foregroundColor="#bababa" halign="center" position="60,20" size="100,100" text="Info" valign="center"/>
+		<widget font="Regular;26" name="text" position="20,150" size="1000,190"/>
+	</screen>

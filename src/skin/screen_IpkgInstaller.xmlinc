@@ -1,0 +1,8 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="IpkgInstaller" position="center,580" size="1920,500" title="Media Scanner">
+		<layout name="small_back"/>
+		<eLabel backgroundColor="background" font="Bold;40" position="120,10" size="760,47" text="Install local extension" transparent="1"/>
+		<widget backgroundColor="background" font="Regular;30" foregroundColor="Heading" halign="right" position="900,15" render="Label" size="910,40" source="introduction" transparent="1"/>
+		<widget backgroundColor="background" enableWrapAround="1" name="list" position="120,80" scrollbarMode="showOnDemand" size="1690,315" transparent="1"/>
+		<eLabel backgroundColor="green" position="0,490" size="1920,10"/>
+		<widget backgroundColor="gradient" font="Regular;26" halign="center" position="0,420" render="Label" size="1920,60" source="key_green" transparent="1" valign="center"/>
+	</screen>

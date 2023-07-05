@@ -1,0 +1,5 @@
+	<screen backgroundColor="Tile" flags="wfNoBorder" name="BouquetSelector" position="0,0" size="700,1080" title="Choose bouquet">
+		<layout name="Title_small"/>
+		<ePixmap pixmap="Shadow-FHD/images/series.svg" position="55,80" size="70,70"/>
+		<widget backgroundColor="background" enableWrapAround="1" name="menu" position="20,150" scrollbarMode="showOnDemand" size="660,720" transparent="1"/>
+	</screen>

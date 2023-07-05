@@ -1,0 +1,4 @@
+	<layout name="Half_back">
+		<eLabel backgroundColor="background" position="700,90" size="1140,680" zPosition="-1"/>
+		<eLabel backgroundColor="background" position="80,790" size="1760,200" zPosition="-1"/>
+	</layout>

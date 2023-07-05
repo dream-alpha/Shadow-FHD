@@ -1,0 +1,8 @@
+	<layout name="Title_Time">
+		<ePixmap gradient="#40000000,transparent,vertical" position="0,0" size="1920,680" zPosition="-3"/>
+		<ePixmap gradient="transparent,gradient,vertical" position="0,400" size="1920,680" zPosition="-3"/>
+		<widget backgroundColor="black" font="Bold;32" position="20,20" render="Label" size="1100,40" source="Title" transparent="1"/>
+		<widget backgroundColor="black" font="Bold;32" halign="right" position="1620,20" render="Label" size="280,40" source="global.CurrentTime" transparent="1" zPosition="-2">
+			<convert type="ClockToText">Format:%a %d.%m.  %H:%M</convert>
+		</widget>
+	</layout>

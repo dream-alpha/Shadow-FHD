@@ -1,0 +1,25 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="MSNWeatherPlugin" position="center,580" size="1920,500">
+		<layout name="small_back"/>
+		<widget backgroundColor="background" font="Bold;40" position="120,10" render="Label" size="700,47" source="caption" transparent="1"/>
+		<widget backgroundColor="background" font="Regular;30" foregroundColor="Heading" halign="right" position="1500,15" render="Label" size="300,40" source="observationtime" transparent="1"/>
+		<widget backgroundColor="background" font="Bold;40" halign="center" position="90,90" render="Label" size="250,40" source="currentTemp" transparent="1"/>
+		<widget name="currenticon" position="90,150" size="230,230"/>
+		<widget backgroundColor="background" font="Regular;30" position="360,145" render="Label" size="400,35" source="condition" transparent="1"/>
+		<widget backgroundColor="background" font="Regular;30" position="360,195" render="Label" size="400,35" source="feelsliketemp" transparent="1"/>
+		<widget backgroundColor="background" font="Regular;30" position="360,245" render="Label" size="400,35" source="wind_condition" transparent="1"/>
+		<widget backgroundColor="background" font="Regular;30" position="360,295" render="Label" size="400,35" source="humidity" transparent="1"/>
+		<widget backgroundColor="background" font="Bold;26" halign="center" position="780,80" render="Label" size="228,60" source="weekday2" transparent="1" valign="center"/>
+		<widget name="weekday2_icon" position="845,150" size="100,100"/>
+		<widget backgroundColor="background" font="Regular;24" halign="center" position="780,270" render="Label" size="228,90" source="weekday2_temp" transparent="1" valign="top"/>
+		<widget backgroundColor="background" font="Bold;26" halign="center" position="1050,80" render="Label" size="228,60" source="weekday3" transparent="1" valign="center"/>
+		<widget name="weekday3_icon" position="1115,150" size="100,100"/>
+		<widget backgroundColor="background" font="Regular;24" halign="center" position="1050,270" render="Label" size="228,90" source="weekday3_temp" transparent="1" valign="top"/>
+		<widget backgroundColor="background" font="Bold;26" halign="center" position="1320,80" render="Label" size="228,60" source="weekday4" transparent="1" valign="center"/>
+		<widget name="weekday4_icon" position="1385,150" size="100,100"/>
+		<widget backgroundColor="background" font="Regular;24" halign="center" position="1320,270" render="Label" size="228,90" source="weekday4_temp" transparent="1" valign="top"/>
+		<widget backgroundColor="background" font="Bold;26" halign="center" position="1590,80" render="Label" size="228,60" source="weekday5" transparent="1" valign="center"/>
+		<widget name="weekday5_icon" position="1655,150" size="100,100"/>
+		<widget backgroundColor="background" font="Regular;24" halign="center" position="1590,270" render="Label" size="228,90" source="weekday5_temp" transparent="1" valign="top"/>
+		<eLabel backgroundColor="CursorBackground" position="80,380" size="1760,60"/>
+		<eLabel backgroundColor="background" font="Regular;26" halign="center" position="1710,390" size="100,38" text="menu" valign="center"/>
+	</screen>

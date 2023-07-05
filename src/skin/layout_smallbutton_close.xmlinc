@@ -1,0 +1,4 @@
+	<layout name="smallbutton_close">
+		<eLabel backgroundColor="red" position="0,1070" size="700,10"/>
+		<eLabel backgroundColor="gradient" font="Regular;26" halign="center" position="0,1000" size="700,60" text="Close" transparent="1" valign="center"/>
+	</layout>

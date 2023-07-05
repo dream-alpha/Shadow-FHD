@@ -1,0 +1,5 @@
+	<layout name="threebutton_long">
+		<eLabel backgroundColor="red" position="0,1070" size="640,10"/>
+		<eLabel backgroundColor="green" position="640,1070" size="640,10"/>
+		<eLabel backgroundColor="yellow" position="1280,1070" size="640,10"/>
+	</layout>

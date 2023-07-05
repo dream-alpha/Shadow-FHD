@@ -1,0 +1,8 @@
+	<screen backgroundColor="ScreenBackground" flags="wfNoBorder" name="InputDeviceSetup" position="center,center" size="1920,1080">
+		<layout name="Title_ScreenBackground"/>
+		<layout name="bigbutton_save"/>
+		<eLabel backgroundColor="background" position="50,110" size="1820,860" zPosition="-1"/>
+		<widget backgroundColor="background" enableWrapAround="1" name="config" position="60,120" scrollbarMode="showOnDemand" separation="500" size="1800,720" transparent="1"/>
+		<eLabel backgroundColor="grey" position="60,860" size="1800,1"/>
+		<widget backgroundColor="background" font="Regular;28" foregroundColor="Heading" halign="center" position="60,880" render="Label" size="1800,70" source="introduction" transparent="1" valign="center"/>
+	</screen>

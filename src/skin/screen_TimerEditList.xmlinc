@@ -1,0 +1,6 @@
+	<screen backgroundColor="Tile" flags="wfNoBorder" name="TimerEditList" position="0,0" size="1200,1080" title="Timer Editor">
+		<layout name="Title_broad"/>
+		<ePixmap pixmap="Shadow-FHD/images/timer.svg" position="25,15" size="70,70"/>
+		<xmlinc name="4Buttons300" position="0,1028"/>
+		<widget backgroundColor="background" enableWrapAround="1" name="timerlist" position="20,115" scrollbarMode="showOnDemand" size="1160,865"/>
+	</screen>

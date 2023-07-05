@@ -1,0 +1,7 @@
+	<screen backgroundColor="Tile" flags="wfNoBorder" name="CecConfig" position="0,0" size="1200,1080">
+		<layout name="Title_broad"/>
+		<layout name="broadbutton3"/>
+		<ePixmap pixmap="Shadow-FHD/images/setup.svg" position="25,15" size="70,70"/>
+		<ePixmap pixmap="Shadow-FHD/images/ok_neutral.svg" position="1130,30" size="50,50"/>
+		<widget backgroundColor="background" enableWrapAround="1" name="config" position="20,150" scrollbarMode="showOnDemand" size="1160,720" transparent="1"/>
+	</screen>

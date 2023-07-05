@@ -1,0 +1,16 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="InputDeviceManagement" position="center,580" size="1920,500">
+		<layout name="bigbutton_name_small"/>
+		<layout name="back_bigbutton_small"/>
+		<widget backgroundColor="background" font="Bold;40" position="120,10" render="Label" size="760,47" source="Title" transparent="1"/>
+		<widget backgroundColor="background" enableWrapAround="1" position="120,80" render="Listbox" scrollbarMode="showOnDemand" size="1690,210" source="list" transparent="1">
+			<convert type="TemplatedMultiContent">
+			{"template":[MultiContentEntryText(pos=(10,3),size=(445,35),font=0,text=0),
+			MultiContentEntryText(pos=(1030,3),size=(650,35),font=0,flags=RT_HALIGN_RIGHT|RT_VALIGN_CENTER,text=4),
+			MultiContentEntryText(pos=(630,0),size=(400,70),font=0,flags=RT_HALIGN_CENTER|RT_VALIGN_CENTER,text=3),
+			MultiContentEntryText(pos=(10,38),size=(445,30),font=1,flags=RT_VALIGN_CENTER,text=2),
+			MultiContentEntryText(pos=(1130,38),size=(550,30),font=1,flags=RT_HALIGN_RIGHT|RT_VALIGN_TOP,text=1),],
+			"fonts":[gFont("Bold",24),gFont("Regular",24)],"itemHeight":70}
+			</convert>
+		</widget>
+		<widget backgroundColor="CursorBackground" font="Regular;26" foregroundColor="CursorForeground" halign="center" position="80,340" render="Label" size="1760,60" source="description" valign="center"/>
+	</screen>

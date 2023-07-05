@@ -1,0 +1,5 @@
+	<layout name="Dimmer">
+		<ePixmap gradient="#66000000,transparent,vertical" position="0,0" size="1920,300" zPosition="-4"/>
+		<ePixmap gradient="transparent,gradient,vertical" position="0,420" size="1920,560" zPosition="-3"/>
+		<eLabel backgroundColor="gradient" position="0,980" size="1920,100" zPosition="-2"/>
+	</layout>

@@ -1,0 +1,5 @@
+	<layout name="Player_Time">
+		<widget pixmap="Shadow-FHD/skin_default/icons/record_long.svg" position="1792,30" render="Pixmap" size="109,32" source="session.RecordState" zPosition="-1">
+			<convert type="ConditionalShowHide"/>
+		</widget>
+	</layout>

@@ -1,0 +1,11 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="BludiscMenu" position="center,580" size="1920,500">
+		<layout name="small_back"/>
+		<widget backgroundColor="background" font="Bold;40" position="120,10" render="Label" size="760,47" source="Title" transparent="1"/>
+		<widget backgroundColor="background" enableWrapAround="1" name="menu" position="120,80" scrollbarMode="showNever" size="640,300" transparent="1"/>
+		<ePixmap pixmap="Shadow-FHD/images/BD.svg" position="920,20" size="80,80"/>
+		<eLabel backgroundColor="grey" position="960,120" size="1,240"/>
+		<widget name="pixmap" position="1160,20" size="640,360"/>
+		<ePixmap pixmap="Shadow-FHD/skin_default/icons/arrow_down.svg" position="center,370" size="60,60" zPosition="1"/>
+		<eLabel backgroundColor="CursorBackground" position="center,375" size="50,50"/>
+		<widget backgroundColor="gradient" font="Regular;30" halign="center" position="120,445" render="Label" size="1690,35" source="statusbar" transparent="1"/>
+	</screen>

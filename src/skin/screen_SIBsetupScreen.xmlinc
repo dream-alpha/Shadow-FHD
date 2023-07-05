@@ -1,0 +1,7 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="SIBsetupScreen" position="center,center" size="1040,450">
+		<layout name="Title_Popup"/>
+		<ePixmap pixmap="Shadow-FHD/images/setup.svg" position="58,18" size="100,100"/>
+		<widget enableWrapAround="1" name="config" position="20,150" scrollbarMode="showOnDemand" size="1000,180"/>
+		<eLabel backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="0,390" size="1040,50" text="Save" valign="center"/>
+		<eLabel backgroundColor="green" position="0,440" size="1040,10"/>
+	</screen>
