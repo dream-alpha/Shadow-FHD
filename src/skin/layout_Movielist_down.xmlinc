@@ -1,6 +1,0 @@
-	<layout name="Movielist_down">
-		<eLabel backgroundColor="background" position="80,560" size="1760,400" zPosition="-1"/>
-		<widget backgroundColor="background" font="Regular;28" position="120,580" render="Label" size="800,35" source="Title" transparent="1"/>
-		<widget backgroundColor="background" font="Regular;28" halign="right" name="warning" position="920,580" size="890,35" transparent="1"/>
-		<widget backgroundColor="background" enableWrapAround="1" name="list" position="120,640" scrollbarMode="showOnDemand" size="1690,300" transparent="1"/>
-	</layout>

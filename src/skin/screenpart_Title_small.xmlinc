@@ -1,0 +1,3 @@
+<ePixmap pixmap="$menu_pixmap" position="25,15" size="70,70"/>
+<widget font="Bold;32" noWrap="1" position="130,30" render="Label" size="560,40" source="$source" transparent="1"/>
+<xmlinc name="screenpart_menu_background" $width="700"/>

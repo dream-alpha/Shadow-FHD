@@ -4,9 +4,9 @@
 		<layout name="Soundplayer"/>
 		<layout name="back_bigbutton"/>
 		<widget name="coverBack" pixmap="skin_default/no_coverArt.png" position="80,100" size="550,550"/>
-		<widget backgroundColor="background" font="Regular;32" halign="center" name="album" position="80,670" size="550,40" transparent="1"/>
-		<widget backgroundColor="background" font="Regular;28" halign="center" name="genre" position="80,720" size="550,35" transparent="1"/>
-		<widget backgroundColor="background" enableWrapAround="1" position="720,110" render="Listbox" scrollbarMode="showOnDemand" size="1100,630" source="playlist" transparent="1">
+		<widget  font="Regular;32" halign="center" name="album" position="80,670" size="550,40" transparent="1"/>
+		<widget  font="Regular;28" halign="center" name="genre" position="80,720" size="550,35" transparent="1"/>
+		<widget  enableWrapAround="1" position="720,110" render="Listbox" scrollbarMode="showOnDemand" size="1100,630" source="playlist" transparent="1">
 			<convert type="TemplatedMultiContent">
 			{"templates":{
 			"default":(90,[

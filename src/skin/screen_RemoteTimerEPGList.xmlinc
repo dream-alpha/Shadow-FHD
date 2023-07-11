@@ -1,7 +1,6 @@
-	<screen backgroundColor="Tile" flags="wfNoBorder" name="RemoteTimerEPGList" position="0,center" size="700,1080" title="Partnerbox EPGList">
-		<layout name="Title_small"/>
-		<ePixmap pixmap="Shadow-FHD/images/info.svg" position="25,15" size="70,70"/>
-		<widget backgroundColor="background" enableWrapAround="1" name="epglist" position="20,150" scrollbarMode="showOnDemand" size="660,675" transparent="1"/>
+	<screen backgroundColor="background" flags="wfNoBorder" name="RemoteTimerEPGList" position="0,center" size="700,1080" title="Partnerbox EPGList">
+		<xmlinc name="screenpart_Title_small" $source="Title" $menu_pixmap="Shadow-FHD/images/info.svg"/>
+		<widget  enableWrapAround="1" name="epglist" position="20,120" scrollbarMode="showOnDemand" size="660,680" transparent="1"/>
 		<eLabel backgroundColor="green" position="0,1070" size="350,10"/>
 		<eLabel backgroundColor="blue" position="350,1070" size="350,10"/>
 		<widget backgroundColor="gradient" font="Regular;26" halign="center" name="key_green" position="0,1000" size="350,60" transparent="1" valign="center"/>

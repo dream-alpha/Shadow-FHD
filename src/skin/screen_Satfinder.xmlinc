@@ -10,14 +10,14 @@
 		<widget borderWidth="2" position="580,835" render="Progress" size="1050,23" source="Frontend" transparent="1">
 			<convert type="FrontendInfo">SNR</convert>
 		</widget>
-		<widget backgroundColor="background" font="Regular;28" position="1650,830" render="Label" size="120,35" source="Frontend" transparent="1">
+		<widget  font="Regular;28" position="1650,830" render="Label" size="120,35" source="Frontend" transparent="1">
 			<convert type="FrontendInfo">SNR</convert>
 		</widget>
 		<eLabel backgroundColor="background" font="Regular;28" halign="right" name="ber" position="470,880" size="100,35" text="BER:" transparent="1"/>
 		<widget borderWidth="2" position="580,885" render="Progress" size="1050,23" source="Frontend">
 			<convert type="FrontendInfo">BER</convert>
 		</widget>
-		<widget backgroundColor="background" font="Regular;28" position="1650,880" render="Label" size="120,35" source="Frontend" transparent="1">
+		<widget  font="Regular;28" position="1650,880" render="Label" size="120,35" source="Frontend" transparent="1">
 			<convert type="FrontendInfo">BER</convert>
 		</widget>
 		<eLabel backgroundColor="background" font="Regular;28" halign="right" name="lock" position="470,933" size="100,35" text="Lock:" transparent="1"/>
@@ -29,6 +29,6 @@
 			<convert type="FrontendInfo">LOCK</convert>
 			<convert type="ConditionalShowHide">Invert</convert>
 		</widget>
-		<widget backgroundColor="background" enableWrapAround="1" name="config" position="720,100" scrollbarMode="showOnDemand" size="1100,660" transparent="1"/>
+		<widget  enableWrapAround="1" name="config" position="720,100" scrollbarMode="showOnDemand" size="1100,660" transparent="1"/>
 		<ePixmap pixmap="Shadow-FHD/images/scan.svg" position="140,810" size="160,160"/>
 	</screen>

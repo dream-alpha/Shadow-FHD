@@ -1,8 +1,7 @@
-	<screen backgroundColor="Tile" flags="wfNoBorder" name="CutListContextMenu" position="0,0" size="700,1080" title="Cutlist Menu">
-		<layout name="Title_small"/>
-		<ePixmap pixmap="Shadow-FHD/images/movies.svg" position="25,15" size="70,70"/>
-		<widget backgroundColor="background" enableWrapAround="1" position="20,150" render="Listbox" scrollbarMode="showNever" size="660,715" source="menu" transparent="1">
+	<screen backgroundColor="background" flags="wfNoBorder" name="CutListContextMenu" position="0,0" size="700,1080" title="Cutlist Menu">
+		<xmlinc name="screenpart_Title_small" $source="Title" $menu_pixmap="Shadow-FHD/images/movies.svg"/>
+		<widget  enableWrapAround="1" position="20,120" render="Listbox" scrollbarMode="showNever" size="660,680" source="menu" transparent="1">
 			<convert type="StringList"/>
 		</widget>
-		<ePixmap pixmap="Shadow-FHD/skin_default/icons/arrow_down.svg" position="320,1040" size="50,50"/>
+		<xmlinc name="screenpart_menu_arrow_down"/>
 	</screen>

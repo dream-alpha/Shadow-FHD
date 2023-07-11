@@ -1,5 +1,4 @@
-	<screen backgroundColor="Tile" flags="wfNoBorder" name="ledManager" position="0,center" size="700,1080" title="LED Manager">
-		<layout name="Title_small"/>
-		<layout name="gp_conf"/>
-		<ePixmap pixmap="Shadow-FHD/images/setup.svg" position="25,15" size="70,70"/>
+	<screen backgroundColor="background" flags="wfNoBorder" name="ledManager" position="0,center" size="700,1080" title="LED Manager">
+		<xmlinc name="screenpart_Title_small" $source="Title" $menu_pixmap="Shadow-FHD/images/setup.svg"/>
+		<layout name="header_conf"/>
 	</screen>

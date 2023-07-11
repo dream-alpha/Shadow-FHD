@@ -1,13 +1,13 @@
 	<screen backgroundColor="transparent" flags="wfNoBorder" name="SleepTimerEdit" position="center,580" size="1920,500" title="Sleep Timer">
 		<layout name="small_back"/>
-		<widget backgroundColor="background" font="Bold;40" position="120,10" render="Label" size="1000,47" source="Title" transparent="1"/>
-		<widget backgroundColor="background" font="Regular;30" foregroundColor="Heading" halign="right" position="1150,15" render="Label" size="660,40" source="global.CurrentTime" transparent="1">
+		<widget  font="Bold;40" position="120,10" render="Label" size="1000,47" source="Title" transparent="1"/>
+		<widget  font="Regular;30" foregroundColor="Heading" halign="right" position="1150,15" render="Label" size="660,40" source="global.CurrentTime" transparent="1">
 			<convert type="ClockToText">Format:%a %d.%m. | %H:%M</convert>
 		</widget>
 		<ePixmap pixmap="Shadow-FHD/images/sleep.svg" position="170,95" size="200,200"/>
-		<widget backgroundColor="background" font="Regular;40" halign="center" name="pretext" position="670,90" size="580,45" transparent="1"/>
-		<widget backgroundColor="background" font="Regular;40" halign="center" name="input" position="670,170" size="580,45" transparent="1"/>
-		<widget backgroundColor="background" font="Regular;40" halign="center" name="aftertext" position="670,250" size="580,45" transparent="1"/>
+		<widget  font="Regular;40" halign="center" name="pretext" position="670,90" size="580,45" transparent="1"/>
+		<widget  font="Regular;40" halign="center" name="input" position="670,170" size="580,45" transparent="1"/>
+		<widget  font="Regular;40" halign="center" name="aftertext" position="670,250" size="580,45" transparent="1"/>
 		<widget backgroundColor="CursorBackground" font="Regular;26" foregroundColor="CursorForeground" halign="center" name="current_status" position="80,340" size="1760,60" valign="center"/>
 		<eLabel backgroundColor="background" font="Regular;26" halign="center" position="1710,350" size="100,38" text="OK" valign="center"/>
 		<eLabel backgroundColor="red" position="0,490" size="360,10"/>

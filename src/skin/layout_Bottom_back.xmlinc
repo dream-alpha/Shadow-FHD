@@ -1,4 +1,0 @@
-	<layout name="Bottom_back">
-		<eLabel backgroundColor="background" position="75,23" size="1770,420" zPosition="-2"/>
-		<ePixmap gradient="transparent,gradient,vertical" position="center,0" size="1920,525" zPosition="-3"/>
-	</layout>

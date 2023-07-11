@@ -1,10 +1,10 @@
 	<screen backgroundColor="background" flags="wfNoBorder" name="VirtualKeyBoard" position="center,center" size="1920,1080" title="Virtual KeyBoard">
 		<layout name="Title_Time"/>
 		<layout name="threebutton_long"/>
-		<widget backgroundColor="background" font="Bold;40" foregroundColor="Heading" halign="center" name="header" noWrap="1" position="60,200" size="1800,50" transparent="1"/>
+		<widget  font="Bold;40" foregroundColor="Heading" halign="center" name="header" noWrap="1" position="60,200" size="1800,50" transparent="1"/>
 		<eLabel backgroundColor="CursorBackground" position="60,320" size="1800,70"/>
 		<eLabel backgroundColor="background" position="157,322" size="1625,66" zPosition="1"/>
-		<widget backgroundColor="background" font="Regular;50" halign="center" name="text" noWrap="1" position="190,323" size="1540,58" transparent="1" zPosition="2"/>
+		<widget  font="Regular;50" halign="center" name="text" noWrap="1" position="190,323" size="1540,58" transparent="1" zPosition="2"/>
 		<ePixmap pixmap="Shadow-FHD/extensions/movielibrary_reload.svg" position="1795,325" size="55,56"/>
 		<widget name="list" position="60,500" selectionDisabled="1" size="1800,420" transparent="1" zPosition="2"/>
 		<eLabel backgroundColor="gradient" font="Regular;26" halign="center" position="0,1000" size="640,60" text="Delete" transparent="1" valign="center"/>

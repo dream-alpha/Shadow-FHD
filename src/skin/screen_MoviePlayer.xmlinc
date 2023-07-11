@@ -48,10 +48,10 @@
 		<widget font="Regular;42" noWrap="1" position="105,900" render="Label" shadowBlur="10.0" shadowColor="black" size="1770,49" source="session.CurrentService" transparent="1">
 			<convert type="ExtMovieInfo">Name</convert>
 		</widget>
-		<widget backgroundColor="background" font="Bold;30" halign="center" position="1770,19" render="Label" size="120,53" source="global.CurrentTime" valign="center" zPosition="-1">
+		<widget  font="Bold;30" halign="center" position="1770,19" render="Label" size="120,53" source="global.CurrentTime" valign="center" zPosition="-1">
 			<convert type="ClockToText">Default</convert>
 		</widget>
-		<widget backgroundColor="background" cornerRadium="52" font="Bold;30" halign="center" position="1770,908" render="Label" size="120,30" source="session.CurrentService" transparent="1" valign="center">
+		<widget  cornerRadius="52" font="Bold;30" halign="center" position="1770,908" render="Label" size="120,30" source="session.CurrentService" transparent="1" valign="center">
 			<convert type="ServicePosition">EndTime,ShowNoSeconds</convert>
 		</widget>
 		<widget backgroundColor="grey" pointer="/usr/share/enigma2/Shadow-FHD/images/progress.svg:1860,0" position="30,971" render="PositionGauge" size="1860,10" source="session.CurrentService" transparent="1" zPosition="2">

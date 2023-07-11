@@ -1,8 +1,8 @@
 	<screen backgroundColor="transparent" flags="wfNoBorder" name="RemoteTimerEventView" position="center,580" size="1920,500">
 		<layout name="small_back"/>
-		<widget backgroundColor="background" font="Bold;40" name="channel" position="120,10" size="1000,47" transparent="1"/>
-		<widget backgroundColor="background" font="Regular;30" foregroundColor="Heading" halign="right" name="datetime" position="1330,15" size="220,35" transparent="1"/>
-		<widget backgroundColor="background" font="Regular;30" foregroundColor="Heading" halign="right" name="duration" position="1570,15" size="240,35" transparent="1"/>
-		<widget backgroundColor="background" font="Regular;28" name="epg_description" position="120,70" size="1690,300" transparent="1"/>
+		<widget  font="Bold;40" name="channel" position="120,10" size="1000,47" transparent="1"/>
+		<widget  font="Regular;30" foregroundColor="Heading" halign="right" name="datetime" position="1330,15" size="220,35" transparent="1"/>
+		<widget  font="Regular;30" foregroundColor="Heading" halign="right" name="duration" position="1570,15" size="240,35" transparent="1"/>
+		<widget  font="Regular;28" name="epg_description" position="120,70" size="1690,300" transparent="1"/>
 		<eLabel backgroundColor="gradient" font="Regular;26" halign="center" position="1650,390" size="160,38" text="Exit" valign="center"/>
 	</screen>

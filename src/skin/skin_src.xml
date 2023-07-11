@@ -26,6 +26,7 @@
 		<xmlinc name="component_ChoiceList"/>
 		<xmlinc name="component_ServiceInfoList"/>
 		<xmlinc name="component_MediaInfoList"/>
+		<xmlinc name="component_PartnerboxList"/>
 		<xmlinc name="component_ServiceList"/>
 		<xmlinc name="component_TimerList"/>
 		<xmlinc name="component_MovieList"/>
@@ -33,13 +34,7 @@
 		<xmlinc name="component_TvSpielfilmTvProgramm"/>
 	</components>
 	<layouts>
-		<xmlinc name="layout_2Button"/>
-		<xmlinc name="layout_2Button_source"/>
-		<xmlinc name="layout_Banner"/>
-		<xmlinc name="layout_Bottom_back"/>
 		<xmlinc name="layout_Title"/>
-		<xmlinc name="layout_Title_small"/>
-		<xmlinc name="layout_Title_broad"/>
 		<xmlinc name="layout_Title_ScreenBackground"/>
 		<xmlinc name="layout_Title_Time"/>
 		<xmlinc name="layout_Title_Popup"/>
@@ -65,33 +60,20 @@
 		<xmlinc name="layout_bigbutton_name"/>
 		<xmlinc name="layout_bigbutton_source_small"/>
 		<xmlinc name="layout_bigbutton_name_small"/>
-		<xmlinc name="layout_bigbutton_GM"/>
-		<xmlinc name="layout_Bigbutton_key_name"/>
-		<xmlinc name="layout_gp_conf"/>
+		<xmlinc name="layout_header_conf"/>
 		<xmlinc name="layout_Half_back"/>
-		<xmlinc name="layout_Big_back"/>
-		<xmlinc name="layout_Info_back"/>
 		<xmlinc name="layout_Info_gradient"/>
 		<xmlinc name="layout_Dimmer"/>
-		<xmlinc name="layout_Bar_Time"/>
-		<xmlinc name="layout_Player_Time"/>
 		<xmlinc name="layout_Soundplayer"/>
 		<xmlinc name="layout_EPG"/>
-		<xmlinc name="layout_EPG litle"/>
-		<xmlinc name="layout_menu_arrow_down"/>
-		<xmlinc name="layout_Movielist"/>
-		<xmlinc name="layout_Movielist_down"/>
-		<xmlinc name="layout_Movieplayer"/>
-		<xmlinc name="layout_Movieplayer_small"/>
+		<xmlinc name="layout_EPG_little"/>
 		<xmlinc name="layout_Resolution"/>
 		<xmlinc name="layout_Resolution2"/>
 		<xmlinc name="layout_Tuner"/>
-		<xmlinc name="layout_Tile_Top"/>
-		<xmlinc name="layout_Tile_Top2"/>
-		<xmlinc name="layout_Infobar Clock"/>
-		<xmlinc name="layout_Infobar Pic"/>
+		<xmlinc name="layout_Infobar_Clock"/>
+		<xmlinc name="layout_Infobar_Pic"/>
 		<xmlinc name="layout_Infobar"/>
-		<xmlinc name="layout_Bar gradient"/>
+		<xmlinc name="layout_Bar_gradient"/>
 	</layouts>
 	<xmlinc name="screen_About"/>
 	<xmlinc name="screen_AnimationSetup"/>
@@ -108,7 +90,6 @@
 	<xmlinc name="screen_AutoTimerSettings"/>
 	<xmlinc name="screen_AutomaticTimerlistCleanUpSetup"/>
 	<xmlinc name="screen_BackupSelection"/>
-	<xmlinc name="screen_BludiscMenu"/>
 	<xmlinc name="screen_BouquetSelector"/>
 	<xmlinc name="screen_Browser"/>
 	<xmlinc name="screen_BrowserMenu"/>
@@ -153,14 +134,9 @@
 	<xmlinc name="screen_InputDeviceManagement"/>
 	<xmlinc name="screen_InputDeviceSelection"/>
 	<xmlinc name="screen_InputDeviceSetup"/>
-	<xmlinc name="screen_IpkgInstaller"/>
 	<xmlinc name="screen_LanguageSelection"/>
 	<xmlinc name="screen_LocationBox"/>
 	<xmlinc name="screen_MMIDialog"/>
-	<xmlinc name="screen_MSNWeatherPlugin"/>
-	<xmlinc name="screen_MSNWeatherPluginEntriesListConfigScreen"/>
-	<xmlinc name="screen_MSNWeatherPluginEntryConfigScreen"/>
-	<xmlinc name="screen_MSNWeatherPluginSearch"/>
 	<xmlinc name="screen_MainMenu"/>
 	<xmlinc name="screen_MediaBrowser"/>
 	<xmlinc name="screen_MediaBrowserSearch"/>
@@ -264,8 +240,6 @@
 	<xmlinc name="screen_ZapHistoryConfigurator"/>
 	<xmlinc name="screen_easyCIconfigMenu"/>
 	<xmlinc name="screen_ledManager"/>
-	<xmlinc name="screen_myChannelSelection"/>
-	<xmlinc name="screen_myProviderSelection"/>
 	<xmlinc name="screen_picshow"/>
 	<xmlinc name="screen_setup_usage"/>
 	<xmlinc name="screen_setup_timezone"/>

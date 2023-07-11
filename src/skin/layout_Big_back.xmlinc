@@ -1,4 +1,0 @@
-	<layout name="Big_back">
-		<eLabel backgroundColor="background" position="100,90" size="1720,680" zPosition="-2"/>
-		<eLabel backgroundColor="background" position="80,790" size="1760,200" zPosition="-1"/>
-	</layout>

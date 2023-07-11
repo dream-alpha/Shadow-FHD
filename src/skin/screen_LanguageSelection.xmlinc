@@ -1,7 +1,6 @@
-	<screen backgroundColor="Tile" flags="wfNoBorder" name="LanguageSelection" position="0,center" size="700,1080">
-		<layout name="Title_small"/>
-		<ePixmap pixmap="Shadow-FHD/images/language.svg" position="25,15" size="70,70"/>
-		<widget backgroundColor="background" enableWrapAround="1" position="20,150" render="Listbox" scrollbarMode="showOnDemand" size="660,770" source="languages" transparent="1">
+	<screen backgroundColor="background" flags="wfNoBorder" name="LanguageSelection" position="0,center" size="700,1080">
+		<xmlinc name="screenpart_Title_small" $source="Title" $menu_pixmap="Shadow-FHD/images/language.svg"/>
+		<widget  enableWrapAround="1" position="20,120" render="Listbox" scrollbarMode="showOnDemand" size="660,770" source="languages" transparent="1">
 			<convert type="TemplatedMultiContent">
 			{"template":[MultiContentEntryText(pos=(110,0),size=(540,70),flags=RT_VALIGN_CENTER|RT_WRAP,text=1),
 			MultiContentEntryPixmap(pos=(10,10),size=(75,50),png=2),],

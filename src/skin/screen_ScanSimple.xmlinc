@@ -1,8 +1,7 @@
-	<screen backgroundColor="Tile" flags="wfNoBorder" name="ScanSimple" position="0,center" size="700,1080" title="Service scan">
-		<layout name="Title_small"/>
+	<screen backgroundColor="background" flags="wfNoBorder" name="ScanSimple" position="0,center" size="700,1080" title="Service scan">
+		<xmlinc name="screenpart_Title_small" $source="Title" $menu_pixmap="Shadow-FHD/images/scan.svg"/>
 		<layout name="smallbutton_close"/>
-		<ePixmap pixmap="Shadow-FHD/images/scan.svg" position="25,15" size="70,70"/>
-		<widget backgroundColor="gradient" enableWrapAround="1" name="config" position="20,150" scrollbarMode="showOnDemand" size="660,600" transparent="1"/>
+		<widget backgroundColor="gradient" enableWrapAround="1" name="config" position="20,120" scrollbarMode="showOnDemand" size="660,680" transparent="1"/>
 		<eLabel backgroundColor="grey" position="20,900" size="660,1"/>
 		<widget backgroundColor="gradient" font="Regular;28" foregroundColor="Heading" halign="center" name="header" position="20,910" size="660,35" transparent="1"/>
 		<widget backgroundColor="gradient" font="Regular;28" foregroundColor="Heading" halign="center" name="footer" position="20,950" size="660,35" transparent="1"/>

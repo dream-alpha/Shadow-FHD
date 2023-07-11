@@ -1,6 +1,5 @@
-	<screen backgroundColor="Tile" flags="wfNoBorder" name="RestoreMenu" position="0,0" size="1200,1080">
-		<layout name="Title_broad"/>
+	<screen backgroundColor="background" flags="wfNoBorder" name="RestoreMenu" position="0,0" size="1200,1080">
+		<xmlinc name="screenpart_Title_broad" $source="Title" $menu_pixmap="Shadow-FHD/images/softmanager.svg"/>
 		<layout name="broadbutton2"/>
-		<ePixmap pixmap="Shadow-FHD/images/softmanager.svg" position="25,15" size="70,70"/>
-		<widget backgroundColor="background" enableWrapAround="1" name="filelist" position="20,150" scrollbarMode="showOnDemand" size="1160,720" transparent="1"/>
+		<widget  enableWrapAround="1" name="filelist" position="20,120" scrollbarMode="showOnDemand" size="1160,720" transparent="1"/>
 	</screen>

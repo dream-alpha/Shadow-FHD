@@ -1,10 +1,9 @@
-	<screen backgroundColor="Tile" flags="wfNoBorder" name="ZapHistoryBrowser" position="0,center" size="700,1080" title="Zap-History Browser">
-		<layout name="Title_small"/>
-		<ePixmap pixmap="Shadow-FHD/skin_default/icons/timerlist_zap.svg" position="25,15" size="70,70"/>
+	<screen backgroundColor="background" flags="wfNoBorder" name="ZapHistoryBrowser" position="0,center" size="700,1080" title="Zap-History Browser">
+		<xmlinc name="screenpart_Title_small" $source="Title" $menu_pixmap="Shadow-FHD/skin_default/icons/timerlist_zap.svg/>
 		<ePixmap pixmap="Shadow-FHD/images/del_red.svg" position="420,30" size="50,50"/>
 		<ePixmap pixmap="Shadow-FHD/images/del_green.svg" position="490,30" size="50,50"/>
 		<ePixmap pixmap="Shadow-FHD/images/ok_yellow.svg" position="560,30" size="50,50"/>
 		<ePixmap pixmap="Shadow-FHD/images/menu_blue.svg" position="630,30" size="50,50"/>
-		<widget backgroundColor="background" enableWrapAround="1" name="list" position="20,255" scrollbarMode="showNever" size="660,780" transparent="1"/>
-		<ePixmap pixmap="Shadow-FHD/skin_default/icons/arrow_down.svg" position="330,1040" size="50,50"/>
+		<widget  enableWrapAround="1" name="list" position="20,255" scrollbarMode="showNever" size="660,680" transparent="1"/>
+		<xmlinc name="screenpart_menu_arrow_down"/>
 	</screen>

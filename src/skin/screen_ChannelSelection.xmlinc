@@ -1,7 +1,6 @@
 	<screen backgroundColor="background" flags="wfNoBorder" name="ChannelSelection" position="center,center" size="1920,1080">
 		<layout name="Title"/>
-		<layout name="Banner"/>
-		<layout name="Bigbutton_key_name"/>
+		<xmlinc name=screenpart_4Buttons1920" position="0,1028"/>
 		<xmlinc name="screenpart_ChannelSelectionEvents"/>
 		<widget additionalInfoFont="Regular;27" backgroundColor="Tile" colorRecording="red" colorRecordingSelected="red" colorServiceDescription="foreground" colorServiceDescriptionSelected="CursorForeground" foregroundColorServiceNotAvail="#818181" name="list" picServiceEventProgressbar="Shadow-FHD/images/progress.svg" position="20,90" scrollbarMode="showNever" serviceInfoFont="Regular;27" serviceNameFont="Bold;29" serviceNumberFont="Bold;29" size="830,900" transparent="1"/>
 	</screen>

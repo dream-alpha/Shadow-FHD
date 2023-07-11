@@ -1,8 +1,7 @@
-	<screen backgroundColor="Tile" flags="wfNoBorder" name="DefaultSatLists" position="0,center" size="700,1080" title="Default services lists">
-		<layout name="Title_small"/>
-		<ePixmap pixmap="Shadow-FHD/images/lists.svg" position="25,15" size="70,70"/>
-		<widget backgroundColor="background" enableWrapAround="1" name="config" position="20,150" scrollbarMode="showOnDemand" size="660,600" transparent="1"/>
-		<widget backgroundColor="background" enableWrapAround="1" position="20,150" render="Listbox" scrollbarMode="showOnDemand" size="660,600" source="list" transparent="1">
+	<screen backgroundColor="background" flags="wfNoBorder" name="DefaultSatLists" position="0,center" size="700,1080" title="Default services lists">
+		<xmlinc name="screenpart_Title_small" $source="Title" $menu_pixmap="Shadow-FHD/images/lists.svg"/>
+		<widget  enableWrapAround="1" name="config" position="20,120" scrollbarMode="showOnDemand" size="660,680" transparent="1"/>
+		<widget  enableWrapAround="1" position="20,120" render="Listbox" scrollbarMode="showOnDemand" size="660,680" source="list" transparent="1">
 			<convert type="StringList"/>
 		</widget>
 		<eLabel backgroundColor="grey" position="20,900" size="660,1"/>

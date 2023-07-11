@@ -1,5 +1,0 @@
-	<layout name="Bar_Time">
-		<widget pixmap="Shadow-FHD/skin_default/icons/record_long.svg" position="1792,30" render="Pixmap" size="109,32" source="session.RecordState">
-			<convert type="ConditionalShowHide"/>
-		</widget>
-	</layout>

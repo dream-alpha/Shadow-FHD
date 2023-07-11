@@ -1,15 +1,15 @@
 	<screen backgroundColor="background" flags="wfNoBorder" name="CutListEditor" position="center,center" size="1920,1080" title="Cutlist editor...">
 		<layout name="Title_Time"/>
 		<layout name="Half_back"/>
-		<widget backgroundColor="background" font="Regular;45" position="110,800" render="Label" size="1300,56" source="session.CurrentService" transparent="1">
+		<widget  font="Regular;45" position="110,800" render="Label" size="1300,56" source="session.CurrentService" transparent="1">
 			<convert type="ServiceName">Name</convert>
 		</widget>
-		<widget backgroundColor="background" font="Regular;40" halign="right" position="1470,805" render="Label" size="350,40" source="session.CurrentService" transparent="1">
+		<widget  font="Regular;40" halign="right" position="1470,805" render="Label" size="350,40" source="session.CurrentService" transparent="1">
 			<convert type="ServicePosition">Position,Detailed</convert>
 		</widget>
 		<eLabel backgroundColor="grey" position="110,880" size="1710,18"/>
 		<widget backgroundColor="grey" foregroundColor="black" name="Timeline" pointer="Shadow-FHD/skin_default/icons/arrow_seek.svg:0,4" position="120,880" size="1690,18" zPosition="1"/>
-		<widget backgroundColor="background" font="Regular;30" halign="center" name="SeekState" position="center,940" size="400,56" transparent="1"/>
+		<widget  font="Regular;30" halign="center" name="SeekState" position="center,940" size="400,56" transparent="1"/>
 		<eLabel backgroundColor="gradient" position="80,90" size="550,680" zPosition="-1"/>
 		<eLabel backgroundColor="gradient" font="Bold;36" position="100,95" size="400,42" text="Cutlist"/>
 		<ePixmap pixmap="Shadow-FHD/extensions/cut.svg" position="570,95" size="45,45"/>

@@ -1,9 +1,8 @@
-	<screen backgroundColor="Tile" flags="wfNoBorder" name="AnimationSetup" position="0,center" size="700,1080" title="Animation Setup">
-		<layout name="Title_small"/>
+	<screen backgroundColor="background" flags="wfNoBorder" name="AnimationSetup" position="0,center" size="700,1080" title="Animation Setup">
+		<xmlinc name="screenpart_Title_small" $source="Title" $menu_pixmap="Shadow-FHD/images/setup.svg"/>
 		<layout name="smallbutton4"/>
-		<ePixmap pixmap="Shadow-FHD/images/setup.svg" position="25,15" size="70,70"/>
 		<ePixmap pixmap="Shadow-FHD/images/ok_neutral.svg" position="630,30" size="50,50"/>
-		<widget backgroundColor="background" enableWrapAround="1" name="list" position="20,150" scrollbarMode="showOnDemand" size="660,600" transparent="1"/>
+		<widget  enableWrapAround="1" name="list" position="20,120" scrollbarMode="showOnDemand" size="660,680" transparent="1"/>
 		<eLabel backgroundColor="grey" position="20,900" size="660,1"/>
 		<widget backgroundColor="gradient" font="Regular;28" foregroundColor="Heading" halign="center" name="selected_info" position="20,910" size="660,70" transparent="1" valign="center"/>
 	</screen>

@@ -1,4 +1,0 @@
-	<layout name="Info_back">
-		<eLabel backgroundColor="background" position="80,0" size="1760,600" zPosition="-2"/>
-		<ePixmap gradient="transparent,gradient,vertical" position="center,220" size="1920,480" zPosition="-3"/>
-	</layout>

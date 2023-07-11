@@ -1,5 +1,0 @@
-<layout name="Bar gradient">
-	<ePixmap gradient="transparent,gradient,vertical" position="0,555" size="1920,525" zPosition="-3"/>
-	<ePixmap gradient="transparent,gradient,vertical" position="0,780" size="1920,300" zPosition="-3"/>
-	<eLabel backgroundColor="gradient" position="0,1020" size="1920,60" zPosition="-4"/>
-</layout>

@@ -1,5 +1,5 @@
 	<screen backgroundColor="transparent" flags="wfNoBorder" name="MainMenu" position="center,580" size="1920,500" title="Media Center">
-		<widget backgroundColor="background" font="Bold;40" position="120,10" render="Label" size="760,47" source="Title" transparent="1"/>
+		<widget  font="Bold;40" position="120,10" render="Label" size="760,47" source="Title" transparent="1"/>
 		<widget name="menuIcon" position="130,120" size="200,200"/>
 		<eLabel backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1710,15" size="100,38" text="menu" valign="center"/>
 		<widget backgroundColorSelected="background" enableWrapAround="1" foregroundColorSelected="Heading" position="520,80" render="Listbox" scrollbarMode="showNever" size="880,240" source="menulist" transparent="1">

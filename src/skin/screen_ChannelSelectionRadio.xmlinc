@@ -4,27 +4,27 @@
 		<layout name="back_bigbutton"/>
 		<layout name="bigbutton_name"/>
 		<widget additionalInfoFont="Regular;26" backgroundColor="background" colorRecording="red" colorRecordingSelected="CursorForeground" colorServiceDescription="foreground" colorServiceDescriptionSelected="CursorForeground" foregroundColorServiceNotAvail="#818181" name="list" picServiceEventProgressbar="Shadow-FHD/images/progress.svg" position="710,110" scrollbarMode="showOnDemand" serviceInfoFont="Regular;26" serviceItemHeight="63" serviceNameFont="Bold;26" serviceNumberFont="Bold;26" size="1120,630" transparent="1"/>
-		<widget backgroundColor="background" font="Regular;28" position="80,110" render="Label" size="550,630" source="session.Event_Now" transparent="1">
+		<widget  font="Regular;28" position="80,110" render="Label" size="550,630" source="session.Event_Now" transparent="1">
 			<convert type="EventName">FullDescription</convert>
 		</widget>
 		<widget position="90,825" render="Picon" size="220,132" source="session.CurrentService">
 			<convert type="ServiceName">Reference</convert>
 		</widget>
-		<widget backgroundColor="background" font="Regular;45" position="330,800" render="Label" size="1250,56" source="session.CurrentService" transparent="1">
+		<widget  font="Regular;45" position="330,800" render="Label" size="1250,56" source="session.CurrentService" transparent="1">
 			<convert type="ServiceName">Name</convert>
 		</widget>
-		<widget backgroundColor="background" font="Regular;30" foregroundColor="Heading" halign="right" position="1615,810" render="Label" size="90,35" source="session.Event_Now" transparent="1">
+		<widget  font="Regular;30" foregroundColor="Heading" halign="right" position="1615,810" render="Label" size="90,35" source="session.Event_Now" transparent="1">
 			<convert type="EventTime">StartTime</convert>
 			<convert type="ClockToText">Default</convert>
 		</widget>
-		<widget backgroundColor="background" font="Regular;30" foregroundColor="Heading" halign="right" position="1710,810" render="Label" size="100,35" source="session.Event_Now" transparent="1">
+		<widget  font="Regular;30" foregroundColor="Heading" halign="right" position="1710,810" render="Label" size="100,35" source="session.Event_Now" transparent="1">
 			<convert type="EventTime">EndTime</convert>
 			<convert type="ClockToText">Format:- %H:%M</convert>
 		</widget>
-		<widget backgroundColor="background" font="Regular;30" position="330,865" render="Label" size="1250,35" source="session.Event_Now" transparent="1">
+		<widget  font="Regular;30" position="330,865" render="Label" size="1250,35" source="session.Event_Now" transparent="1">
 			<convert type="EventName">Name</convert>
 		</widget>
-		<widget backgroundColor="background" font="Regular;30" halign="right" position="1610,865" render="Label" size="200,35" source="session.Event_Now" transparent="1">
+		<widget  font="Regular;30" halign="right" position="1610,865" render="Label" size="200,35" source="session.Event_Now" transparent="1">
 			<convert type="EventTime">Remaining</convert>
 			<convert type="RemainingToText">inMinutes</convert>
 		</widget>

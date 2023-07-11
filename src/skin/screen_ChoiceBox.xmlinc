@@ -1,6 +1,5 @@
-	<screen backgroundColor="Tile" flags="wfNoBorder" name="ChoiceBox" position="0,0" size="700,1080">
-		<layout name="Title_small"/>
-		<ePixmap pixmap="Shadow-FHD/images/info.svg" position="25,15" size="70,70"/>
-		<widget backgroundColor="background" enableWrapAround="1" name="list" position="15,150" scrollbarMode="showNever" size="670,660" transparent="1"/>
-		<ePixmap pixmap="Shadow-FHD/skin_default/icons/arrow_down.svg" position="320,1040" size="50,50"/>
+	<screen backgroundColor="background" flags="wfNoBorder" name="ChoiceBox" position="0,0" size="700,1080">
+		<xmlinc name="screenpart_Title_small" $source="Title" $menu_pixmap="Shadow-FHD/images/info.svg"/>
+		<widget  enableWrapAround="1" name="list" position="20,120" scrollbarMode="showNever" size="660,680" transparent="1"/>
+		<xmlinc name="screenpart_menu_arrow_down"/>
 	</screen>

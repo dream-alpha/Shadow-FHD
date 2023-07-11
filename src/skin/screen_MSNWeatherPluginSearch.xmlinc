@@ -1,6 +1,0 @@
-	<screen backgroundColor="transparent" flags="wfNoBorder" name="MSNWeatherPluginSearch" position="center,center" size="1040,450">
-		<layout name="Title_Popup"/>
-		<layout name="Text_OK_Popup"/>
-		<ePixmap pixmap="Shadow-FHD/images/scan.svg" position="58,18" size="100,100"/>
-		<widget enableWrapAround="1" itemHeight="80" name="entrylist" position="20,150" scrollbarMode="showOnDemand" size="1000,160"/>
-	</screen>

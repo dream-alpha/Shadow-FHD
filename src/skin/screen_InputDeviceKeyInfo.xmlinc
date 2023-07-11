@@ -6,5 +6,5 @@
 		<widget name="arrowup" pixmap="skin_default/arrowup.png" position="-100,-100" size="37,70" zPosition="1"/>
 		<widget name="arrowup2" pixmap="skin_default/arrowup.png" position="-100,-100" size="37,70" zPosition="1"/>
 		<eLabel backgroundColor="background" position="700,90" size="1140,940" zPosition="-1"/>
-		<widget backgroundColor="background" enableWrapAround="1" name="list" position="720,110" scrollbarMode="showOnDemand" size="1100,900" transparent="1"/>
+		<widget  enableWrapAround="1" name="list" position="720,110" scrollbarMode="showOnDemand" size="1100,900" transparent="1"/>
 	</screen>

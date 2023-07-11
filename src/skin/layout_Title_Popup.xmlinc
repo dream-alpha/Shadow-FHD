@@ -1,5 +1,5 @@
 	<layout name="Title_Popup">
 		<eLabel backgroundColor="background" position="0,70" size="1040,500" zPosition="-1"/>
 		<eLabel backgroundColor="CursorBackground" position="40,0" size="140,140" zPosition="-1"/>
-		<widget backgroundColor="background" font="Bold;40" halign="right" position="200,90" render="Label" size="820,47" source="Title" valign="centerOrBottom"/>
+		<widget  font="Bold;40" halign="right" position="200,90" render="Label" size="820,47" source="Title" valign="centerOrBottom"/>
 	</layout>

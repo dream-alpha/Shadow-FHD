@@ -1,0 +1,8 @@
+	<widget font="Regular;27" halign="center" name="key_red" position="0,0" size="480,33" transparent="1" valign="center" zPosition="1"/>
+	<widget font="Regular;27" halign="center" name="key_green" position="480,0" size="480,33" transparent="1" valign="center" zPosition="1"/>
+	<widget font="Regular;27" halign="center" name="key_yellow" position="960,0" size="480,33" transparent="1" valign="center" zPosition="1"/>
+	<widget font="Regular;27" halign="center" name="key_blue" position="1440,0" size="480,33" transparent="1" valign="center" zPosition="1"/>
+	<eLabel backgroundColor="red" position="0,41" size="480,11"/>
+	<eLabel backgroundColor="green" position="480,41" size="480,11"/>
+	<eLabel backgroundColor="yellow" position="960,41" size="480,11"/>
+	<eLabel backgroundColor="blue" position="1440,41" size="480,11"/>

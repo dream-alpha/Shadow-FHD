@@ -6,8 +6,8 @@
 		<eLabel backgroundColor="background" position="980,90" size="800,650" zPosition="-1"/>
 		<eLabel backgroundColor="background" font="Bold;34" halign="center" position="165,100" size="760,45" text="F I L E L I S T" transparent="1"/>
 		<eLabel backgroundColor="foreground" position="165,150" size="760,1"/>
-		<widget backgroundColor="background" enableWrapAround="1" name="filelist" position="165,170" scrollbarMode="showOnDemand" size="760,550" transparent="1"/>
+		<widget  enableWrapAround="1" name="filelist" position="165,170" scrollbarMode="showOnDemand" size="760,550" transparent="1"/>
 		<eLabel backgroundColor="background" font="Bold;34" halign="center" position="1000,100" size="760,45" text="P L A Y L I S T" transparent="1"/>
 		<eLabel backgroundColor="foreground" position="1000,150" size="760,1"/>
-		<widget backgroundColor="background" enableWrapAround="1" name="playlist" position="1000,170" scrollbarMode="showOnDemand" selectionDisabled="1" size="760,550" transparent="1"/>
+		<widget  enableWrapAround="1" name="playlist" position="1000,170" scrollbarMode="showOnDemand" selectionDisabled="1" size="760,550" transparent="1"/>
 	</screen>

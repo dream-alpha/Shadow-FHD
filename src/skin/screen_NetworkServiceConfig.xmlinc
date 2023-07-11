@@ -18,6 +18,6 @@
 			</convert>
 		</widget>
 		<widget backgroundColor="CursorBackground" font="Regular;26" foregroundColor="CursorForeground" halign="center" name="hint" position="80,900" size="820,50" valign="center"/>
-		<widget backgroundColor="background" font="Regular;27" halign="center" name="details" position="950,180" size="900,780" transparent="1"/>
+		<widget  font="Regular;27" halign="center" name="details" position="950,180" size="900,780" transparent="1"/>
 		<eLabel backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1750,915" size="100,38" text="menu" valign="center"/>
 	</screen>

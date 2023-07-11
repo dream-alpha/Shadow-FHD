@@ -1,9 +1,9 @@
 <screen backgroundColor="transparent" flags="wfNoBorder" name="InfoBar" position="center,center" size="1920,1080" zPosition="1">
-	<layout name="Infobar Clock"/>
-	<layout name="Infobar Pic"/>
+	<layout name="Infobar_Clock"/>
+	<layout name="Infobar_Pic"/>
 	<layout name="Resolution2"/>
 	<layout name="Infobar"/>
-	<layout name="Bar gradient"/>
+	<layout name="Bar_gradient"/>
 	<widget pixmap="Shadow-FHD/skin_default/icons/record_long.svg" position="1770,105" render="Pixmap" size="128,38" source="session.RecordState">
 		<convert type="ConditionalShowHide"/>
 	</widget>

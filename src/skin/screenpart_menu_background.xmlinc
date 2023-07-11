@@ -1,0 +1,3 @@
+<ePixmap gradient="transparent,gradient,vertical" position="0,100" size="$width,400" zPosition="-3"/>
+<eLabel backgroundColor="gradient" position="0,500" size="$width,100" zPosition="-3"/>
+<ePixmap gradient="gradient,transparent,vertical" position="0,600" size="$width,400" zPosition="-3"/>

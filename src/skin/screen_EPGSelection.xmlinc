@@ -1,6 +1,6 @@
 	<screen backgroundColor="background" flags="wfNoBorder" name="EPGSelection" position="center,center" size="1920,1080" title="EPG Selection">
 		<layout name="Title"/>
-		<layout name="Bigbutton_key_name"/>
+		<xmlinc name=screenpart_4Buttons1920" position="0,1028"/>
 		<eLabel backgroundColor="Tile" position="12,81" size="848,930" zPosition="-1"/>
 		<widget backgroundColor="Tile" name="list" position="19,86" size="834,900" transparent="1"/>
 		<eLabel backgroundColor="background" position="900,90" size="190,120"/>

@@ -3,16 +3,16 @@
 		<layout name="Half_back"/>
 		<layout name="back_bigbutton"/>
 		<eLabel backgroundColor="background" position="220,180" size="280,300" zPosition="-1"/>
-		<widget backgroundColor="background" backgroundColorSelected="background" foregroundColorSelected="Heading" name="menu" position="280,200" size="180,300"/>
+		<widget  backgroundColorSelected="background" foregroundColorSelected="Heading" name="menu" position="280,200" size="180,300"/>
 		<ePixmap pixmap="Shadow-FHD/skin_default/icons/logo.svg" position="140,680" size="428,26"/>
 		<ePixmap pixmap="Shadow-FHD/images/scan.svg" position="100,810" size="160,160"/>
 		<eLabel backgroundColor="background" font="Regular;45" position="310,810" size="350,55" text="Search with 0-9 :" transparent="1"/>
-		<widget backgroundColor="background" font="Regular;45" name="input" position="310,910" size="1500,55" transparent="1"/>
-		<widget backgroundColor="background" font="Regular;32" foregroundColor="Heading" halign="center" name="statuslabel" position="310,920" size="1500,40" transparent="1"/>
+		<widget  font="Regular;45" name="input" position="310,910" size="1500,55" transparent="1"/>
+		<widget  font="Regular;32" foregroundColor="Heading" halign="center" name="statuslabel" position="310,920" size="1500,40" transparent="1"/>
 		<eLabel backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1710,825" size="100,38" text="Bouq." valign="center"/>
 		<eLabel backgroundColor="grey" position="310,880" size="1500,1"/>
-		<widget backgroundColor="background" enableWrapAround="1" name="config" position="720,110" scrollbarMode="showOnDemand" size="1110,640"/>
-		<widget backgroundColor="background" enableWrapAround="1" position="720,110" render="Listbox" scrollbarMode="showOnDemand" size="1110,640" source="list" transparent="1">
+		<widget  enableWrapAround="1" name="config" position="720,110" scrollbarMode="showOnDemand" size="1110,640"/>
+		<widget  enableWrapAround="1" position="720,110" render="Listbox" scrollbarMode="showOnDemand" size="1110,640" source="list" transparent="1">
 			<convert type="TemplatedMultiContent">
 			{"templates":
 			{"default":(80,[

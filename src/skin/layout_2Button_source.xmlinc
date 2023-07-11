@@ -1,4 +1,0 @@
-	<layout name="2Button_source">
-		<widget backgroundColor="#9f1313" font="Regular;30" foregroundColor="white" halign="center" position="10,5" render="Label" shadowColor="black" shadowOffset="-2,-2" size="350,70" source="key_red" transparent="1" valign="center" zPosition="1"/>
-		<widget backgroundColor="#1f771f" font="Regular;30" foregroundColor="white" halign="center" position="360,5" render="Label" shadowColor="black" shadowOffset="-2,-2" size="350,70" source="key_green" transparent="1" valign="center" zPosition="1"/>
-	</layout>

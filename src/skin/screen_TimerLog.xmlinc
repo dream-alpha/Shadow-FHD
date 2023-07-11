@@ -1,7 +1,6 @@
-	<screen name="TimerLog" position="center,170" size="1200,820" title="Timer log">
-		<layout name="Button_Small"/>
-		<layout name="Button_Small_name"/>
-		<widget enableWrapAround="1" name="loglist" position="10,90" scrollbarMode="showOnDemand" size="1180,450"/>
-		<eLabel backgroundColor="grey" position="10,550" size="1180,2"/>
-		<widget font="Regular;30" name="logentry" position="10,560" size="1180,240"/>
+	<screen backgroundColor="background" flags="wfNoBorder" name="TimerLog" position="0,0" size="1200,1080" title="Timer Log">
+		<xmlinc name="screenpart_Title_broad" $source="Title" $menu_pixmap="Shadow-FHD/images/timer.svg"/>
+		<xmlinc name="screenpart_4Buttons1200" position="0,1028"/>
+		<widget enableWrapAround="1" name="loglist" position="20,120" scrollbarMode="showOnDemand" size="1160,680"/>
+		<widget font="Regular;30" name="logentry" position="20,870" size="1160,240"/>
 	</screen>

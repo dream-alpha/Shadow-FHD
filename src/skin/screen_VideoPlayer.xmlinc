@@ -2,7 +2,7 @@
 		<layout name="small_back"/>
 		<eLabel backgroundColor="background" font="Bold;40" position="120,10" size="760,47" text="Video Player" transparent="1"/>
 		<eLabel backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1710,15" size="100,38" text="Bouq." valign="center"/>
-		<widget backgroundColor="background" enableWrapAround="1" position="120,80" render="Listbox" scrollbarMode="showOnDemand" size="1690,300" source="playlist" transparent="1">
+		<widget  enableWrapAround="1" position="120,80" render="Listbox" scrollbarMode="showOnDemand" size="1690,300" source="playlist" transparent="1">
 			<convert type="TemplatedMultiContent">
 			{"template":[MultiContentEntryText(pos=(5,0),size=(1680,50),font=0,flags=RT_VALIGN_CENTER,text=2),],
 			"fonts":[gFont("Regular",28)],"itemHeight":50}

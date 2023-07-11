@@ -1,11 +1,10 @@
-	<screen backgroundColor="Tile" flags="wfNoBorder" name="StreamServerConfig" position="0,center" size="700,1080">
-		<layout name="Title_small"/>
+	<screen backgroundColor="background" flags="wfNoBorder" name="StreamServerConfig" position="0,center" size="700,1080">
+		<xmlinc name="screenpart_Title_small" $source="Title" $menu_pixmap="Shadow-FHD/images/streamserver.svg"/>
 		<layout name="smallbutton_yellow"/>
-		<ePixmap pixmap="Shadow-FHD/images/streamserver.svg" position="25,15" size="70,70"/>
-		<widget backgroundColor="background" enableWrapAround="1" name="config" position="20,150" scrollbarMode="showOnDemand" size="660,420" transparent="1"/>
+		<widget  enableWrapAround="1" name="config" position="20,120" scrollbarMode="showOnDemand" size="660,420" transparent="1"/>
 		<eLabel backgroundColor="grey" position="10,700" size="680,2"/>
-		<widget backgroundColor="background" font="Bold;28" halign="center" name="details_label" position="20,715" size="660,35" transparent="1"/>
-		<widget backgroundColor="background" font="Regular;26" halign="center" name="details" position="20,755" size="660,70" transparent="1"/>
-		<widget backgroundColor="background" font="Regular;24" halign="center" name="info" position="20,900" size="660,70" transparent="1"/>
-		<widget backgroundColor="background" font="Regular;19" foregroundColor="Heading" halign="center" name="details_hint" position="10,970" size="680,30" transparent="1"/>
+		<widget  font="Bold;28" halign="center" name="details_label" position="20,715" size="660,35" transparent="1"/>
+		<widget  font="Regular;26" halign="center" name="details" position="20,755" size="660,70" transparent="1"/>
+		<widget  font="Regular;24" halign="center" name="info" position="20,900" size="660,70" transparent="1"/>
+		<widget  font="Regular;19" foregroundColor="Heading" halign="center" name="details_hint" position="10,970" size="680,30" transparent="1"/>
 	</screen>

@@ -1,5 +1,4 @@
-	<screen backgroundColor="Tile" flags="wfNoBorder" name="VirtualZapConfig" position="0,center" size="700,1080" title="Virtual Zap Setup">
-		<layout name="Title_small"/>
-		<layout name="gp_conf"/>
-		<ePixmap pixmap="Shadow-FHD/skin_default/icons/timerlist_zap.svg" position="25,15" size="70,70"/>
+	<screen backgroundColor="background" flags="wfNoBorder" name="VirtualZapConfig" position="0,center" size="700,1080" title="Virtual Zap Setup">
+		<xmlinc name="screenpart_Title_small" $source="Title" $menu_pixmap="Shadow-FHD/skin_default/icons/timerlist_zap.svg"/>
+		<layout name="header_conf"/>
 	</screen>

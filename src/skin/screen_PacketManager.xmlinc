@@ -1,8 +1,7 @@
-	<screen backgroundColor="Tile" flags="wfNoBorder" name="PacketManager" position="0,0" size="1200,1080">
-		<layout name="Title_broad"/>
+	<screen backgroundColor="background" flags="wfNoBorder" name="PacketManager" position="0,0" size="1200,1080">
+		<xmlinc name="screenpart_Title_broad" $source="Title" $menu_pixmap="Shadow-FHD/images/softmanager.svg"/>
 		<layout name="broadbutton_green"/>
-		<ePixmap pixmap="Shadow-FHD/images/softmanager.svg" position="25,15" size="70,70"/>
-		<widget backgroundColor="background" enableWrapAround="1" position="20,150" render="Listbox" scrollbarMode="showOnDemand" size="1160,800" source="list" transparent="1">
+		<widget  enableWrapAround="1" position="20,120" render="Listbox" scrollbarMode="showOnDemand" size="1160,800" source="list" transparent="1">
 			<convert type="TemplatedMultiContent">
 			{"template":[MultiContentEntryPixmapAlphaTest(pos=(5,20),size=(60,60),png=4),
 			MultiContentEntryText(pos=(80,4),size=(1070,32),font=0,text=0),

@@ -1,11 +1,11 @@
 	<screen backgroundColor="transparent" flags="wfNoBorder" name="EventView" position="center,580" size="1920,500">
 		<layout name="bigbutton_name_small"/>
 		<layout name="back_bigbutton_small"/>
-		<widget backgroundColor="background" font="Bold;40" name="channel" position="120,10" size="900,47" transparent="1"/>
-		<widget backgroundColor="background" font="Regular;30" foregroundColor="Heading" halign="right" name="datetime" position="1090,15" size="280,35" transparent="1"/>
-		<widget backgroundColor="background" font="Regular;30" foregroundColor="Heading" halign="right" name="duration" position="1380,15" size="150,35" transparent="1"/>
-		<widget backgroundColor="background" font="Regular;30" foregroundColor="Heading" halign="right" position="1540,15" render="Label" size="270,35" source="global.CurrentTime">
+		<widget  font="Bold;40" name="channel" position="120,10" size="900,47" transparent="1"/>
+		<widget  font="Regular;30" foregroundColor="Heading" halign="right" name="datetime" position="1090,15" size="280,35" transparent="1"/>
+		<widget  font="Regular;30" foregroundColor="Heading" halign="right" name="duration" position="1380,15" size="150,35" transparent="1"/>
+		<widget  font="Regular;30" foregroundColor="Heading" halign="right" position="1540,15" render="Label" size="270,35" source="global.CurrentTime">
 			<convert type="ClockToText">Format:%a %d.%m. %H:%M</convert>
 		</widget>
-		<widget backgroundColor="background" font="Regular;28" name="epg_description" position="120,80" size="1690,300" transparent="1"/>
+		<widget  font="Regular;28" name="epg_description" position="120,80" size="1690,300" transparent="1"/>
 	</screen>

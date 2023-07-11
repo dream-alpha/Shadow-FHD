@@ -1,15 +1,15 @@
 	<screen backgroundColor="background" flags="wfNoBorder" name="LocationBox" position="center,center" size="1920,1080">
 		<layout name="Title_Time"/>
 		<ePixmap pixmap="Shadow-FHD/images/menu.svg" position="1845,90" size="50,50"/>
-		<widget backgroundColor="background" font="Regular;30" name="text" position="30,95" size="1500,35" transparent="1"/>
+		<widget  font="Regular;30" name="text" position="30,95" size="1500,35" transparent="1"/>
 		<ePixmap pixmap="Shadow-FHD/skin_default/icons/arrow_left.svg" position="center,350" size="110,110"/>
 		<ePixmap pixmap="Shadow-FHD/skin_default/icons/arrow_right.svg" position="center,650" size="110,110"/>
 		<eLabel backgroundColor="background" position="30,160" size="890,810" zPosition="-2"/>
-		<widget backgroundColor="background" font="Bold;28" name="target" noWrap="1" position="40,172" size="870,40" transparent="1" valign="center"/>
-		<widget backgroundColor="background" enableWrapAround="1" name="filelist" position="40,230" scrollbarMode="showOnDemand" selectionDisabled="1" size="870,700" transparent="1"/>
+		<widget  font="Bold;28" name="target" noWrap="1" position="40,172" size="870,40" transparent="1" valign="center"/>
+		<widget  enableWrapAround="1" name="filelist" position="40,230" scrollbarMode="showOnDemand" selectionDisabled="1" size="870,700" transparent="1"/>
 		<eLabel backgroundColor="background" position="1000,160" size="890,810" zPosition="-2"/>
-		<widget backgroundColor="background" font="Bold;28" name="textbook" noWrap="1" position="1010,172" size="870,40" transparent="1" valign="center"/>
-		<widget backgroundColor="background" enableWrapAround="1" name="booklist" position="1010,230" scrollbarMode="showOnDemand" size="870,650" transparent="1"/>
+		<widget  font="Bold;28" name="textbook" noWrap="1" position="1010,172" size="870,40" transparent="1" valign="center"/>
+		<widget  enableWrapAround="1" name="booklist" position="1010,230" scrollbarMode="showOnDemand" size="870,650" transparent="1"/>
 		<eLabel backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1770,915" size="100,38" text="Bouq." valign="center"/>
 		<eLabel backgroundColor="green" position="0,1070" size="960,10"/>
 		<eLabel backgroundColor="blue" position="960,1070" size="960,10"/>

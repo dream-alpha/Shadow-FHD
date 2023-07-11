@@ -1,7 +1,7 @@
 	<screen backgroundColor="transparent" flags="wfNoBorder" name="TeleTextFavoritesMenu" position="center,580" size="1920,500" title="TeleText Favorites Menü">
 		<layout name="back_bigbutton_small"/>
-		<widget backgroundColor="background" font="Bold;40" position="120,10" render="Label" size="760,47" source="Title" transparent="1"/>
-		<widget backgroundColor="background" enableWrapAround="1" name="fav_list" position="120,80" scrollbarMode="showOnDemand" size="1690,300" transparent="1"/>
+		<widget  font="Bold;40" position="120,10" render="Label" size="760,47" source="Title" transparent="1"/>
+		<widget  enableWrapAround="1" name="fav_list" position="120,80" scrollbarMode="showOnDemand" size="1690,300" transparent="1"/>
 		<widget backgroundColor="gradient" font="Regular;26" halign="center" name="key_r" position="0,420" size="480,60" transparent="1" valign="center"/>
 		<widget backgroundColor="gradient" font="Regular;26" halign="center" name="key_g" position="480,420" size="480,60" transparent="1" valign="center"/>
 		<widget backgroundColor="gradient" font="Regular;26" halign="center" name="key_y" position="960,420" size="480,60" transparent="1" valign="center"/>

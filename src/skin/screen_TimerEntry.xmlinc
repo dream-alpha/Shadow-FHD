@@ -1,6 +1,5 @@
-	<screen backgroundColor="Tile" flags="wfNoBorder" name="TimerEntry" position="0,0" size="1200,1080" title="Timer entry">
-		<layout name="Title_broad"/>
-		<ePixmap pixmap="Shadow-FHD/images/timer.svg" position="25,15" size="70,70"/>
-		<xmlinc name="2Buttons300" position="0,1028"/>
-		<widget backgroundColor="background" enableWrapAround="1" name="config" position="20,115" scrollbarMode="showOnDemand" size="1160,865"/>
+	<screen backgroundColor="background" flags="wfNoBorder" name="TimerEntry" position="0,0" size="1200,1080" title="Timer entry">
+		<xmlinc name="screenpart_Title_broad" $source="Title" $menu_pixmap="Shadow-FHD/images/timer.svg"/>
+		<xmlinc name="screenpart_4Buttons1200_ok_cancel" position="0,1028"/>
+		<widget  enableWrapAround="1" name="config" position="20,120" scrollbarMode="showOnDemand" size="1160,865"/>
 	</screen>
