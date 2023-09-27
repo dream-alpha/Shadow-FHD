@@ -1,0 +1,9 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="SortableMenu" position="0,0" size="1200,1080" title="Menü Sort">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/images/sort.svg" source="Title"/>
+		<ePixmap pixmap="Shadow-FHD/images/ok_neutral.svg" position="eval($screen_width-20-50),30" size="50,50"/>
+		<widget enableWrapAround="1" font="Regular;28" hiddenColor="#818181" itemHeight="60" name="menu" position="20,120" scrollbarMode="showNever" size="eval($screen_width-40),900" transparent="1"/>
+		<widget backgroundColor="CursorBackground" font="Regular;22" foregroundColor="CursorForeground" halign="center" position="20,eval($screen_height-80-80)" render="Label" size="eval($screen_width-40),80" source="title" transparent="1" valign="center"/>
+		<xmlinc file="screenpart_1Button_text" position="eval(3*$screen_width/4),eval($screen_height-50)" text="hidden/visible" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_4Buttons_icon" position="0,eval($screen_height-10)"/>
+	</screen>

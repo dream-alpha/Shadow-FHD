@@ -1,0 +1,15 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="EPGSelection" position="center,center" size="1920,1080" title="EPG Selection">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<widget name="list" position="20,90" size="840,900" transparent="1"/>
+		<widget position="900,90" render="Picon" size="175,105" source="Service" zPosition="1">
+			<convert type="ServiceName">Reference</convert>
+		</widget>
+		<widget font="Bold;32" noWrap="1" position="900,220" render="Label" size="990,40" source="Event" transparent="1">
+			<convert type="EventName">Name</convert>
+		</widget>
+		<widget font="Regular;26" position="900,280" render="Label" size="990,690" source="Event" transparent="1">
+			<convert type="EventName">FullDescription</convert>
+		</widget>
+		<xmlinc file="screenpart_4Buttons_name" position="0,eval($screen_height-50)"/>
+	</screen>

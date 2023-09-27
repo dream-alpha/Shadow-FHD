@@ -1,0 +1,6 @@
+	<subtitles>
+		<sub font="Regular;46" foregroundColor="#eeeeee" name="Subtitle_TTX" shadowColor="black" shadowOffset="3,3"/>
+		<sub font="Regular;46" foregroundColor="#eeeeee" name="Subtitle_Regular" shadowColor="black" shadowOffset="3,3"/>
+		<sub font="Bold;46" foregroundColor="#eeeeee" name="Subtitle_Bold" shadowColor="black" shadowOffset="3,3"/>
+		<sub font="Regular;46" foregroundColor="#eeeeee" name="Subtitle_Italic" shadowColor="black" shadowOffset="3,3"/>
+	</subtitles>

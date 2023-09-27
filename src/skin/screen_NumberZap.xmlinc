@@ -1,0 +1,4 @@
+	<screen name="NumberZap" position="center,center" size="420,80" title="QuickZap">
+		<widget font="Regular;55" name="channel" position="20,10" size="180,60"/>
+		<widget font="Regular;55" halign="right" name="number" position="200,10" size="200,60"/>
+	</screen>

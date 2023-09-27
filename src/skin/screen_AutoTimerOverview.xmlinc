@@ -1,0 +1,10 @@
+	<screen backgroundColor="ScreenBackground" flags="wfNoBorder" name="AutoTimerOverview" position="0,0" size="1200,1080">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<widget colorDisabled="#818181" enableWrapAround="1" itemHeight="50" name="entries" position="20,90" scrollbarMode="showOnDemand" size="eval($screen_width-40),660" transparent="1"/>
+		<xmlinc file="screenpart_1Button_text" position="0,eval($screen_height-50)" text="Abort" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_1Button_source" position="eval($screen_width/4),eval($screen_height-50)" source="key_green" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_1Button_source" position="eval(2*$screen_width/4),eval($screen_height-50)" source="key_yellow" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_1Button_source" position="eval(3*$screen_width/4),eval($screen_height-50)" source="key_blue" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_4Buttons_icon" position="0,eval($screen_height-10)"/>
+	</screen>

@@ -1,0 +1,6 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="TimerEditList" position="0,0" size="1200,1080" title="Timer Editor">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/images/timer.svg" source="Title"/>
+		<widget enableWrapAround="1" name="timerlist" position="20,110" scrollbarMode="showOnDemand" size="1160,eval(8*112)" transparent="1"/>
+		<xmlinc file="screenpart_4Buttons_name" position="0,eval($screen_height-50)"/>
+	</screen>

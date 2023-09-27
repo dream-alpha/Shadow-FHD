@@ -1,0 +1,20 @@
+	<eLabel backgroundColor="gradient" position="0,550" size="1920,530" zPosition="-1"/>
+	<ePixmap gradient="transparent,gradient,vertical" position="0,0" size="1920,550" zPosition="-2"/>
+	<widget backgroundColor="gradient" font="Bold;45" position="30,330" render="Label" size="1860,108" source="Event" transparent="1" valign="bottom">
+		<convert type="EventName">Name</convert>
+	</widget>
+	<widget backgroundColor="gradient" font="Bold;28" foregroundColor="Heading" position="30,455" render="Label" size="130,35" source="Event" transparent="1">
+		<convert type="EventTime">StartTime</convert>
+		<convert type="ClockToText">Format:%a %d.%m.</convert>
+	</widget>
+	<widget backgroundColor="gradient" font="Bold;28" foregroundColor="Heading" position="160,455" render="Label" size="100,35" source="Event" transparent="1">
+		<convert type="EventTime">StartTime</convert>
+		<convert type="ClockToText"/>
+	</widget>
+	<widget backgroundColor="gradient" font="Bold;28" foregroundColor="Heading" position="260,455" render="Label" size="140,35" source="Event" transparent="1">
+		<convert type="EventTime">Remaining</convert>
+		<convert type="RemainingToText">inMinutes</convert>
+	</widget>
+	<widget backgroundColor="gradient" font="Regular;28" position="30,500" render="Label" size="1860,66" source="Event" transparent="1">
+		<convert type="EventName">ExtendedDescription</convert>
+	</widget>

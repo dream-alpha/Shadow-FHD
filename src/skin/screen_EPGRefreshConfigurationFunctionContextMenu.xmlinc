@@ -1,0 +1,10 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="EPGRefreshConfigurationFunctionContextMenu" position="center,center" size="1200,450" title="EPGRefresh Functions">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<widget enableWrapAround="on" position="20,120" render="Listbox" scrollbarMode="showOnDemand" size="eval($screen_width-40),200" source="menu">
+			<convert type="TemplatedMultiContent">
+			{"template":[MultiContentEntryText(pos=(10,0),size=(eval($screen_width-60),50),flags=RT_VALIGN_CENTER,text=0)],
+			"fonts":[gFont("Regular",26)],"itemHeight":50}
+			</convert>
+		</widget>
+	</screen>

@@ -1,0 +1,273 @@
+	<screen id="3" name="About_summary" position="0,0" size="400,240">
+		<ePixmap pixmap="Shadow-FHD/skin_default/display_bg.png" position="0,0" size="400,240" zPosition="-1"/>
+		<widget font="Display;48" halign="center" position="0,5" render="Label" size="380,48" source="parent.Title" transparent="1" valign="top"/>
+		<widget font="Display;60" halign="center" position="0,60" render="Label" size="380,170" source="parent.Model" transparent="1" valign="center">
+			<convert type="DreamboxModel"/>
+		</widget>
+	</screen>
+	<screen id="3" name="ChannelSelection_summary" position="0,0" size="400,240">
+		<ePixmap pixmap="Shadow-FHD/skin_default/display_bg.png" position="0,0" size="400,240" zPosition="-1"/>
+		<widget font="Display;60" halign="center" position="5,5" render="Label" size="400,130" source="parent.ServiceEvent" transparent="1" valign="center">
+			<convert type="ServiceName">Name</convert>
+		</widget>
+		<widget borderWidth="1" pixmap="Shadow-FHD/skin_default/progress.svg" position="center,140" render="Progress" size="380,15" source="parent.ServiceEvent" transparent="1">
+			<convert type="EventTime">Progress</convert>
+		</widget>
+		<widget font="Display;75" halign="center" position="center,160" render="Label" size="380,84" source="global.CurrentTime" transparent="1" valign="center">
+			<convert type="ClockToText">Format:%H:%M</convert>
+		</widget>
+	</screen>
+	<screen id="3" name="InfoBarSummary" position="0,0" size="400,240">
+		<ePixmap pixmap="Shadow-FHD/skin_default/display_bg.png" position="0,0" size="400,240" zPosition="-1"/>
+		<widget font="Display;60" halign="center" position="5,5" render="Label" size="400,120" source="session.Event_Now" transparent="1" valign="center">
+			<convert type="EventName">Name</convert>
+		</widget>
+		<widget borderWidth="1" pixmap="Shadow-FHD/skin_default/progress.svg" position="center,140" render="Progress" size="380,15" source="session.Event_Now" transparent="1">
+			<convert type="EventTime">Progress</convert>
+		</widget>
+		<widget font="Display;75" halign="left" position="5,160" render="Label" size="250,80" source="session.Event_Now" transparent="1" valign="center">
+			<convert type="EventTime">EndTime</convert>
+			<convert type="ClockToText">Format:&gt;%H:%M</convert>
+		</widget>
+		<widget font="Display;75" halign="right" position="200,160" render="Label" size="195,80" source="session.Event_Now" transparent="1" valign="center">
+			<convert type="EventTime">Remaining</convert>
+			<convert type="RemainingToText">OnlyMinutes</convert>
+		</widget>
+	</screen>
+	<screen id="3" name="InfoBarMoviePlayerSummary" position="0,0" size="400,240">
+		<ePixmap pixmap="Shadow-FHD/skin_default/display_bg.png" position="0,0" size="400,240" zPosition="-1"/>
+		<widget font="Display;48" halign="center" position="center,5" render="Label" size="380,92" source="session.CurrentService" transparent="1" valign="center">
+			<convert type="ServiceName">Name</convert>
+		</widget>
+		<widget borderWidth="1" pixmap="Shadow-FHD/skin_default/progress.svg" position="center,112" render="Progress" size="380,15" source="session.CurrentService" transparent="1">
+			<convert type="ServicePosition">Position</convert>
+		</widget>
+		<widget font="Display;80" halign="center" position="center,146" render="Label" size="380,84" source="global.CurrentTime" transparent="1" valign="center">
+			<convert type="ClockToText">Format:%H:%M</convert>
+		</widget>
+	</screen>
+	<screen id="3" name="PluginBrowserSummary" position="0,0" size="400,240">
+		<ePixmap pixmap="Shadow-FHD/skin_default/display_bg.png" position="0,0" size="400,240" zPosition="-1"/>
+		<widget font="Display;48" halign="center" position="center,5" render="Label" size="380,92" source="parent.pluginlist" transparent="1" valign="top">
+			<convert type="StringListSelection">1</convert>
+		</widget>
+		<widget font="Display;36" halign="center" position="center,105" render="Label" size="380,132" source="parent.pluginlist" transparent="1" valign="top">
+			<convert type="StringListSelection">2</convert>
+		</widget>
+	</screen>
+	<screen id="3" name="MoviePlayer_summary" position="0,0" size="400,240">
+		<ePixmap pixmap="Shadow-FHD/skin_default/display_bg.png" position="0,0" size="400,240" zPosition="-1"/>
+		<widget font="Display;48" halign="center" position="center,5" render="Label" size="380,92" source="session.CurrentService" transparent="1" valign="center">
+			<convert type="ServiceName">Name</convert>
+		</widget>
+		<widget borderWidth="1" pixmap="Shadow-FHD/skin_default/progress.svg" position="center,112" render="Progress" size="380,15" source="session.CurrentService" transparent="1">
+			<convert type="ServicePosition">Position</convert>
+		</widget>
+		<widget font="Display;80" halign="center" position="center,146" render="Label" size="380,84" source="session.CurrentService" transparent="1" valign="center">
+			<convert type="ServicePosition">Position</convert>
+		</widget>
+	</screen>
+	<screen id="3" name="AudioPlayer_summary" position="0,0" size="400,240">
+		<ePixmap pixmap="Shadow-FHD/skin_default/display_bg.png" position="0,0" size="400,240" zPosition="-1"/>
+		<widget font="Display;48" halign="center" position="center,5" render="Label" size="380,92" source="session.CurrentService" transparent="1" valign="center">
+			<convert type="ServiceName">Name</convert>
+		</widget>
+		<widget borderWidth="1" pixmap="Shadow-FHD/skin_default/progress.svg" position="center,112" render="Progress" size="380,15" source="session.CurrentService" transparent="1">
+			<convert type="ServicePosition">Position</convert>
+		</widget>
+		<widget font="Display;80" halign="center" position="center,146" render="Label" size="380,84" source="session.CurrentService" transparent="1" valign="center">
+			<convert type="ServicePosition">Position</convert>
+		</widget>
+	</screen>
+	<screen id="3" name="MediaBrowser_summary" position="0,0" size="400,240">
+		<ePixmap pixmap="Shadow-FHD/skin_default/display_bg.png" position="0,0" size="400,240" zPosition="-1"/>
+		<widget font="Display;60" halign="center" position="10,5" render="Label" size="380,220" source="parent.summary_list" transparent="1" valign="centerOrBottom"/>
+	</screen>
+	<screen id="3" name="NetworkServiceConfig_summary" position="0,0" size="400,240">
+		<ePixmap pixmap="Shadow-FHD/skin_default/display_bg.png" position="0,0" size="400,240" zPosition="-1"/>
+		<widget font="Display;48" halign="center" position="10,5" render="Label" size="380,48" source="parent.Title" transparent="1" valign="top"/>
+		<widget font="Display;44" halign="center" position="10,60" render="Label" size="380,170" source="parent.summary_list" transparent="1" valign="center"/>
+	</screen>
+	<screen id="3" name="ChoiceBox_summary" position="0,0" size="400,240">
+		<ePixmap pixmap="Shadow-FHD/skin_default/display_bg.png" position="0,0" size="400,240" zPosition="-1"/>
+		<widget font="Display;32" halign="center" position="10,5" render="Label" size="380,225" source="parent.summary_list" transparent="1"/>
+	</screen>
+	<screen id="3" name="MessageBox_summary" position="0,0" size="400,240">
+		<ePixmap pixmap="Shadow-FHD/skin_default/display_bg.png" position="0,0" size="400,240" zPosition="-1"/>
+		<widget font="Display;44" halign="center" position="10,5" render="Label" size="380,176" source="parent.Text" transparent="1" valign="top"/>
+		<widget font="Display;44" halign="center" position="10,184" render="Label" size="380,44" source="parent.selectedChoice" transparent="1" valign="center"/>
+	</screen>
+	<screen id="3" name="MenuSummary" position="0,0" size="400,240">
+		<ePixmap pixmap="Shadow-FHD/skin_default/display_bg.png" position="0,0" size="400,240" zPosition="-1"/>
+		<widget font="Display;48" halign="center" position="10,5" render="Label" size="380,48" source="parent.title" transparent="1" valign="top"/>
+		<widget font="Display;60" halign="center" position="10,60" render="Label" size="380,170" source="parent.menu" transparent="1" valign="center">
+			<convert type="StringListSelection"/>
+		</widget>
+	</screen>
+	<screen id="3" name="ServiceScanSummary" position="0,0" size="400,240">
+		<ePixmap pixmap="Shadow-FHD/skin_default/display_bg.png" position="0,0" size="400,240" zPosition="-1"/>
+		<widget font="Display;48" halign="center" name="Title" position="10,5" render="Label" size="380,48" transparent="1" valign="top"/>
+		<widget font="Display;48" halign="center" name="Service" position="10,65" render="Label" size="380,100" transparent="1" valign="center"/>
+		<widget borderWidth="1" name="scan_progress" pixmap="Shadow-FHD/skin_default/progress.svg" position="center,190" size="380,15" transparent="1" zPosition="1"/>
+	</screen>
+	<screen id="3" name="SetupSummary" position="0,0" size="400,240">
+		<ePixmap pixmap="Shadow-FHD/skin_default/display_bg.png" position="0,0" size="400,240" zPosition="-1"/>
+		<widget font="Display;48" halign="center" position="10,5" render="Label" size="380,88" source="SetupTitle" transparent="1"/>
+		<widget font="Display;42" halign="left" position="10,98" render="Label" size="380,78" source="SetupEntry" transparent="1"/>
+		<widget font="Display;42" halign="right" position="10,181" render="Label" size="380,39" source="SetupValue" transparent="1"/>
+	</screen>
+	<screen id="3" name="SimpleSummary" position="0,0" size="400,240">
+		<ePixmap pixmap="Shadow-FHD/skin_default/display_bg.png" position="0,0" size="400,240" zPosition="-1"/>
+		<widget font="Display;48" halign="center" position="10,5" render="Label" size="380,220" source="parent.Title" transparent="1" valign="center"/>
+	</screen>
+	<screen id="3" name="StandbySummary" position="0,0" size="400,240">
+		<widget backgroundColor="#000000" font="Display;120" halign="center" position="0,0" render="Label" size="400,240" source="global.CurrentTime" transparent="0" valign="center">
+			<convert type="ClockToText">Format:%H:%M</convert>
+		</widget>
+		<widget pixmap="Shadow-FHD/skin_default/icons/record.svg" position="350,190" render="Pixmap" size="35,35" source="session.RecordState">
+			<convert type="ConfigEntryTest">config.usage.blinking_display_clock_during_recording,True,CheckSourceBoolean</convert>
+			<convert type="ConditionalShowHide">Blink</convert>
+		</widget>
+	</screen>
+	<screen id="3" name="JobView_summary" position="0,0" size="400,240">
+		<ePixmap pixmap="Shadow-FHD/skin_default/display_bg.png" position="0,0" size="400,240" zPosition="-1"/>
+		<widget font="Display;42" position="10,5" render="Label" size="380,80" source="parent.summary_job_name"/>
+		<widget font="Display;42" position="10,95" render="Label" size="380,80" source="parent.summary_job_task" transparent="1"/>
+		<widget borderWidth="1" pixmap="Shadow-FHD/skin_default/progress.svg" position="center,193" render="Progress" size="380,15" source="parent.summary_job_progress" transparent="1" zPosition="1"/>
+		<widget font="Display;32" halign="center" position="center,180" render="Label" size="380,40" source="parent.summary_job_progress" transparent="1" valign="center" zPosition="2">
+			<convert type="ProgressToText"/>
+		</widget>
+	</screen>
+	<screen id="3" name="WizardSummary" position="0,0" size="400,240">
+		<ePixmap pixmap="Shadow-FHD/skin_default/display_bg.png" position="0,0" size="400,240" zPosition="-1"/>
+		<widget font="Display;48" halign="center" position="10,5" render="Label" size="380,48" source="text" transparent="1" valign="top"/>
+		<widget font="Display;42" halign="center" position="10,55" render="Label" size="380,84" source="parent.list" transparent="1" valign="center">
+			<convert type="StringListSelection"/>
+		</widget>
+		<widget font="Display;42" halign="left" position="10,142" render="Label" size="380,42" source="parent.configEntry" transparent="1" valign="center"/>
+		<widget font="Display;42" halign="right" position="10,184" render="Label" size="380,42" source="parent.configValue" transparent="1" valign="center"/>
+	</screen>
+	<screen id="3" name="VideoWizardSummary" position="0,0" size="400,240">
+		<ePixmap pixmap="Shadow-FHD/skin_default/display_bg.png" position="0,0" size="400,240" zPosition="-1"/>
+		<widget font="Display;48" halign="center" position="10,5" render="Label" size="380,48" source="text" transparent="1" valign="top"/>
+		<widget font="Display;42" halign="center" position="10,55" render="Label" size="380,84" source="parent.list" transparent="1" valign="center">
+			<convert type="StringListSelection"/>
+		</widget>
+		<widget font="Display;42" halign="left" position="10,142" render="Label" size="380,42" source="parent.configEntry" transparent="1" valign="center"/>
+		<widget font="Display;42" halign="right" position="10,184" render="Label" size="380,42" source="parent.configValue" transparent="1" valign="center"/>
+	</screen>
+	<screen id="3" name="ChannelSelectionRadio_summary" position="0,0" size="400,240">
+		<ePixmap pixmap="Shadow-FHD/skin_default/display_bg.png" position="0,0" size="400,240" zPosition="-1"/>
+		<widget font="Display;48" halign="center" position="center,5" render="Label" size="380,48" source="session.CurrentService" transparent="1" valign="center">
+			<convert type="ServiceName">Name</convert>
+		</widget>
+		<widget font="Display;24" halign="center" position="center,55" render="Label" size="380,45" source="parent.RdsDecoder" transparent="1" valign="center">
+			<convert type="RdsInfo">RadioText</convert>
+		</widget>
+		<widget borderWidth="1" pixmap="Shadow-FHD/skin_default/progress.svg" position="center,112" render="Progress" size="380,15" source="session.Event_Now" transparent="1">
+			<convert type="EventTime">Progress</convert>
+		</widget>
+		<widget font="Display;80" halign="center" position="center,146" render="Label" size="380,84" source="global.CurrentTime" transparent="1" valign="center">
+			<convert type="ClockToText">Format:%H:%M</convert>
+		</widget>
+	</screen>
+	<screen id="3" name="SubservicesQuickzap_summary" position="0,0" size="400,240">
+		<ePixmap pixmap="Shadow-FHD/skin_default/display_bg.png" position="0,0" size="400,240" zPosition="-1"/>
+		<widget font="Display;66" halign="center" position="10,0" render="Label" size="380,240" source="session.CurrentService" transparent="1" valign="center">
+			<convert type="ServiceName">Name</convert>
+		</widget>
+	</screen>
+	<screen id="3" name="MediaCenterMenuSummary" position="0,0" size="400,240">
+		<ePixmap pixmap="Shadow-FHD/skin_default/display_bg.png" position="0,0" size="400,240" zPosition="-1"/>
+		<widget font="Display;48" halign="center" position="10,5" render="Label" size="380,48" source="Title" transparent="1" valign="top"/>
+		<widget font="Display;60" halign="center" position="10,60" render="Label" size="380,170" source="parent.menulist" transparent="1" valign="center">
+			<convert type="StringListSelection"/>
+		</widget>
+	</screen>
+	<screen id="3" name="MediaCenterLCDScreen" position="0,0" size="400,240">
+		<ePixmap pixmap="Shadow-FHD/skin_default/display_bg.png" position="0,0" size="400,240" zPosition="-1"/>
+		<widget font="Display;48" halign="center" name="text1" position="0,5" size="400,48" transparent="1"/>
+		<eLabel backgroundColor="yellow" position="0,52" size="400,2"/>
+		<widget font="Display;36" halign="center" name="text2" position="10,56" size="380,72" transparent="1" valign="center"/>
+		<widget font="Display;36" halign="center" name="text3" position="10,130" size="380,112" transparent="1" valign="center"/>
+	</screen>
+	<screen id="3" name="MediaPlayerLCDScreen" position="0,0" size="400,240">
+		<ePixmap pixmap="Shadow-FHD/skin_default/display_bg.png" position="0,0" size="400,240" zPosition="-1"/>
+		<widget font="Display;48" foregroundColor="#faff00" name="text2" position="10,2" size="380,100" transparent="1"/>
+		<widget font="Display;38" name="text3" position="10,110" size="380,42" transparent="1"/>
+		<eLabel backgroundColor="white" position="10,160" size="380,4"/>
+		<widget pixmap="Shadow-FHD/skin_default/progress.svg" position="10,155" render="Progress" size="380,14" source="session.CurrentService" transparent="1" zPosition="1">
+			<convert type="ServicePosition">Position</convert>
+		</widget>
+		<widget font="Display;65" position="10,175" render="Label" size="180,65" source="global.CurrentTime" transparent="1">
+			<convert type="ClockToText">Default</convert>
+		</widget>
+		<widget font="Display;65" halign="right" position="200,175" render="Label" size="190,65" source="session.CurrentService" transparent="1">
+			<convert type="ServicePosition">Remaining,Negate</convert>
+		</widget>
+	</screen>
+	<screen id="3" name="MyTubePlayer_summary" position="0,0" size="400,240">
+		<ePixmap pixmap="Shadow-FHD/skin_default/display_bg.png" position="0,0" size="400,240" zPosition="-1"/>
+		<widget font="Display;48" halign="center" position="10,2" render="Label" size="380,150" source="session.CurrentService" transparent="1" valign="center">
+			<convert type="ServiceName">Name</convert>
+		</widget>
+		<eLabel backgroundColor="white" position="10,160" size="380,4"/>
+		<widget pixmap="Shadow-FHD/skin_default/progress.svg" position="10,155" render="Progress" size="380,14" source="session.CurrentService" transparent="1" zPosition="1">
+			<convert type="ServicePosition">Position</convert>
+		</widget>
+		<widget font="Display;65" position="10,175" render="Label" size="180,65" source="global.CurrentTime" transparent="1">
+			<convert type="ClockToText">Default</convert>
+		</widget>
+		<widget font="Display;65" halign="right" position="200,175" render="Label" size="190,65" source="session.CurrentService" transparent="1">
+			<convert type="ServicePosition">Remaining,Negate</convert>
+		</widget>
+	</screen>
+	<screen id="3" name="DVDSummary" position="0,0" size="400,240">
+		<widget font="Display;50" foregroundColor="#faff00" halign="center" position="10,5" render="Label" size="380,105" source="session.CurrentService" valign="center">
+			<convert type="ServiceName">Name</convert>
+		</widget>
+		<widget font="Display;47" halign="center" name="Chapter" position="10,115" size="380,47">
+			<convert type="EventName">Name</convert>
+		</widget>
+		<eLabel backgroundColor="white" position="0,167" size="400,1"/>
+		<widget font="Display;65" halign="right" position="170,175" render="Label" size="225,65" source="session.CurrentService">
+			<convert type="ServicePosition">Remaining,Negate</convert>
+		</widget>
+		<widget font="Display;65" position="10,175" render="Label" size="150,65" source="global.CurrentTime">
+			<convert type="ClockToText">Default</convert>
+		</widget>
+	</screen>
+	<screen id="3" name="TeleTextSummary" position="0,0" size="400,240">
+		<widget font="Display;60" foregroundColor="#faff00" halign="center" name="page" position="10,5" size="380,65" valign="center"/>
+		<widget name="navi_off" pixmap="Shadow-FHD/skin_default/icons/lock_error.png" position="50,95" size="40,40"/>
+		<widget name="info_off" pixmap="Shadow-FHD/skin_default/icons/lock_error.png" position="310,95" size="40,40"/>
+		<widget name="navi_on" pixmap="Shadow-FHD/skin_default/icons/selectioncross.png" position="50,95" size="40,40"/>
+		<widget name="info_on" pixmap="Shadow-FHD/skin_default/icons/selectioncross.png" position="310,95" size="40,40"/>
+		<widget font="Display;50" halign="center" name="tp_count" position="120,90" size="170,52"/>
+		<widget font="Display;40" halign="center" name="navi_txt" position="10,180" size="120,42"/>
+		<widget font="Display;40" halign="center" name="tp_txt" position="145,180" size="120,42"/>
+		<widget font="Display;40" halign="center" name="info_txt" position="270,180" size="120,42"/>
+	</screen>
+	<screen id="3" name="TeleTextMenuSummary" position="0,0" size="400,240">
+		<widget font="Display;60" foregroundColor="#faff00" halign="center" name="SetupTitle" position="10,5" size="380,60"/>
+		<eLabel backgroundColor="white" position="10,75" size="380,1"/>
+		<widget font="Display;46" halign="center" name="SetupEntry" position="0,85" size="400,90"/>
+		<widget font="Display;48" halign="center" name="SetupValue" position="10,140" size="380,96" transparent="1" valign="bottom"/>
+	</screen>
+	<screen id="3" name="TeleTextAboutSummary" position="0,0" size="400,240">
+		<widget font="Display;60" foregroundColor="#faff00" halign="center" name="title" position="10,5" size="380,60"/>
+		<eLabel backgroundColor="white" position="10,75" size="380,1"/>
+		<widget font="Display;46" halign="center" name="daemon" position="0,85" size="400,90"/>
+		<widget font="Display;48" halign="center" name="plugin" position="10,140" size="380,96" valign="bottom"/>
+	</screen>
+	<screen id="3" name="TeleTextFavoritesSummary" position="0,0" size="400,240">
+		<widget font="Display;60" foregroundColor="#faff00" halign="center" name="title" position="10,5" size="380,60"/>
+		<eLabel backgroundColor="white" position="10,75" size="380,1"/>
+		<widget font="Display;46" halign="center" name="page" position="0,85" size="400,90"/>
+		<widget font="Display;48" halign="center" name="text" position="10,140" size="380,96" valign="bottom"/>
+	</screen>
+	<screen id="3" name="TeleTextTransponderSummary" position="0,0" size="400,240">
+		<widget font="Display;60" foregroundColor="#faff00" halign="center" name="c_service" position="10,10" size="380,60"/>
+		<eLabel backgroundColor="white" position="10,75" size="380,1"/>
+		<widget font="Display;50" halign="center" name="n_service" position="10,110" size="380,105" valign="center"/>
+	</screen>

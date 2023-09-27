@@ -1,0 +1,10 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="MediaBrowserSearch" position="0,0" size="1200,1080">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/images/scan.svg" source="Title"/>
+		<eLabel backgroundColor="background" font="Bold;30" foregroundColor="Heading" position="30,260" size="260,35" text="Search with 0-9 :" transparent="1"/>
+		<widget font="Bold;30" name="needle" position="300,258" size="400,35" transparent="1" valign="center"/>
+		<widget enableWrapAround="1" name="list" position="20,320" scrollbarMode="showOnDemand" size="eval($screen_width-40),550" transparent="1"/>
+		<widget font="Regular;28" foregroundColors="Heading,yellow,green" halign="center" name="status" position="20,900" size="eval($screen_width-40),70" transparent="1" valign="center"/>
+		<xmlinc file="screenpart_1Button_name" name="add" position="eval($screen_width/4),eval($screen_height-50)" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_4Buttons_icon" position="0,eval($screen_height-10)"/>
+	</screen>

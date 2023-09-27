@@ -1,0 +1,7 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="ChannelSelection" position="center,center" size="1920,1080">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<xmlinc file="screenpart_ChannelSelectionList" position="20,90" size="830,900"/>
+		<xmlinc file="screenpart_ChannelSelectionEvents" position="880,90" size="800,900"/>
+		<xmlinc file="screenpart_4Buttons_name" position="0,eval($screen_height-50)"/>
+	</screen>

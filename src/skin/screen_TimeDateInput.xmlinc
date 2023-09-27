@@ -1,0 +1,8 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="TimeDateInput" position="center,center" size="1200,820" title="Time/Date Input">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<widget enableWrapAround="1" name="config" position="20,120" scrollbarMode="showOnDemand" size="eval($screen_width-40),120" transparent="1"/>
+		<xmlinc file="screenpart_1Button_name" name="canceltext" position="0,eval($screen_height-50)" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_1Button_name" name="oktext" position="eval($screen_width/4),eval($screen_height-50)" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_4Buttons_icon" position="0,eval($screen_height-10)"/>
+	</screen>

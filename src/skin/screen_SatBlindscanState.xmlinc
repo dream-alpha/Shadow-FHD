@@ -1,0 +1,18 @@
+	<screen flags="wfNoBorder" name="SatBlindscanState" position="center,center" size="1920,1080" title="Satellite Blindscan">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<ePixmap pixmap="Shadow-FHD/skin_default/icons/scan-s.svg" position="255,370" size="200,200"/>
+		<ePixmap pixmap="Shadow-FHD/skin_default/icons/logo.svg" position="140,680" size="428,26"/>
+		<widget enableWrapAround="1" position="720,100" render="Listbox" scrollbarMode="showOnDemand" size="1100,650" source="list" transparent="1">
+			<convert type="TemplatedMultiContent">
+			{"template":[MultiContentEntryText(pos=(5,0),size=(1090,50),flags=RT_VALIGN_CENTER,text=0)],
+			"fonts":[gFont("Regular",28)],"itemHeight":50}
+			</convert>
+		</widget>
+		<ePixmap pixmap="Shadow-FHD/images/scan.svg" position="100,810" size="160,160"/>
+		<widget font="Regular;45" name="text" position="310,810" size="1300,56" transparent="1"/>
+		<eLabel backgroundColor="grey" position="310,880" size="1500,1"/>
+		<widget font="Regular;30" name="progress" position="310,910" size="1400,35" transparent="1"/>
+		<xmlinc file="screenpart_1Button_name" name="post_action" position="eval($screen_width/4),eval($screen_height-50)" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_4Buttons_icon" position="0,eval($screen_height-10)"/>
+	</screen>

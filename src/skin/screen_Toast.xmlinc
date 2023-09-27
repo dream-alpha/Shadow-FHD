@@ -1,0 +1,3 @@
+	<screen name="Toast" position="center,center" title="Message...">
+		<widget backgroundColor="gradient" font="Regular;36" foregroundColor="Heading" halign="center" name="text" size="700,0" transparent="1" valign="center"/>
+	</screen>

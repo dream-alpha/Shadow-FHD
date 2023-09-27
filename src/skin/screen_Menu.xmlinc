@@ -1,0 +1,8 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="Menu" position="0,0" size="1200,1080">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/images/menu_line.svg" source="title"/>
+		<widget enableWrapAround="1" position="20,120" render="Listbox" scrollbarMode="showNever" size="eval($screen_width-40),680" source="menu" transparent="1">
+			<convert type="TemplatedMultiContent">{"template": [MultiContentEntryPixmapAlphaTest(pos=(23,8), size=(45,45), png=5), MultiContentEntryText(pos=(105,0), size=(1048,60), flags=RT_VALIGN_CENTER, text=0), ], "fonts": [gFont("Regular",27)], "itemHeight":60}</convert>
+		</widget>
+		<xmlinc file="screenpart_menu_arrow_down"/>
+	</screen>

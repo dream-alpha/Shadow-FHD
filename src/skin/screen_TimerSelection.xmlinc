@@ -1,0 +1,4 @@
+	<screen name="TimerSelection" position="center,center" size="840,400" title="Timer selection">
+		<xmlinc file="screenpart_Background"/>
+		<widget enableWrapAround="1" name="timerlist" position="10,10" scrollbarMode="showOnDemand" size="820,300"/>
+	</screen>

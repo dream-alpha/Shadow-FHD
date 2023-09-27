@@ -1,0 +1,18 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="VirtualKeyBoard" position="center,center" size="1920,1080" title="Virtual KeyBoard">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<widget font="Bold;40" foregroundColor="Heading" halign="center" name="header" noWrap="1" position="60,200" size="1800,50" transparent="1"/>
+		<eLabel backgroundColor="CursorBackground" position="60,320" size="1800,70"/>
+		<eLabel backgroundColor="background" position="157,322" size="1625,66" zPosition="1"/>
+		<widget font="Regular;50" halign="center" name="text" noWrap="1" position="190,323" size="1540,58" transparent="1" zPosition="2"/>
+		<ePixmap pixmap="Shadow-FHD/extensions/movielibrary_reload.svg" position="1795,325" size="55,56"/>
+		<widget name="list" position="60,500" selectionDisabled="1" size="1800,420" transparent="1" zPosition="2"/>
+		<widget position="70,331" render="Pixmap" size="75,45" source="country" zPosition="2">
+			<convert type="ValueToPixmap">LanguageCode</convert>
+		</widget>
+		<xmlinc file="screenpart_1Button_text" position="0,eval($screen_height-50)" text="Delete" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_1Button_text" position="eval($screen_width/4),eval($screen_height-50)" text="Ok" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_1Button_text" position="eval(2*$screen_width/4),eval($screen_height-50)" text="Language" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_1Button_text" position="eval(3*$screen_width/4),eval($screen_height-50)" text=" " width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_4Buttons_icon" position="0,eval($screen_height-10)"/>
+	</screen>

@@ -1,0 +1,7 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="GraphMultiEPGMenu" position="center,center" size="1040,400" title="GraphMultiEPG Settings">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/images/setup.svg" source="Title" width="$screen_width"/>
+		<widget enableWrapAround="1" itemHeight="50" name="config" position="20,120" scrollbarMode="showOnDemand" size="1000,150" transparent="1"/>
+		<xmlinc file="screenpart_1Button_name" name="key_y" position="eval(2*$screen_width/4),eval($screen_width/4)" width="$screen_width"/>
+		<xmlinc file="screenpart_4Buttons_icon" position="0,eval($screen_height-10)"/>
+	</screen>

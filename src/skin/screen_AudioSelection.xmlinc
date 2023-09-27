@@ -1,0 +1,55 @@
+	<screen flags="wfNoBorder" name="AudioSelection" position="0,0" size="1200,1080" title="Audio">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<widget backgroundColor="red" position="20,eval(115+7)" render="Label" size="10,40" source="key_red">
+			<convert type="COCConditionalShowHideLabel"/>
+		</widget>
+		<widget backgroundColor="green" position="20,eval(115+52)" render="Label" size="10,40" source="key_green">
+			<convert type="COCConditionalShowHideLabel"/>
+		</widget>
+		<widget backgroundColor="yellow" position="20,eval(115+97)" render="Label" size="10,40" source="key_yellow">
+			<convert type="COCConditionalShowHideLabel"/>
+		</widget>
+		<widget backgroundColor="blue" position="20,eval(115+142)" render="Label" size="10,40" source="key_blue">
+			<convert type="COCConditionalShowHideLabel"/>
+		</widget>
+		<widget pixmap="Default-FHD/skin_default/icons/menu.svg" position="20,eval(115+187)" render="Pixmap" size="80,40" source="key_menu">
+			<convert type="ConditionalShowHide"/>
+		</widget>
+		<widget name="config" position="40,eval(115+5)" scrollbarMode="showOnDemand" size="1140,225" transparent="1"/>
+		<widget enableWrapAround="1" position="20,eval(115+260)" render="Listbox" scrollbarMode="showOnDemand" size="eval($screen_width-40),450" source="streams" transparent="1">
+			<convert type="TemplatedMultiContent">
+			{"templates":
+			{"default":(45,[
+			MultiContentEntryText(pos=(5,0),size=(35,45),font=0,flags=RT_HALIGN_CENTER|RT_VALIGN_CENTER,text=1),
+			MultiContentEntryText(pos=(45,0),size=(340,45),font=0,flags=RT_HALIGN_LEFT|RT_VALIGN_CENTER,text=2),
+			MultiContentEntryText(pos=(395,0),size=(240,45),font=1,flags=RT_HALIGN_LEFT|RT_VALIGN_CENTER,text=3),
+			MultiContentEntryText(pos=(645,0),size=(490,45),font=1,flags=RT_HALIGN_LEFT|RT_VALIGN_CENTER,text=4),
+			MultiContentEntryPixmapAlphaTest(pos=(1125,2),size=(35,35),png=5),
+			],True,"showNever"),
+			"notselected":(45,[
+			MultiContentEntryText(pos=(5,0),size=(35,45),font=0,flags=RT_HALIGN_CENTER|RT_VALIGN_CENTER,text=1),
+			MultiContentEntryText(pos=(45,0),size=(340,45),font=0,flags=RT_HALIGN_LEFT|RT_VALIGN_CENTER,text=2),
+			MultiContentEntryText(pos=(395,0),size=(240,45),font=1,flags=RT_HALIGN_LEFT|RT_VALIGN_CENTER,text=3),
+			MultiContentEntryText(pos=(645,0),size=(490,45),font=1,flags=RT_HALIGN_LEFT|RT_VALIGN_CENTER,text=4),
+			MultiContentEntryPixmapAlphaTest(pos=(1125,2),size=(35,35),png=5),
+			],False,"showNever"),
+			"subs":(45,[
+			MultiContentEntryText(pos=(5,0),size=(35,45),font=0,flags=RT_HALIGN_CENTER|RT_VALIGN_CENTER,text=1),
+			MultiContentEntryText(pos=(45,0),size=(340,45),font=0,flags=RT_HALIGN_LEFT|RT_VALIGN_CENTER,text=2),
+			MultiContentEntryText(pos=(395,0),size=(240,45),font=1,flags=RT_HALIGN_LEFT|RT_VALIGN_CENTER,text=3),
+			MultiContentEntryText(pos=(645,0),size=(490,45),font=1,flags=RT_HALIGN_LEFT|RT_VALIGN_CENTER,text=4),
+			MultiContentEntryPixmapAlphaTest(pos=(1125,2),size=(35,35),png=5),
+			],True,"showNever"),
+			"subs_notselected":(45,[
+			MultiContentEntryText(pos=(5,0),size=(35,45),font=0,flags=RT_HALIGN_CENTER|RT_VALIGN_CENTER,text=1),
+			MultiContentEntryText(pos=(45,0),size=(340,45),font=0,flags=RT_HALIGN_LEFT|RT_VALIGN_CENTER,text=2),
+			MultiContentEntryText(pos=(395,0),size=(240,45),font=1,flags=RT_HALIGN_LEFT|RT_VALIGN_CENTER,text=3),
+			MultiContentEntryText(pos=(645,0),size=(490,45),font=1,flags=RT_HALIGN_LEFT|RT_VALIGN_CENTER,text=4),
+			MultiContentEntryPixmapAlphaTest(pos=(1125,2),size=(35,35),png=5),
+			],False,"showNever")},
+			"fonts":[gFont("Regular",28),gFont("Regular",22)],"itemHeight":45}
+			</convert>
+		</widget>
+		<widget font="Regular;32" halign="center" name="help_label" position="20,eval($screen_height-100)" size="eval($screen_width-40),75" transparent="1" valign="center"/>
+	</screen>

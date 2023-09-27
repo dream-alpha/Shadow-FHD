@@ -1,0 +1,6 @@
+Description: Shadow-FHD
+Maintainer: dream-alpha
+Package: enigma2-skin-shadow-fhd
+Version: 1.1.16
+Architecture: all
+Depends: enigma2-plugin-skincomponents-compatibilitycomponents, enigma2-plugin-systemplugins-componentscockpit, enigma2-plugin-skincomponents-extaudioinfo, enigma2-plugin-skincomponents-extchnumber, enigma2-plugin-skincomponents-extdiskspaceinfo, enigma2-plugin-skincomponents-exteventname, enigma2-plugin-skincomponents-extmovieinfo, enigma2-plugin-skincomponents-extvolumetext, enigma2-plugin-skincomponents-eventlist, enigma2-plugin-skincomponents-serviceresolution, enigma2-plugin-skincomponents-extvolumetext, enigma2-plugin-skincomponents-extcaidinfo

@@ -1,0 +1,7 @@
+	<screen backgroundColor="ScreenBackground" flags="wfNoBorder" name="AutomaticTimerlistCleanUpSetup" position="center,center" size="1040,450" title="Automatic Timerlist Cleanup Setup">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/images/setup.svg" source="Title"/>
+		<widget enableWrapAround="1" name="config" position="20,200" scrollbarMode="showOnDemand" size="1000,60" transparent="1"/>
+		<eLabel backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="0,390" size="1040,50" text="Save" valign="center"/>
+		<eLabel backgroundColor="green" position="0,440" size="1040,10"/>
+	</screen>

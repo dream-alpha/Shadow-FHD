@@ -1,0 +1,9 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="UserDialog" position="center,center" size="1040,450">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<widget enableWrapAround="1" name="config" position="20,120" scrollbarMode="showOnDemand" size="1000,120"/>
+		<eLabel backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="920,330" size="100,38" text="TXT" valign="center"/>
+		<widget backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="0,390" render="Label" size="1040,50" source="key_red" valign="center"/>
+		<eLabel backgroundColor="red" position="0,440" size="1040,10"/>
+		<widget name="HelpWindow" position="0,1000"/>
+	</screen>

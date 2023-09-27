@@ -1,0 +1,26 @@
+	<screen flags="wfNoBorder" name="ServiceScan" position="center,center" size="1920,1080" title="Service scan">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<widget pixmap="Shadow-FHD/skin_default/icons/scan-s.svg" position="255,370" render="Pixmap" size="200,200" source="FrontendInfo">
+			<convert type="FrontendInfo">TYPE</convert>
+			<convert type="ValueRange">0,0</convert>
+			<convert type="ConditionalShowHide"/>
+		</widget>
+		<widget pixmap="Shadow-FHD/skin_default/icons/scan-c.svg" position="255,370" render="Pixmap" size="200,200" source="FrontendInfo">
+			<convert type="FrontendInfo">TYPE</convert>
+			<convert type="ValueRange">1,1</convert>
+			<convert type="ConditionalShowHide"/>
+		</widget>
+		<widget pixmap="Shadow-FHD/skin_default/icons/scan-t.svg" position="255,370" render="Pixmap" size="200,200" source="FrontendInfo">
+			<convert type="FrontendInfo">TYPE</convert>
+			<convert type="ValueRange">2,2</convert>
+			<convert type="ConditionalShowHide"/>
+		</widget>
+		<ePixmap pixmap="Shadow-FHD/images/scan.svg" position="100,810" size="160,160"/>
+		<widget font="Regular;32" halign="center" name="pass" position="80,550" size="540,70" transparent="1" valign="center"/>
+		<widget name="servicelist" position="720,110" selectionDisabled="1" size="1100,630" transparent="1"/>
+		<widget font="Regular;45" name="network" position="310,800" size="1300,56" transparent="1"/>
+		<widget font="Regular;30" name="transponder" position="310,865" size="1400,35" transparent="1"/>
+		<widget backgroundColor="grey" foregroundColor="yellow" name="scan_progress" position="310,915" size="1500,6"/>
+		<widget font="Regular;30" foregroundColor="Heading" halign="center" name="scan_state" position="310,940" size="1500,40" transparent="1"/>
+	</screen>

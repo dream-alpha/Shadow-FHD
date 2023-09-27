@@ -1,0 +1,10 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="PluginDetails" position="0,0" size="1200,1080">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/images/softmanager.svg" source="Title"/>
+		<xmlinc file="screenpart_1Button_source" position="eval($screen_width/4),eval($screen_height-50)" source="key_green" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_4Buttons_icon" position="0,eval($screen_height-10)"/>
+		<widget name="statuspic" position="20,258" size="40,40"/>
+		<widget font="Bold;30" foregroundColor="Heading" position="90,264" render="Label" size="560,36" source="author" transparent="1"/>
+		<widget font="Regular;25" name="detailtext" position="20,330" size="eval($screen_width-40),160" transparent="1"/>
+		<widget name="screenshot" pixmap="Shadow-FHD/skin_default/no_coverArt.svg" position="20,530" size="eval($screen_width-40),460"/>
+	</screen>

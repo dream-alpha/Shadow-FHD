@@ -1,0 +1,6 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="setup_usage" position="0,0" size="1200,1080">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/menu/usage_setup.svg" source="Title"/>
+		<widget enableWrapAround="1" name="config" position="20,120" scrollbarMode="showOnDemand" separation="750" size="1160,865"/>
+		<xmlinc file="screenpart_menu_arrow_down"/>
+	</screen>

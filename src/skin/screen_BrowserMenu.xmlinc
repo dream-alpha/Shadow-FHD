@@ -1,0 +1,50 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="BrowserMenu" position="center,center" size="1920,1080" title="Web Browser - Menü">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<eLabel backgroundColor="background" position="220,180" size="280,300" zPosition="-1"/>
+		<widget backgroundColorSelected="background" foregroundColorSelected="Heading" name="menu" position="280,200" size="180,300"/>
+		<ePixmap pixmap="Shadow-FHD/skin_default/icons/logo.svg" position="140,680" size="428,26"/>
+		<ePixmap pixmap="Shadow-FHD/images/scan.svg" position="100,810" size="160,160"/>
+		<eLabel backgroundColor="background" font="Regular;45" position="310,810" size="350,55" text="Search with 0-9 :" transparent="1"/>
+		<widget font="Regular;45" name="input" position="310,910" size="1500,55" transparent="1"/>
+		<widget font="Regular;32" foregroundColor="Heading" halign="center" name="statuslabel" position="310,920" size="1500,40" transparent="1"/>
+		<eLabel backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1710,825" size="100,38" text="Bouq." valign="center"/>
+		<eLabel backgroundColor="grey" position="310,880" size="1500,1"/>
+		<widget enableWrapAround="1" name="config" position="720,110" scrollbarMode="showOnDemand" size="1110,640"/>
+		<widget enableWrapAround="1" position="720,110" render="Listbox" scrollbarMode="showOnDemand" size="1110,640" source="list" transparent="1">
+			<convert type="TemplatedMultiContent">
+			{"templates":
+			{"default":(80,[
+			MultiContentEntryText(pos=(10,10),size=(1090,32),font=0,text=1),
+			MultiContentEntryText(pos=(10,43),size=(1090,30),font=1,text=2),]),
+			"history":(80,[
+			MultiContentEntryText(pos=(10,10),size=(160,32),font=1,text=1),
+			MultiContentEntryText(pos=(10,43),size=(160,30),font=1,text=2),
+			MultiContentEntryText(pos=(180,10),size=(910,32),font=0,text=3),
+			MultiContentEntryText(pos=(180,43),size=(910,30),font=1,text=4),]),
+			"downloads":(64,[
+			MultiContentEntryText(pos=(5,15),size=(400,30),font=1,text=1),
+			MultiContentEntryText(pos=(410,15),size=(200,30),font=1,text=2),
+			MultiContentEntryProgress(pos=(620,20),size=(80,20),percent=3),
+			MultiContentEntryText(pos=(720,15),size=(90,30),font=1,text=4),]),
+			"certificates":(160,[
+			MultiContentEntryText(pos=(10,22),size=(130,32),font=0,text=1),
+			MultiContentEntryText(pos=(10,55),size=(130,30),font=1,text=2),
+			MultiContentEntryText(pos=(150,22),size=(940,32),font=0,text=3),
+			MultiContentEntryText(pos=(150,55),size=(940,30),font=1,text=4),
+			MultiContentEntryText(pos=(10,85),size=(1090,60),flags=RT_WRAP,font=1,text=5),]),
+			"cookies":(160,[
+			MultiContentEntryText(pos=(10,22),size=(130,32),font=0,text=1),
+			MultiContentEntryText(pos=(10,55),size=(130,30),font=1,text=2),
+			MultiContentEntryText(pos=(150,22),size=(940,32),font=0,text=3),
+			MultiContentEntryText(pos=(150,55),size=(940,30),font=1,text=4),
+			MultiContentEntryText(pos=(10,85),size=(1090,60),flags=RT_WRAP,font=1,text=5),])},
+			"fonts":[gFont("Bold",26),gFont("Regular",24)]}
+			</convert>
+		</widget>
+		<xmlinc file="screenpart_1Button_name" name="red" position="0,eval($screen_height-50)" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_1Button_name" name="green" position="eval($screen_width/4),eval($screen_height-50)" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_1Button_name" name="yellow" position="eval(2*$screen_width/4),eval($screen_height-50)" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_1Button_name" name="blue" position="eval(3*$screen_width/4),eval($screen_height-50)" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_4Buttons_icon" position="0,eval($screen_height-10)"/>
+	</screen>

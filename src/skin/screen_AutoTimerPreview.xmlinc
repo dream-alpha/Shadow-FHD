@@ -1,0 +1,15 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="AutoTimerPreview" position="0,0" size="1200,1080">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/images/timer.svg" source="Title"/>
+		<widget enableWrapAround="1" position="20,120" render="Listbox" scrollbarMode="showOnDemand" size="eval($screen_width-40),680" source="timerlist" transparent="1">
+			<convert type="TemplatedMultiContent">
+			{"template":[MultiContentEntryText(pos=(10,5),size=(640,35),text=3,font=0),
+			MultiContentEntryText(pos=(10,38),size=(640,35),text=4,font=0),
+			MultiContentEntryText(pos=(10,70),size=(640,30),text=2,font=1),
+			MultiContentEntryText(pos=(10,100),size=(640,30),text=0,font=1),],
+			"fonts":[gFont("Bold",26),gFont("Regular",24)],"itemHeight":140}
+			</convert>
+		</widget>
+		<xmlinc file="screenpart_1Button_source" position="eval(3*$screen_width/4),eval($screen_height-50)" source="key_yellow" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_4Buttons_icon" position="0,eval($screen_height-10)"/>
+	</screen>

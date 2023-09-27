@@ -1,0 +1,12 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="SoftwareManagerInfo" position="0,0" size="1200,1080">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/images/softmanager.svg" source="Title"/>
+		<xmlinc file="screenpart_1Button_text" position="0,eval($screen_height-50)" text="Save" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_4Buttons_icon" position="0,eval($screen_height-10)"/>
+		<widget enableWrapAround="1" position="20,120" render="Listbox" scrollbarMode="showOnDemand" size="eval($screen_width-40),680" source="list" transparent="1">
+			<convert type="TemplatedMultiContent">
+			{"template":[MultiContentEntryText(pos=(10,0),size=(640,50),font=0,flags=RT_HALIGN_CENTER|RT_VALIGN_CENTER,text=0),],
+			"fonts":[gFont("Regular",26)],"itemHeight":50}
+			</convert>
+		</widget>
+	</screen>

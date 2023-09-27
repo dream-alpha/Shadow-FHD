@@ -1,0 +1,26 @@
+	<widget backgroundColor="CursorBackground" cornerRadius="60" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1748,1005" render="FixedLabel" size="60,60" source="session.CurrentService" text="UHD" valign="center" zPosition="2">
+		<convert type="ServiceInfo">VideoWidth</convert>
+		<convert type="ValueRange">2160,4320</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<widget backgroundColor="CursorBackground" cornerRadius="60" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1748,1005" render="FixedLabel" size="60,60" source="session.CurrentService" text="FHD" valign="center" zPosition="2">
+		<convert type="ServiceInfo">VideoWidth</convert>
+		<convert type="ValueRange">1920,2159</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<widget backgroundColor="CursorBackground" cornerRadius="60" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1748,1005" render="FixedLabel" size="60,60" source="session.CurrentService" text="HD" valign="center" zPosition="2">
+		<convert type="ServiceInfo">VideoWidth</convert>
+		<convert type="ValueRange">1280,1919</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<widget backgroundColor="CursorBackground" cornerRadius="60" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1748,1005" render="FixedLabel" size="60,60" source="session.CurrentService" text="qHD" valign="center" zPosition="2">
+		<convert type="ServiceInfo">VideoWidth</convert>
+		<convert type="ValueRange">960,1279</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<eLabel backgroundColor="CursorBackground" cornerRadius="60" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1748,1005" size="60,60" text="SD" valign="center" zPosition="1"/>
+	<eLabel backgroundColor="CursorBackground" cornerRadius="60" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1665,1005" size="60,60" text="4:3" valign="center" zPosition="1"/>
+	<widget backgroundColor="CursorBackground" cornerRadius="60" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1665,1005" render="FixedLabel" size="60,60" source="session.CurrentService" text="16:9" valign="center" zPosition="2">
+		<convert type="ServiceInfo">IsWidescreen</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>

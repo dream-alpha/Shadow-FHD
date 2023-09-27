@@ -1,0 +1,17 @@
+	<screen flags="wfNoBorder" name="StorageInformation" position="0,0" size="1200,1080" title="Storage device information">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<widget position="40,120" render="Pixmap" size="128,128" source="icon">
+			<convert type="ValueToPixmap">Path</convert>
+		</widget>
+		<widget font="Regular;32" position="200,100" render="Label" size="980,40" source="model" transparent="1"/>
+		<widget font="Regular;32" position="200,150" render="Label" size="980,40" source="device_capacity" transparent="1"/>
+		<widget font="Regular;32" position="200,200" render="Label" size="980,40" source="device_free" transparent="1"/>
+		<widget font="Regular;32" position="200,250" render="Label" size="980,40" source="bus" transparent="1"/>
+		<widget font="Regular;32" position="200,300" render="Label" size="980,40" source="num_partitions" transparent="1"/>
+		<widget font="Regular;32" position="200,350" render="Label" size="980,40" source="partition" transparent="1"/>
+		<widget font="Regular;32" position="200,400" render="Label" size="980,40" source="partition_capacity" transparent="1"/>
+		<widget font="Regular;32" position="200,450" render="Label" size="980,40" source="filesystem" transparent="1"/>
+		<widget font="Regular;32" halign="center" position="10,740" render="Label" size="1180,75" source="introduction" transparent="1" valign="center"/>
+		<xmlinc file="screenpart_4Buttons_source" position="0,eval($screen_height-50)"/>
+	</screen>
