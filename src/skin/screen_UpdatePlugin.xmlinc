@@ -1,0 +1,6 @@
+	<screen backgroundColor="dark" name="UpdatePlugin" position="center,center" size="640,200" title="Software update">
+		<widget name="activityslider" position="20,20" size="eval($screen_width-40),10" transparent="1"/>
+		<widget font="Regular;26" position="20,50" render="Label" size="eval($screen_width-40),35" source="package" transparent="1"/>
+		<widget font="Regular;26" position="20,95" render="Label" size="eval($screen_width-40),70" source="status" transparent="1"/>
+		<widget name="slider" position="20,155" size="eval($screen_width-40),10" transparent="1"/>
+	</screen>

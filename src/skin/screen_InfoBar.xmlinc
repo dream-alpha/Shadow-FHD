@@ -18,7 +18,7 @@
 		<widget font="Bold;38" noWrap="1" position="488,815" render="Label" size="1400,45" source="session.Event_Now" transparent="1">
 			<convert type="EventName">Name</convert>
 		</widget>
-		<widget font="Regular;26" position="283,868" render="Label" size="1605,64" source="session.Event_Now" transparent="1">
+		<widget font="Regular;26" position="488,868" render="Label" size="1605,64" source="session.Event_Now" transparent="1">
 			<convert type="EventName">Description,singleShortDesc</convert>
 		</widget>
 		<widget font="Bold;29" foregroundColor="#cccccc" position="285,926" render="Label" size="83,33" source="session.Event_Next" transparent="1">

@@ -151,6 +151,7 @@
 	<xmlinc file="screen_Toast"/>
 	<xmlinc file="screen_UPnPConfig"/>
 	<xmlinc file="screen_UnhandledKey"/>
+	<xmlinc file="screen_UpdatePlugin"/>
 	<xmlinc file="screen_UpdatePluginMenu"/>
 	<xmlinc file="screen_UserDialog"/>
 	<xmlinc file="screen_UserManager"/>

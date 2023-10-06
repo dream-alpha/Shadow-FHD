@@ -1,0 +1,72 @@
+	<eLabel font="Regular;26" halign="center" position="0,0" size="35,35" text="I" transparent="1" valign="center" zPosition="1"/>
+	<widget font="Regular;26" foregroundColor="yellow" halign="center" position="0,0" render="FixedLabel" size="35,35" source="session.CurrentService" text="I" valign="center" zPosition="2">
+		<convert type="ExtCaidInfo">IrdCrypt</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<widget font="Regular;26" foregroundColor="green" halign="center" position="0,0" render="FixedLabel" size="35,35" source="session.CurrentService" text="I" valign="center" zPosition="2">
+		<convert type="ExtCaidInfo">IrdEcm</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<eLabel font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="35,0" size="35,35" text="V" transparent="1" valign="center" zPosition="1"/>
+	<widget backgroundColor="CursorBackground" font="Regular;26" foregroundColor="yellow" halign="center" position="35,0" render="FixedLabel" size="35,35" source="session.CurrentService" text="V" valign="center" zPosition="2">
+		<convert type="ExtCaidInfo">ViaCrypt</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<widget font="Regular;26" foregroundColor="green" halign="center" position="35,0" render="FixedLabel" size="35,35" source="session.CurrentService" text="V" valign="center" zPosition="2">
+		<convert type="ExtCaidInfo">ViaEcm</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<eLabel font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="70,0" size="35,35" text="S" transparent="1" valign="center" zPosition="1"/>
+	<widget font="Regular;26" foregroundColor="yellow" halign="center" position="70,0" render="FixedLabel" size="35,35" source="session.CurrentService" text="S" valign="center" zPosition="2">
+		<convert type="ExtCaidInfo">SecaCrypt</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<widget font="Regular;26" foregroundColor="green" halign="center" position="70,0" render="FixedLabel" size="35,35" source="session.CurrentService" text="S" valign="center" zPosition="2">
+		<convert type="ExtCaidInfo">SecaEcm</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<eLabel font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="105,0" size="35,35" text="N" transparent="1" valign="center" zPosition="1"/>
+	<widget font="Regular;26" foregroundColor="yellow" halign="center" position="105,0" render="FixedLabel" size="35,35" source="session.CurrentService" text="N" valign="center" zPosition="2">
+		<convert type="ExtCaidInfo">NagraCrypt</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<widget font="Regular;26" foregroundColor="green" halign="center" position="105,0" render="FixedLabel" size="35,35" source="session.CurrentService" text="N" valign="center" zPosition="2">
+		<convert type="ExtCaidInfo">NagraEcm</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<eLabel font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="140,0" size="55,35" text="ND" transparent="1" valign="center" zPosition="1"/>
+	<widget font="Regular;26" foregroundColor="yellow" halign="center" position="140,0" render="FixedLabel" size="55,35" source="session.CurrentService" text="ND" valign="center" zPosition="2">
+		<convert type="ExtCaidInfo">NdsCrypt</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<widget font="Regular;26" foregroundColor="green" halign="center" position="140,0" render="FixedLabel" size="55,35" source="session.CurrentService" text="ND" valign="center" zPosition="2">
+		<convert type="ExtCaidInfo">NdsEcm</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<eLabel font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="195,0" size="55,35" text="CO" transparent="1" valign="center" zPosition="1"/>
+	<widget font="Regular;26" foregroundColor="yellow" halign="center" position="195,0" render="FixedLabel" size="55,35" source="session.CurrentService" text="CO" valign="center" zPosition="2">
+		<convert type="ExtCaidInfo">ConaxCrypt</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<widget font="Regular;26" foregroundColor="green" halign="center" position="195,0" render="FixedLabel" size="55,35" source="session.CurrentService" text="CO" valign="center" zPosition="2">
+		<convert type="ExtCaidInfo">ConaxEcm</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<eLabel font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="250,0" size="55,35" text="CW" transparent="1" valign="center" zPosition="1"/>
+	<widget backgroundColor="CursorBackground" font="Regular;26" foregroundColor="yellow" halign="center" position="250,0" render="FixedLabel" size="55,35" source="session.CurrentService" text="CW" valign="center" zPosition="2">
+		<convert type="ExtCaidInfo">CrwCrypt</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<widget font="Regular;26" foregroundColor="green" halign="center" position="250,0" render="FixedLabel" size="55,35" source="session.CurrentService" text="CW" valign="center" zPosition="2">
+		<convert type="ExtCaidInfo">CrwEcm</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<eLabel font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="305,0" size="80,35" text="BISS" transparent="1" valign="center" zPosition="1"/>
+	<widget backgroundColor="CursorBackground" font="Regular;26" foregroundColor="yellow" halign="center" position="305,0" render="FixedLabel" size="80,35" source="session.CurrentService" text="BISS" valign="center" zPosition="2">
+		<convert type="ExtCaidInfo">BisCrypt</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<widget font="Regular;26" foregroundColor="green" halign="center" position="305,0" render="FixedLabel" size="80,35" source="session.CurrentService" text="BISS" valign="center" zPosition="2">
+		<convert type="ExtCaidInfo">BisEcm</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>

@@ -1,111 +1,20 @@
-	<screen backgroundColor="#60000000" flags="wfNoBorder" name="ServiceInfo" position="center,center" size="1920,1080">
+	<screen backgroundColor="background" flags="wfNoBorder" name="ServiceInfo" position="center,center" size="1200,900" title="Service Info">
 		<xmlinc file="screenpart_Background"/>
-		<eLabel backgroundColor="background" position="80,580" size="1760,400" zPosition="-1"/>
-		<widget backgroundColor="#60000000" name="infolist" position="80,20" selectionDisabled="1" size="1760,540"/>
-		<widget font="Bold;40" position="120,595" render="Label" size="1250,47" source="session.Event_Now" transparent="1">
-			<convert type="EventName">Name</convert>
+		<xmlinc file="screenpart_TitleOnly"/>
+		<widget name="infolist" position="20,100" selectionDisabled="1" size="eval($screen_width-40),540" transparent="1"/>
+		<eLabel font="Regular;26" position="20,660" size="280,45" text="Audio:" transparent="1" valign="center"/>
+		<widget path="/usr/share/enigma2/Shadow-FHD/skin_default/icons/" position="340,660" render="ExtAudioIcon" size="80,45" source="session.CurrentService">
+			<convert type="Extaudioinfo">AudioIcon</convert>
 		</widget>
-		<widget font="Regular;32" foregroundColor="Heading" halign="right" position="1400,607" render="Label" size="110,35" source="session.Event_Now" transparent="1">
-			<convert type="EventTime">StartTime</convert>
-			<convert type="ClockToText">Default</convert>
-		</widget>
-		<widget font="Regular;32" foregroundColor="Heading" position="1520,607" render="Label" size="100,35" source="session.Event_Now" transparent="1">
-			<convert type="EventTime">EndTime</convert>
-			<convert type="ClockToText">Format:- %H:%M</convert>
-		</widget>
-		<widget font="Regular;32" foregroundColor="Heading" halign="right" position="1640,607" render="Label" size="170,35" source="session.Event_Now" transparent="1">
-			<convert type="EventTime">Remaining</convert>
-			<convert type="RemainingToText">inMinutes</convert>
-		</widget>
-		<widget backgroundColor="grey" pixmap="Shadow-FHD/images/progress.svg" position="120,655" render="Progress" size="1690,9" source="session.Event_Now">
-			<convert type="EventTime">Progress</convert>
-		</widget>
-		<widget font="Regular;28" position="120,690" render="Label" size="1690,190" source="session.Event_Now" transparent="1">
-			<convert type="EventName">FullDescription</convert>
-		</widget>
-		<eLabel backgroundColor="CursorBackground" position="80,920" size="1760,60"/>
-		<eLabel backgroundColor="CursorBackground" font="Regular;30" foregroundColor="HeaderForeground" halign="right" position="100,934" size="80,35" text="SNR:"/>
-		<widget backgroundColor="CursorBackground" font="Regular;30" foregroundColor="HeaderForeground" halign="right" position="190,934" render="Label" size="130,35" source="session.FrontendStatus" zPosition="1">
-			<convert type="FrontendInfo">SNRdB</convert>
-		</widget>
-		<widget backgroundColor="CursorBackground" font="Regular;29" foregroundColor="HeaderForeground" halign="center" position="410,934" render="Label" size="570,35" source="session.CurrentService" zPosition="1">
+		<eLabel font="Regular;26" position="20,705" size="280,45" text="Video:" transparent="1" valign="center"/>
+		<widget font="Regular;26" position="340,705" render="Label" size="570,45" source="session.CurrentService">
 			<convert type="ServiceResolution">VideoInfoCodec</convert>
 		</widget>
-		<eLabel backgroundColor="CursorBackground" font="Regular;28" foregroundColor="HeaderForeground" halign="center" position="1090,934" size="35,35" text="I" valign="center" zPosition="1"/>
-		<widget backgroundColor="CursorBackground" font="Regular;28" foregroundColor="yellow" halign="center" position="1090,934" render="FixedLabel" size="35,35" source="session.CurrentService" text="I" valign="center" zPosition="2">
-			<convert type="ExtCaidInfo">IrdCrypt</convert>
-			<convert type="ConditionalShowHide"/>
-		</widget>
-		<widget backgroundColor="CursorBackground" font="Regular;28" foregroundColor="green" halign="center" position="1090,934" render="FixedLabel" size="35,35" source="session.CurrentService" text="I" valign="center" zPosition="2">
-			<convert type="ExtCaidInfo">IrdEcm</convert>
-			<convert type="ConditionalShowHide"/>
-		</widget>
-		<eLabel backgroundColor="CursorBackground" font="Regular;28" foregroundColor="HeaderForeground" halign="center" position="1125,934" size="35,35" text="V" transparent="1" valign="center" zPosition="1"/>
-		<widget backgroundColor="CursorBackground" font="Regular;28" foregroundColor="yellow" halign="center" position="1125,934" render="FixedLabel" size="35,35" source="session.CurrentService" text="V" valign="center" zPosition="2">
-			<convert type="ExtCaidInfo">ViaCrypt</convert>
-			<convert type="ConditionalShowHide"/>
-		</widget>
-		<widget backgroundColor="CursorBackground" font="Regular;28" foregroundColor="green" halign="center" position="1125,934" render="FixedLabel" size="35,35" source="session.CurrentService" text="V" valign="center" zPosition="2">
-			<convert type="ExtCaidInfo">ViaEcm</convert>
-			<convert type="ConditionalShowHide"/>
-		</widget>
-		<eLabel backgroundColor="CursorBackground" font="Regular;28" foregroundColor="HeaderForeground" halign="center" position="1160,934" size="35,35" text="S" transparent="1" valign="center" zPosition="1"/>
-		<widget backgroundColor="CursorBackground" font="Regular;28" foregroundColor="yellow" halign="center" position="1160,934" render="FixedLabel" size="35,35" source="session.CurrentService" text="S" valign="center" zPosition="2">
-			<convert type="ExtCaidInfo">SecaCrypt</convert>
-			<convert type="ConditionalShowHide"/>
-		</widget>
-		<widget backgroundColor="CursorBackground" font="Regular;28" foregroundColor="green" halign="center" position="1160,934" render="FixedLabel" size="35,35" source="session.CurrentService" text="S" valign="center" zPosition="2">
-			<convert type="ExtCaidInfo">SecaEcm</convert>
-			<convert type="ConditionalShowHide"/>
-		</widget>
-		<eLabel backgroundColor="CursorBackground" font="Regular;28" foregroundColor="HeaderForeground" halign="center" position="1195,934" size="35,35" text="N" transparent="1" valign="center" zPosition="1"/>
-		<widget backgroundColor="CursorBackground" font="Regular;28" foregroundColor="yellow" halign="center" position="1195,934" render="FixedLabel" size="35,35" source="session.CurrentService" text="N" valign="center" zPosition="2">
-			<convert type="ExtCaidInfo">NagraCrypt</convert>
-			<convert type="ConditionalShowHide"/>
-		</widget>
-		<widget backgroundColor="CursorBackground" font="Regular;28" foregroundColor="green" halign="center" position="1195,934" render="FixedLabel" size="35,35" source="session.CurrentService" text="N" valign="center" zPosition="2">
-			<convert type="ExtCaidInfo">NagraEcm</convert>
-			<convert type="ConditionalShowHide"/>
-		</widget>
-		<eLabel backgroundColor="CursorBackground" font="Regular;28" foregroundColor="HeaderForeground" halign="center" position="1230,934" size="55,35" text="ND" transparent="1" valign="center" zPosition="1"/>
-		<widget backgroundColor="CursorBackground" font="Regular;28" foregroundColor="yellow" halign="center" position="1230,934" render="FixedLabel" size="55,35" source="session.CurrentService" text="ND" valign="center" zPosition="2">
-			<convert type="ExtCaidInfo">NdsCrypt</convert>
-			<convert type="ConditionalShowHide"/>
-		</widget>
-		<widget backgroundColor="CursorBackground" font="Regular;28" foregroundColor="green" halign="center" position="1230,934" render="FixedLabel" size="55,35" source="session.CurrentService" text="ND" valign="center" zPosition="2">
-			<convert type="ExtCaidInfo">NdsEcm</convert>
-			<convert type="ConditionalShowHide"/>
-		</widget>
-		<eLabel backgroundColor="CursorBackground" font="Regular;28" foregroundColor="HeaderForeground" halign="center" position="1285,934" size="55,35" text="CO" transparent="1" valign="center" zPosition="1"/>
-		<widget backgroundColor="CursorBackground" font="Regular;28" foregroundColor="yellow" halign="center" position="1285,934" render="FixedLabel" size="55,35" source="session.CurrentService" text="CO" valign="center" zPosition="2">
-			<convert type="ExtCaidInfo">ConaxCrypt</convert>
-			<convert type="ConditionalShowHide"/>
-		</widget>
-		<widget backgroundColor="CursorBackground" font="Regular;28" foregroundColor="green" halign="center" position="1285,934" render="FixedLabel" size="55,35" source="session.CurrentService" text="CO" valign="center" zPosition="2">
-			<convert type="ExtCaidInfo">ConaxEcm</convert>
-			<convert type="ConditionalShowHide"/>
-		</widget>
-		<eLabel backgroundColor="CursorBackground" font="Regular;28" foregroundColor="HeaderForeground" halign="center" position="1340,934" size="55,35" text="CW" transparent="1" valign="center" zPosition="1"/>
-		<widget backgroundColor="CursorBackground" font="Regular;28" foregroundColor="yellow" halign="center" position="1340,934" render="FixedLabel" size="55,35" source="session.CurrentService" text="CW" valign="center" zPosition="2">
-			<convert type="ExtCaidInfo">CrwCrypt</convert>
-			<convert type="ConditionalShowHide"/>
-		</widget>
-		<widget backgroundColor="CursorBackground" font="Regular;28" foregroundColor="green" halign="center" position="1340,934" render="FixedLabel" size="55,35" source="session.CurrentService" text="CW" valign="center" zPosition="2">
-			<convert type="ExtCaidInfo">CrwEcm</convert>
-			<convert type="ConditionalShowHide"/>
-		</widget>
-		<eLabel backgroundColor="CursorBackground" font="Regular;28" foregroundColor="HeaderForeground" halign="center" position="1395,934" size="80,35" text="BISS" transparent="1" valign="center" zPosition="1"/>
-		<widget backgroundColor="CursorBackground" font="Regular;28" foregroundColor="yellow" halign="center" position="1395,934" render="FixedLabel" size="80,35" source="session.CurrentService" text="BISS" valign="center" zPosition="2">
-			<convert type="ExtCaidInfo">BisCrypt</convert>
-			<convert type="ConditionalShowHide"/>
-		</widget>
-		<widget backgroundColor="CursorBackground" font="Regular;28" foregroundColor="green" halign="center" position="1395,934" render="FixedLabel" size="80,35" source="session.CurrentService" text="BISS" valign="center" zPosition="2">
-			<convert type="ExtCaidInfo">BisEcm</convert>
-			<convert type="ConditionalShowHide"/>
-		</widget>
-		<eLabel backgroundColor="background" halign="center" position="1665,927" size="140,48" valign="center"/>
-		<widget path="/usr/share/enigma2/Shadow-FHD/skin_default/icons/" position="1695,934" render="ExtAudioIcon" size="80,35" source="session.CurrentService" zPosition="1">
-			<convert type="Extaudioinfo">AudioIcon</convert>
+		<eLabel font="Regular;26" position="20,750" size="200,45" text="Encryption:" valign="center"/>
+		<xmlinc file="screenpart_CAIDInfo" position="340,750"/>
+		<eLabel font="Regular;26" position="20,795" size="80,45" text="SNR:" valign="center"/>
+		<widget font="Regular;26" position="340,795" render="Label" size="130,45" source="session.FrontendStatus" valign="center">
+			<convert type="FrontendInfo">SNRdB</convert>
 		</widget>
 		<xmlinc file="screenpart_1Button_name" name="red" position="0,eval($screen_height-50)" width="eval($screen_width/4)"/>
 		<xmlinc file="screenpart_1Button_name" name="green" position="eval($screen_width/4),eval($screen_height-50)" width="eval($screen_width/4)"/>
