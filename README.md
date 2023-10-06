@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0112128dfbc5476fb768a9a4f7f48896)](https://app.codacy.com/gh/dream-alpha/Shadow-FHD?utm_source=github.com&utm_medium=referral&utm_content=dream-alpha/Shadow-FHD&utm_campaign=Badge_Grade)
 [![Gemfury](https://badge.fury.io/fp/gemfury.svg)](https://gemfury.com/f/partner)
 
 # Shadow-FHD
