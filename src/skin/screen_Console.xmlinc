@@ -1,0 +1,5 @@
+	<screen flags="wfNoBorder" name="Console" position="center,170" size="1200,820" title="Command execution...">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<widget font="Regular;30" name="text" position="10,10" size="1180,800" transparent="1"/>
+	</screen>

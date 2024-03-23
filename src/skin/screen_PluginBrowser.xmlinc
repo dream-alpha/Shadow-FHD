@@ -1,0 +1,10 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="PluginBrowser" position="center,center" size="1920,1080" title="Plugin Browser">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/menu/plugin_selection.svg" source="Title"/>
+		<widget backgroundPixmap="Shadow-FHD/images/grid.svg" enableWrapAround="1" margin="30,30" mode="grid" position="13,143" render="Listbox" scrollbarMode="showNever" selectionPixmap="Shadow-FHD/images/grid_sel.svg" selectionZoom="1.2" size="1928,855" source="pluginlist" transparent="1">
+			<convert type="TemplatedMultiContent">{"template": [MultiContentEntryText(pos=(8,105), size=(225,51), flags=RT_HALIGN_CENTER|RT_VALIGN_CENTER|RT_WRAP, text=1, backcolor=MultiContentTemplateColor("Tile"), backcolor_sel=MultiContentTemplateColor("CursorBackground"), color=MultiContentTemplateColor("foreground"), color_sel=0xFF000004), MultiContentEntryPixmapAlphaTest(pos=(23,15), size=(195,78), png=3), ], "fonts": [gFont("Regular",23)], "itemHeight":199, "itemWidth":266}</convert>
+		</widget>
+		<xmlinc file="screenpart_1Button_name" name="red" position="0,eval($screen_height-50)" transparent="1" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_1Button_name" name="green" position="eval($screen_width/4),eval($screen_height-50)" transparent="1" with="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_4Buttons_icon" position="0,eval($screen_height-10)"/>
+	</screen>

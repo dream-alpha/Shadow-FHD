@@ -1,0 +1,6 @@
+	<screen backgroundColor="ScreenBackground" flags="wfNoBorder" name="AutoTimerServiceEditor" position="0,0" size="1200,1080">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<xmlinc file="screenpart_4Buttons_source" position="0,eval($screen_height-50)"/>
+		<widget enableWrapAround="1" name="config" position="20,90" scrollbarMode="showOnDemand" size="eval($screen_width-40),660" transparent="1"/>
+	</screen>

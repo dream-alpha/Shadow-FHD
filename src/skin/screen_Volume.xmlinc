@@ -1,0 +1,7 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="Volume" position="15,225" size="75,450">
+		<eLabel backgroundColor="gradient" cornerRadius="74" position="0,center" size="75,450" zPosition="-2"/>
+		<ePixmap pixmap="Shadow-FHD/images/audio.svg" position="19,19" size="38,38"/>
+		<widget backgroundColor="gradient" font="Regular;29" halign="center" position="8,398" render="ExtvolumeText" size="60,30" source="global.CurrentTime"/>
+		<eLabel backgroundColor="ColorSeparation" cornerRadius="28" position="23,center" size="30,285" zPosition="-1"/>
+		<widget name="Volume" orientation="orBottomToTop" pixmap="Shadow-FHD/images/vol.svg" position="23,center" size="30,285" transparent="1"/>
+	</screen>

@@ -1,0 +1,12 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="EPGSearch" position="center,center" size="1920,1080" title="EPG Selection">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<xmlinc file="screenpart_4Buttons_name" position="0,eval($screen_height-50)"/>
+		<widget name="list" position="19,86" size="834,900" transparent="1"/>
+		<widget font="Bold;32" noWrap="1" position="900,90" render="Label" size="990,40" source="Event" transparent="1">
+			<convert type="EventName">Name</convert>
+		</widget>
+		<widget font="Regular;26" position="900,150" render="Label" size="990,750" source="Event" transparent="1">
+			<convert type="EventName">FullDescription</convert>
+		</widget>
+	</screen>

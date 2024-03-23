@@ -1,0 +1,34 @@
+	<screen flags="wfNoBorder" name="Satfinder" position="center,center" size="1920,1080" title="Satfinder">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<ePixmap pixmap="Shadow-FHD/skin_default/icons/scan-s.svg" position="255,270" size="200,200"/>
+		<widget backgroundColor="CursorBackground" font="Regular;40" foregroundColor="CursorForeground" halign="center" position="240,550" render="Label" size="228,60" source="Frontend" transparent="1" valign="center">
+			<convert type="FrontendInfo">SNRdB</convert>
+		</widget>
+		<ePixmap pixmap="Shadow-FHD/skin_default/icons/logo.svg" position="140,680" size="428,26"/>
+		<eLabel backgroundColor="background" font="Regular;28" halign="right" name="snr" position="470,830" size="100,35" text="SNR:" transparent="1"/>
+		<widget borderWidth="2" position="580,835" render="Progress" size="1050,23" source="Frontend" transparent="1">
+			<convert type="FrontendInfo">SNR</convert>
+		</widget>
+		<widget font="Regular;28" position="1650,830" render="Label" size="120,35" source="Frontend" transparent="1">
+			<convert type="FrontendInfo">SNR</convert>
+		</widget>
+		<eLabel backgroundColor="background" font="Regular;28" halign="right" name="ber" position="470,880" size="100,35" text="BER:" transparent="1"/>
+		<widget borderWidth="2" position="580,885" render="Progress" size="1050,23" source="Frontend">
+			<convert type="FrontendInfo">BER</convert>
+		</widget>
+		<widget font="Regular;28" position="1650,880" render="Label" size="120,35" source="Frontend" transparent="1">
+			<convert type="FrontendInfo">BER</convert>
+		</widget>
+		<eLabel backgroundColor="background" font="Regular;28" halign="right" name="lock" position="470,933" size="100,35" text="Lock:" transparent="1"/>
+		<widget pixmap="Shadow-FHD/skin_default/icons/lock_on.png" position="580,929" render="Pixmap" size="38,38" source="Frontend">
+			<convert type="FrontendInfo">LOCK</convert>
+			<convert type="ConditionalShowHide"/>
+		</widget>
+		<widget pixmap="Shadow-FHD/skin_default/icons/lock_off.png" position="580,929" render="Pixmap" size="38,38" source="Frontend">
+			<convert type="FrontendInfo">LOCK</convert>
+			<convert type="ConditionalShowHide">Invert</convert>
+		</widget>
+		<widget enableWrapAround="1" name="config" position="720,100" scrollbarMode="showOnDemand" size="1100,660" transparent="1"/>
+		<ePixmap pixmap="Shadow-FHD/images/scan.svg" position="140,810" size="160,160"/>
+	</screen>

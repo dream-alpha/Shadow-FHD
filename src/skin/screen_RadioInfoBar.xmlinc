@@ -1,0 +1,6 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="RadioInfoBar" position="330,940" size="1220,35">
+		<xmlinc file="screenpart_Background"/>
+		<widget font="Bold;28" position="0,0" render="Label" size="1220,35" source="RdsDecoder" transparent="1">
+			<convert type="RdsInfo">RadioText</convert>
+		</widget>
+	</screen>

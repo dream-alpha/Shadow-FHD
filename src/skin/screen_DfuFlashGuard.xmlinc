@@ -1,0 +1,10 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="DfuFlashGuard" position="center,center" size="1040,450">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<eLabel backgroundColor="CursorBackground" font="Bold;100" foregroundColor="#bababa" halign="center" position="60,15" size="100,100" text="!" transparent="1" valign="center"/>
+		<widget font="Regular;28" halign="center" name="text" position="20,140" size="1000,200" valign="center"/>
+		<widget font="Regular;30" name="bytes" position="10,360" size="650,35"/>
+		<widget font="Regular;30" halign="right" name="log" position="670,360" size="300,35"/>
+		<ePixmap pixmap="Shadow-FHD/images/info.svg" position="990,357" size="40,40"/>
+		<widget backgroundColor="grey" foregroundColor="Progress" position="10,412" render="Progress" size="1020,28" source="progress"/>
+	</screen>

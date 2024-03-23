@@ -1,0 +1,9 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="RemoteControlSelection" position="0,0" size="1200,1080">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/images/rcu.svg" source="Title"/>
+		<ePixmap pixmap="Shadow-FHD/skin_default/icons/arrow_left.svg" position="80,center" size="80,80"/>
+		<widget name="rc" pixmap="Shadow-FHD/skin_default/rc0.png" position="240,260" size="216,700"/>
+		<ePixmap pixmap="Shadow-FHD/skin_default/icons/arrow_right.svg" position="530,center" size="80,80"/>
+		<widget backgroundColor="gradient" font="Regular;22" foregroundColor="Heading" halign="center" name="color_hint" position="20,980" size="eval($screen_width-40),28" transparent="1"/>
+		<widget backgroundColor="gradient" font="Regular;26" halign="center" name="ok" position="0,1020" size="700,30" transparent="1" valign="center"/>
+	</screen>

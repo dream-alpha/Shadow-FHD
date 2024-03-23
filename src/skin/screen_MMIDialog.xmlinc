@@ -1,0 +1,7 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="MMIDialog" position="center,center" size="1040,450" title="CI/CA Menu">
+		<xmlinc file="screenpart_Background"/>
+		<widget font="Bold;32" name="title" position="20,170" size="400,40"/>
+		<widget font="Bold;32" halign="right" name="subtitle" position="620,170" size="400,40"/>
+		<widget enableWrapAround="1" itemHeight="45" name="entries" position="20,230" scrollbarMode="showOnDemand" size="1000,135"/>
+		<widget backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" name="bottom" position="0,390" size="1040,60" valign="center"/>
+	</screen>

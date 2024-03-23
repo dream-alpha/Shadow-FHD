@@ -1,0 +1,9 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="TimerSanityConflict" position="0,0" size="1200,1080" title="Timer sanity error">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/images/timer.svg" source="Title"/>
+		<widget name="timer1" position="20,120" scrollbarMode="showNever" size="570,200"/>
+		<eLabel backgroundColor="grey" position="600,110" size="1,220"/>
+		<widget name="timer2" position="610,120" scrollbarMode="showNever" size="570,200"/>
+		<widget enableWrapAround="1" name="list" position="20,340" scrollbarMode="showOnDemand" size="eval($screen_width-40),500"/>
+		<xmlinc file="screenpart_4Buttons_name" position="0,eval($screen_height-50)"/>
+	</screen>

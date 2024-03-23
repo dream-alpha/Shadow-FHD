@@ -1,0 +1,12 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="LanguageSelection" position="0,0" size="1200,1080">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/images/language.svg" source="Title"/>
+		<widget enableWrapAround="1" position="20,120" render="Listbox" scrollbarMode="showOnDemand" size="eval($screen_width-40),840" source="languages" transparent="1">
+			<convert type="TemplatedMultiContent">
+			{"template":[MultiContentEntryText(pos=(110,0),size=(540,70),flags=RT_VALIGN_CENTER|RT_WRAP,text=1),
+			MultiContentEntryPixmap(pos=(10,10),size=(75,50),png=2),],
+			"fonts":[gFont("Regular",28)],"itemHeight":70}
+			</convert>
+		</widget>
+		<xmlinc file="screenpart_menu_arrow_down"/>
+	</screen>

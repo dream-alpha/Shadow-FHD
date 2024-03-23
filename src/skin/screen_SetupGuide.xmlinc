@@ -1,0 +1,19 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="SetupGuide" position="center,580" size="1920,500">
+		<xmlinc file="screenpart_Background"/>
+		<widget font="Bold;40" position="120,10" render="Label" size="760,47" source="Title" transparent="1"/>
+		<widget font="Regular;28" halign="center" name="text" position="120,80" size="1690,200" transparent="1" valign="center"/>
+		<widget enableWrapAround="1" position="120,250" render="Listbox" scrollbarMode="showOnDemand" size="1690,70" source="list" transparent="1" zPosition="1">
+			<convert type="TemplatedMultiContent">
+			{"template":[MultiContentEntryText(pos=(10,3),size=(445,35),font=0,text=0),
+			MultiContentEntryText(pos=(1030,3),size=(650,35),font=0,flags=RT_HALIGN_RIGHT|RT_VALIGN_CENTER,text=4),
+			MultiContentEntryText(pos=(630,0),size=(400,70),font=0,flags=RT_HALIGN_CENTER|RT_VALIGN_CENTER,text=3),
+			MultiContentEntryText(pos=(10,38),size=(445,30),font=1,flags=RT_VALIGN_CENTER,text=2),
+			MultiContentEntryText(pos=(1130,38),size=(550,30),font=1,flags=RT_HALIGN_RIGHT|RT_VALIGN_TOP,text=1),],
+			"fonts":[gFont("Bold",24),gFont("Regular",24)],"itemHeight":70}
+			</convert>
+		</widget>
+		<eLabel backgroundColor="CursorBackground" position="80,340" size="1760,60"/>
+		<eLabel backgroundColor="background" font="Regular;26" halign="center" position="1710,350" size="100,38" text="OK" valign="center"/>
+		<eLabel backgroundColor="blue" position="0,490" size="1920,10"/>
+		<widget backgroundColor="gradient" font="Regular;26" halign="center" name="blue_text" position="0,420" size="1920,60" transparent="1" valign="center"/>
+	</screen>

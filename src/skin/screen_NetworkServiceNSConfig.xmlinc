@@ -1,0 +1,7 @@
+	<screen flags="wfNoBorder" name="NetworkServiceNSConfig" position="0,0" size="1200,1080">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/menu/network_setup.svg" source="Title"/>
+		<widget enableWrapAround="1" name="config" position="20,120" scrollbarMode="showOnDemand" size="eval($screen_width-40),630" transparent="1"/>
+		<widget font="Regular;28" halign="center" position="20,eval($screen_height-150)" render="Label" size="eval($screen_width-40),75" source="activedns" transparent="1" valign="center"/>
+		<xmlinc file="screenpart_4Buttons_source" position="0,eval($screen_height-50)"/>
+	</screen>

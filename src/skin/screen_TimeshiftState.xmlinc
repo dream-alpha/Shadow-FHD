@@ -1,0 +1,20 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="TimeshiftState" position="1500,center" size="420,1080" zPosition="1000">
+		<xmlinc file="screenpart_Background"/>
+		<ePixmap gradient="transparent,transpBlack,horizontal" position="0,center" size="420,1080" zPosition="-2"/>
+		<eLabel backgroundColor="transpBlack" font="Bold;30" foregroundColor="Heading" halign="right" position="40,265" size="340,36" text="Timeshift aktiv" transparent="1" valign="center"/>
+		<widget backgroundColor="grey" foregroundColor="Progress" orientation="orBottomToTop" position="370,320" render="Progress" size="8,320" source="session.CurrentService">
+			<convert type="ServicePosition">Position</convert>
+		</widget>
+		<eLabel backgroundColor="transpBlack" font="Regular;28" halign="right" position="50,325" size="300,35" text="Remain" transparent="1"/>
+		<widget backgroundColor="transpBlack" font="Regular;28" halign="right" position="50,360" render="Label" size="300,35" source="session.CurrentService" transparent="1">
+			<convert type="ServicePosition">Remaining</convert>
+		</widget>
+		<eLabel backgroundColor="transpBlack" font="Regular;28" halign="right" position="50,450" size="300,35" text="Elapsed" transparent="1"/>
+		<widget backgroundColor="transpBlack" font="Regular;28" halign="right" position="50,485" render="Label" size="300,35" source="session.CurrentService" transparent="1">
+			<convert type="ServicePosition">Position</convert>
+		</widget>
+		<eLabel backgroundColor="transpBlack" font="Regular;28" halign="right" position="50,575" size="300,35" text="Duration" transparent="1"/>
+		<widget backgroundColor="transpBlack" font="Regular;28" halign="right" position="50,610" render="Label" size="300,35" source="session.CurrentService" transparent="1">
+			<convert type="ServicePosition">Length</convert>
+		</widget>
+	</screen>

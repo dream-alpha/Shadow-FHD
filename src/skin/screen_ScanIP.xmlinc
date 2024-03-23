@@ -1,0 +1,8 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="ScanIP" position="center,center" size="1040,450" title="Scan IP">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/images/network.svg" source="Title" width="1040"/>
+		<widget enableWrapAround="1" name="config" position="20,200" scrollbarMode="showOnDemand" size="1000,60" transparent="1"/>
+		<xmlinc file="screenpart_1Button_source" position="eval($screen_width/4),eval($screen_height-50)" source="key_green" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_1Button_source" position="eval(2*$screen_width/4),eval($screen_height-50)" source="key_yellow" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_4Buttons_icon" position="0,eval($screen_height-10)"/>
+	</screen>

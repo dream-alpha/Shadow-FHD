@@ -1,0 +1,16 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="PluginManagerInfo" position="0,0" size="1200,1080">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/images/softmanager.svg" source="Title"/>
+		<xmlinc file="screenpart_1Button_source" position="eval($screen_width/4),eval($screen_height-50)" source="key_green" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_4Buttons_icon" position="0,eval($screen_height-10)"/>
+		<widget enableWrapAround="1" position="20,120" render="Listbox" scrollbarMode="showOnDemand" size="eval($screen_width-40),630" source="list" transparent="1">
+			<convert type="TemplatedMultiContent">
+			{"template":[MultiContentEntryPixmapAlphaTest(pos=(5,15),size=(60,60),png=2),
+			MultiContentEntryText(pos=(80,15),size=(570,35),font=0,flags=RT_WRAP,text=0),
+			MultiContentEntryText(pos=(80,50),size=(570,27),font=1,text=1),
+			MultiContentEntryPixmapAlphaTest(pos=(0,0),size=(0,0),png=3),],
+			"fonts":[gFont("Bold",26),gFont("Regular",22)],"itemHeight":90}
+			</convert>
+		</widget>
+		<widget font="Regular;28" foregroundColor="Heading" halign="center" position="20,910" render="Label" size="eval($screen_width-40),70" source="status" transparent="1" valign="center"/>
+	</screen>

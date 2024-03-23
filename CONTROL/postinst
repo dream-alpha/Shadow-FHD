@@ -1,0 +1,5 @@
+#!/bin/sh
+echo "Skin installed successfully."
+echo "Please restart DreamOS now!"
+echo ""
+exit 0

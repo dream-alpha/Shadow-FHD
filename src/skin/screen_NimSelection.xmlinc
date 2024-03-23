@@ -1,0 +1,11 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="NimSelection" position="0,0" size="1200,1080" title="Choose Tuner">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/images/tuner.svg" source="Title"/>
+		<widget enableWrapAround="1" position="20,120" render="Listbox" scrollbarMode="showOnDemand" size="eval($screen_width-40),800" source="nimlist" transparent="1">
+			<convert type="TemplatedMultiContent">
+			{"template":[MultiContentEntryText(pos=(5,5),size=(650,35),font=0,flags=RT_VALIGN_CENTER,text=1),
+			MultiContentEntryText(pos=(10,42),size=(640,112),font=1,flags=RT_VALIGN_TOP|RT_WRAP,text=2),],
+			"fonts":[gFont("Bold",26),gFont("Regular",22)],"itemHeight":160}
+			</convert>
+		</widget>
+	</screen>

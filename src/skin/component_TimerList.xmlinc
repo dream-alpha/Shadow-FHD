@@ -1,0 +1,11 @@
+	<component type="TimerList">
+		<template>
+			{"template":[MultiContentEntryText(pos=(5,42),size=(width,30),font=1,flags=RT_HALIGN_LEFT|RT_VALIGN_CENTER,text=1,color=0xa0a0a0),
+			MultiContentEntryPixmapAlphaTest(pos=(1110,7),size=(30,30),png=2),
+			MultiContentEntryText(pos=(5,7),size=(1060,34),font=0,flags=RT_HALIGN_LEFT|RT_VALIGN_CENTER,text=3),
+			MultiContentEntryText(pos=(5,73),size=(width-180,30),font=1,flags=RT_HALIGN_LEFT|RT_VALIGN_CENTER,text=4,color=0xa0a0a0),
+			MultiContentEntryText(pos=(width-170,73),size=(180,30),font=1,flags=RT_HALIGN_RIGHT|RT_VALIGN_CENTER,text=5,color=0xa0a0a0),
+			MultiContentEntryPixmapAlphaTest(pos=(1060,7),size=(40,40),png=6),],
+			"fonts":[gFont("Regular",30),gFont("Regular",26)],"itemHeight":112}
+			</template>
+	</component>

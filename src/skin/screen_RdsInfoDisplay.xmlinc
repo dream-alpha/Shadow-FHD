@@ -1,0 +1,5 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="RdsInfoDisplay" position="310,40" size="1300,80" zPosition="-2">
+		<xmlinc file="screenpart_Background"/>
+		<widget backgroundColor="transpBlack" font="Bold;30" foregroundColor="Heading" halign="center" name="RadioText" noWrap="1" position="0,1" size="1300,35" transparent="1"/>
+		<widget backgroundColor="transpBlack" font="Regular;30" halign="center" name="RtpText" noWrap="1" position="0,40" size="1300,35" transparent="1"/>
+	</screen>

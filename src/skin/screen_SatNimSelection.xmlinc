@@ -1,0 +1,5 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="SatNimSelection" position="center,center" size="1040,450" title="select Slot">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/images/tuner.svg" source="Title" width="1040"/>
+		<widget enableWrapAround="1" name="nimlist" position="20,120" scrollbarMode="showOnDemand" size="1000,250"/>
+	</screen>

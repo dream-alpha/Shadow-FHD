@@ -1,0 +1,11 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="Pic_Exif" position="0,0" size="1200,1080">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/images/info.svg" position="25,15" source="Title"/>
+		<widget enableWrapAround="1" position="20,120" render="Listbox" scrollbarMode="showOnDemand" size="eval($screen_width-40),800" source="menu" transparent="1">
+			<convert type="TemplatedMultiContent">
+			{"template":[MultiContentEntryText(pos=(10,0),size=(340,50),flags=RT_VALIGN_CENTER,text=0),
+			MultiContentEntryText(pos=(360,0),size=(300,50),flags=RT_VALIGN_CENTER,text=1)],
+			"fonts":[gFont("Regular",26)],"itemHeight":50}
+			</convert>
+		</widget>
+	</screen>

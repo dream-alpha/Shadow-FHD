@@ -1,0 +1,7 @@
+	<screen backgroundColor="ScreenBackground" flags="wfNoBorder" name="EPGRefreshServiceEditor" position="center,center" size="1920,1080">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<xmlinc file="screenpart_4Buttons_source" position="0,eval($screen_height-50)"/>
+		<eLabel backgroundColor="background" position="50,110" size="1820,860" zPosition="-1"/>
+		<widget enableWrapAround="1" name="config" position="60,120" scrollbarMode="showOnDemand" size="1800,840" transparent="1"/>
+	</screen>

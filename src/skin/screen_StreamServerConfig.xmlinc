@@ -1,0 +1,12 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="StreamServerConfig" position="0,0" size="1200,1080">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/images/streamserver.svg" source="Title"/>
+		<xmlinc file="screenpart_1Button_source" position="eval(2*$screen_width/4),eval($screen_height-50)" source="key_yellow" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_4Buttons_icon" position="0,eval($screen_height-10)"/>
+		<widget enableWrapAround="1" name="config" position="20,120" scrollbarMode="showOnDemand" size="eval($screen_width-40),420" transparent="1"/>
+		<eLabel backgroundColor="grey" position="10,700" size="680,2"/>
+		<widget font="Bold;28" halign="center" name="details_label" position="20,715" size="eval($screen_width-40),35" transparent="1"/>
+		<widget font="Regular;26" halign="center" name="details" position="20,755" size="eval($screen_width-40),70" transparent="1"/>
+		<widget font="Regular;24" halign="center" name="info" position="20,900" size="eval($screen_width-40),70" transparent="1"/>
+		<widget font="Regular;19" foregroundColor="Heading" halign="center" name="details_hint" position="10,970" size="680,30" transparent="1"/>
+	</screen>

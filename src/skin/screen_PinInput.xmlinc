@@ -1,0 +1,9 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="PinInput" position="center,center" size="1040,450" title="Pin code needed">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<ePixmap pixmap="Shadow-FHD/images/setup.svg" position="58,18" size="100,100"/>
+		<widget font="Bold;36" halign="center" name="service" position="20,200" size="1000,46"/>
+		<widget font="Regular;28" halign="center" name="text" position="10,255" size="1000,70"/>
+		<widget font="Regular;28" halign="center" name="tries" position="10,335" size="1000,35"/>
+		<widget font="Regular;80" halign="center" name="input" position="10,380" size="1000,70"/>
+	</screen>

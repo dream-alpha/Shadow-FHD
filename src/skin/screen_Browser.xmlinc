@@ -1,0 +1,16 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="Browser" position="center,center" size="1920,1080">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<widget font="Regular;28" name="url" position="20,67" size="1450,35" transparent="1" zPosition="1"/>
+		<widget font="Regular;40" halign="center" name="text" position="0,66" size="1920,50" transparent="0" zPosition="2"/>
+		<widget font="Regular;28" halign="right" name="statuslabel" position="1500,67" size="400,35" transparent="1" zPosition="2"/>
+		<widget name="urlList" position="0,66" size="1920,150" transparent="0" zPosition="2"/>
+		<widget font="Regular;28" foregroundColor="red" halign="right" name="loading" position="1600,67" size="300,35" transparent="1" zPosition="3"/>
+		<widget name="cursor" position="0,0" size="19,30" zPosition="1"/>
+		<widget position="0,120" render="Canvas" size="1920,900" source="canvas"/>
+		<widget position="0,120" render="WebView" size="1920,900" source="webnavigation" zPosition="1"/>
+		<xmlinc file="screenpart_1Button_name" name="red" position="0,eval($screen_height-50)" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_1Button_name" name="yellow" position="eval(2*$screen_width/4),eval($screen_height-50)" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_1Button_name" name="blue" position="eval(3*$screen_width/4),eval($screen_height-50)" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_4Buttons_icon" position="0,eval($screen_height-10)"/>
+	</screen>
