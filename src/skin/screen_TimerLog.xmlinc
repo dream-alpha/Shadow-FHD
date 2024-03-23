@@ -2,6 +2,6 @@
 		<xmlinc file="screenpart_Background"/>
 		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/images/timer.svg" source="Title"/>
 		<xmlinc file="screenpart_4Buttons_name" position="0,eval($screen_height-50)"/>
-		<widget enableWrapAround="1" name="loglist" position="20,120" scrollbarMode="showOnDemand" size="1160,eval($screen_height-270)" transparent="1"/>
-		<widget font="Regular;30" name="logentry" position="20,690" size="1160,80" transparent="1"/>
+		<widget enableWrapAround="1" name="loglist" position="20,120" scrollbarMode="showOnDemand" size="eval($screen_width-40),eval($screen_height-270)" transparent="1"/>
+		<widget font="Regular;30" name="logentry" position="20,690" size="eval($screen_width-40),80" transparent="1"/>
 	</screen>
