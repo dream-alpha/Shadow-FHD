@@ -1315,7 +1315,7 @@
 		<widget font="Regular;30" name="textbook" position="20,475" size="1360,35"/>
 		<eLabel backgroundColor="grey" position="20,515" size="1360,1"/>
 		<widget enableWrapAround="1" name="booklist" position="20,525" scrollbarMode="showOnDemand" size="1360,180"/>
-		<ePixmap pixmap="Default-FHD/skin_default/icons/menu.svg" position="1280,5" size="80,40"/>
+		<ePixmap pixmap="Default-FHD/skin_default/icons/menu.svg" position="1300,5" size="80,40"/>
 		<widget font="Regular;26" halign="center" name="key_red" position="0,1030" size="350,35" transparent="1"/>
 		<widget font="Regular;26" halign="center" name="key_green" position="350,1030" size="350,35" transparent="1"/>
 		<widget font="Regular;26" halign="center" name="key_blue" position="1050,1030" size="350,35" transparent="1"/>
