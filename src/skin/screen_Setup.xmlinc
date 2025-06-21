@@ -1,0 +1,7 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="Setup" position="0,0" size="1200,1080" title="Setup">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/images/setup.svg" source="Title"/>
+		<xmlinc file="screenpart_1Button_text" position="eval($screen_width/4),eval($screen_height-50)" text="Save" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_4Buttons_icon" position="0,eval($screen_height-10)"/>
+		<widget enableWrapAround="1" name="config" position="20,120" scrollbarMode="showOnDemand" size="eval($screen_width-40),840" transparent="1"/>
+	</screen>

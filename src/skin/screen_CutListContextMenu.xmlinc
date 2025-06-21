@@ -1,0 +1,8 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="CutListContextMenu" position="0,0" size="1200,1080" title="Cutlist Menu">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/images/movies.svg" source="Title"/>
+		<widget enableWrapAround="1" position="20,120" render="Listbox" scrollbarMode="showNever" size="eval($screen_width-40),680" source="menu" transparent="1">
+			<convert type="StringList"/>
+		</widget>
+		<xmlinc file="screenpart_menu_arrow_down"/>
+	</screen>

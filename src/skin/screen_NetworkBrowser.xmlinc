@@ -1,0 +1,16 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="NetworkBrowser" position="0,0" size="1200,1080">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<widget enableWrapAround="1" position="20,120" render="Listbox" scrollbarMode="showOnDemand" size="eval($screen_width-40),700" source="list" transparent="1">
+			<convert type="TemplatedMultiContent">
+			{"template":[MultiContentEntryPixmapAlphaTest(pos=(10,10),size=(60,60),png=1),
+			MultiContentEntryText(pos=(100,0),size=(1660,80),font=0,flags=RT_VALIGN_CENTER,text=2),
+			MultiContentEntryText(pos=(270,9),size=(1500,30),font=1,text=3),
+			MultiContentEntryText(pos=(270,43),size=(1500,30),font=1,text=4),
+			MultiContentEntryPixmapAlphaTest(pos=(90,10),size=(60,60),png=5),
+			MultiContentEntryPixmapAlphaTest(pos=(175,10),size=(60,60),png=6),],
+			"fonts":[gFont("Bold",30),gFont("Regular",24)],"itemHeight":80}
+			</convert>
+		</widget>
+		<xmlinc file="screenpart_4Buttons_source" position="0,eval($screen_height-50)"/>
+	</screen>

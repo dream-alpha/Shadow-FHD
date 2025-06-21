@@ -1,0 +1,37 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="ChannelSelectionRadio" position="center,center" size="1920,1080" zPosition="-1">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<xmlinc file="screenpart_4Buttons_name" position="0,eval($screen_height-50)"/>
+		<widget additionalInfoFont="Regular;26" backgroundColor="background" colorRecording="red" colorRecordingSelected="CursorForeground" colorServiceDescription="foreground" colorServiceDescriptionSelected="CursorForeground" foregroundColorServiceNotAvail="#818181" name="list" picServiceEventProgressbar="Shadow-FHD/images/progress.svg" position="710,110" scrollbarMode="showOnDemand" serviceInfoFont="Regular;26" serviceItemHeight="63" serviceNameFont="Bold;26" serviceNumberFont="Bold;26" size="1120,630" transparent="1"/>
+		<widget font="Regular;28" position="80,110" render="Label" size="550,630" source="session.Event_Now" transparent="1">
+			<convert type="COCEventName">FullDescription</convert>
+		</widget>
+		<widget position="90,825" render="Picon" size="220,132" source="session.CurrentService">
+			<convert type="ServiceName">Reference</convert>
+		</widget>
+		<widget font="Regular;45" position="330,800" render="Label" size="1250,56" source="session.CurrentService" transparent="1">
+			<convert type="ServiceName">Name</convert>
+		</widget>
+		<widget font="Regular;30" foregroundColor="Heading" halign="right" position="1615,810" render="Label" size="90,35" source="session.Event_Now" transparent="1">
+			<convert type="EventTime">StartTime</convert>
+			<convert type="ClockToText">Default</convert>
+		</widget>
+		<widget font="Regular;30" foregroundColor="Heading" halign="right" position="1710,810" render="Label" size="100,35" source="session.Event_Now" transparent="1">
+			<convert type="EventTime">EndTime</convert>
+			<convert type="ClockToText">Format:- %H:%M</convert>
+		</widget>
+		<widget font="Regular;30" position="330,865" render="Label" size="1250,35" source="session.Event_Now" transparent="1">
+			<convert type="COCEventName">Name</convert>
+		</widget>
+		<widget font="Regular;30" halign="right" position="1610,865" render="Label" size="200,35" source="session.Event_Now" transparent="1">
+			<convert type="EventTime">Remaining</convert>
+			<convert type="RemainingToText">inMinutes</convert>
+		</widget>
+		<widget backgroundColor="grey" pixmap="Shadow-FHD/images/progress.svg" position="330,915" render="Progress" size="1480,6" source="session.Event_Now">
+			<convert type="EventTime">Progress</convert>
+		</widget>
+		<widget path="/usr/share/enigma2/Shadow-FHD/skin_default/icons/" position="1570,939" render="ExtAudioIcon" size="91,40" source="session.CurrentService">
+			<convert type="Extaudioinfo">AudioIcon</convert>
+		</widget>
+		<eLabel backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1710,940" size="100,38" text="Info" valign="center"/>
+	</screen>

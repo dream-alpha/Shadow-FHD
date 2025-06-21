@@ -1,0 +1,18 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="GraphMultiEPG" position="center,center" size="1920,1080">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<xmlinc file="screenpart_EPG_little"/>
+		<widget name="timeline_text" position="0,337" size="1880,35" transparent="1"/>
+		<eLabel backgroundColor="foreground" position="382,378" size="1,544"/>
+		<eLabel backgroundColor="foreground" position="20,440" size="360,1"/>
+		<eLabel backgroundColor="foreground" position="20,500" size="360,1"/>
+		<eLabel backgroundColor="foreground" position="20,560" size="360,1"/>
+		<eLabel backgroundColor="foreground" position="20,620" size="360,1"/>
+		<eLabel backgroundColor="foreground" position="20,680" size="360,1"/>
+		<eLabel backgroundColor="foreground" position="20,740" size="360,1"/>
+		<eLabel backgroundColor="foreground" position="20,800" size="360,1"/>
+		<eLabel backgroundColor="foreground" position="20,860" size="360,1"/>
+		<eLabel backgroundColor="foreground" position="20,920" size="360,1"/>
+		<widget EntryActiveBackgroundColor="gradient" EntryActiveBackgroundColorSelected="Entryselect" EntryBackgroundColor="background" EntryBackgroundColorSelected="Entryselect" EntryBorderColor="foreground" EntryForegroundColor="foreground" EntryForegroundColorSelected="CursorForeground" ServiceNameForegroundColor="foreground" backgroundColor="background" itemHeight="60" name="list" position="30,382" scrollbarMode="showOnDemand" size="1860,540" transparent="1"/>
+		<xmlinc file="screenpart_4Buttons_name" position="0,1030" width="480"/>
+	</screen>

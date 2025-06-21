@@ -1,0 +1,18 @@
+	<screen flags="wfNoBorder" name="SleepTimerEdit" position="0,0" size="1200,1080" title="Sleep Timer">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/images/sleep.svg" source="Title"/>
+		<ePixmap pixmap="Shadow-FHD/images/ok_neutral.svg" position="eval($screen_width-20-50),30" size="50,50"/>
+		<widget font="Regular;27" name="pretext" position="20,150" size="380,35" transparent="1"/>
+		<widget font="Regular;27" halign="center" name="input" position="400,150" size="70,35" trasparent="1"/>
+		<widget font="Regular;27" name="aftertext" position="480,150" size="200,35" transparent="1"/>
+		<widget font="Regular;27" name="current_status" position="20,190" size="500,80" transparent="1" valign="center"/>
+		<eLabel backgroundColor="red" position="20,270" size="10,35"/>
+		<widget font="Regular;27" name="red_text" position="50,270" size="eval($screen_width-90),35" tranparent="1"/>
+		<eLabel backgroundColor="green" position="20,eval(270+60)" size="10,35"/>
+		<widget font="Regular;27" name="green_text" position="50,eval(270+60)" size="eval($screen_width-90),35" transparent="1"/>
+		<eLabel backgroundColor="yellow" position="20,eval(270+120)" size="10,35"/>
+		<widget font="Regular;27" name="yellow_text" position="50,eval(270+120)" size="eval($screen_width-90),35" transparent="1"/>
+		<eLabel backgroundColor="blue" position="20,eval(270+180)" size="10,35"/>
+		<widget font="Regular;27" name="blue_text" position="50,eval(270+180)" size="eval($screen_width-90),35" transparent="1"/>
+		<xmlinc file="screenpart_menu_arrow_down"/>
+	</screen>

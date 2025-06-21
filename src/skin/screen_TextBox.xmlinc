@@ -1,0 +1,5 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="TextBox" position="center,center" size="1200,820" title="Message...">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<widget font="Regular;28" name="text" position="20,120" size="eval($screen_width-40),700" transparent="1" valign="center"/>
+	</screen>

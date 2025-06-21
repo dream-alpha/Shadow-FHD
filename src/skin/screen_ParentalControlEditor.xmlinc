@@ -1,0 +1,5 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="ParentalControlEditor" position="0,0" size="1200,1080" title="Parental control services Editor">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/images/setup.svg" source="Title"/>
+		<widget enableWrapAround="1" name="servicelist" position="20,120" scrollbarMode="showOnDemand" size="eval($screen_width-40),680" transparent="1"/>
+	</screen>

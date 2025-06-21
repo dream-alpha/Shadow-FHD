@@ -1,0 +1,9 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="ConfigSetHelpDialog" position="885,120" size="960,400">
+		<xmlinc file="screenpart_Background"/>
+		<eLabel backgroundColor="gradient" position="0,0" size="960,400" zPosition="-2"/>
+		<eLabel backgroundColor="background" position="5,5" size="950,390" zPosition="-1"/>
+		<ePixmap pixmap="Shadow-FHD/skin_default/icons/input_info.svg" position="280,15" size="55,55"/>
+		<eLabel backgroundColor="background" font="Bold;40" position="370,20" size="300,45" text="Information" transparent="1"/>
+		<widget font="Bold;26" halign="center" name="help1" position="10,90" size="940,70" transparent="1"/>
+		<widget font="Regular;26" halign="center" name="help2" position="10,170" size="940,210" transparent="1"/>
+	</screen>

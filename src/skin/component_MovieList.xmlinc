@@ -1,0 +1,26 @@
+	<component type="MovieList">
+		<template>
+			{"templates":{
+			"default":(90,[
+			MultiContentEntryText(pos=(5,10),size=(width-310,35),font=0,text=1),
+			MultiContentEntryText(pos=(750,48),size=(90,30),font=1,flags=RT_HALIGN_RIGHT,text=6),
+			MultiContentEntryText(pos=(5,48),size=(180,30),font=1,text=5),
+			MultiContentEntryText(pos=(200,48),size=(530,30),font=1,text=4),
+			MultiContentEntryText(pos=(width-290,10),size=(300,35),font=0,flags=RT_HALIGN_RIGHT,text=3),]),
+			"compact_description":(90,[
+			MultiContentEntryText(pos=(5,10),size=(width-110,35),font=0,text=1),
+			MultiContentEntryText(pos=(500,48),size=(335,30),font=1,flags=RT_HALIGN_RIGHT,text=2),
+			MultiContentEntryText(pos=(5,48),size=(190,30),font=1,text=3),
+			MultiContentEntryText(pos=(195,48),size=(300,30),font=1,text=4),
+			MultiContentEntryText(pos=(width-95,12),size=(100,30),font=1,flags=RT_HALIGN_RIGHT,text=5),]),
+			"compact":(90,[
+			MultiContentEntryText(pos=(5,10),size=(width-110,35),font=0,text=1),
+			MultiContentEntryText(pos=(310,48),size=(523,30),flags=RT_HALIGN_RIGHT,font=1,text=3),
+			MultiContentEntryText(pos=(5,48),size=(300,30),font=1,text=4),
+			MultiContentEntryText(pos=(width-95,12),size=(100,30),font=1,flags=RT_HALIGN_RIGHT,text=5),]),
+			"minimal":(54,[
+			MultiContentEntryText(pos=(5,0),size=(width-230,54),font=2,flags=RT_VALIGN_CENTER,text=1),
+			MultiContentEntryText(pos=(width-230,0),size=(240,54),font=1,flags=RT_HALIGN_RIGHT|RT_VALIGN_CENTER,text=2),])},
+			"fonts":[gFont("Bold",26),gFont("Regular",24),gFont("Regular",28)]}
+			</template>
+	</component>

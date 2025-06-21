@@ -1,0 +1,6 @@
+	<screen backgroundColor="ScreenBackground" flags="wfNoBorder" name="SimpleChannelSelection" position="0,0" size="1200,1080">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<xmlinc file="screenpart_4Buttons_name" position="0,eval($screen_height-50)"/>
+		<widget additionalInfoFont="Regular;26" colorRecording="foreground" colorRecordingSelected="CursorForeground" colorServiceDescription="foreground" colorServiceDescriptionSelected="CursorForeground" foregroundColorServiceNotAvail="foreground" name="list" position="20,90" scrollbarMode="showOnDemand" serviceInfoFont="Regular;26" serviceNameFont="Bold;26" serviceNumberFont="Bold;26" size="eval($screen_width-40),640" transparent="1"/>
+	</screen>

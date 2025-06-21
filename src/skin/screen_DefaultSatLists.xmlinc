@@ -1,0 +1,10 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="DefaultSatLists" position="0,0" size="1200,1080" title="Default services lists">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/images/lists.svg" source="Title"/>
+		<widget enableWrapAround="1" name="config" position="20,120" scrollbarMode="showOnDemand" size="eval($screen_width-40),680" transparent="1"/>
+		<widget enableWrapAround="1" position="20,120" render="Listbox" scrollbarMode="showOnDemand" size="eval($screen_width-40),680" source="list" transparent="1">
+			<convert type="StringList"/>
+		</widget>
+		<xmlinc file="screenpart_1Button_name" name="languagetext" position="0,eval($screen_height-50)" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_4Buttons_icon" position="0,eval($screen_height-10)"/>
+	</screen>

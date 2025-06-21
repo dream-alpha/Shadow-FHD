@@ -1,0 +1,4 @@
+	<eLabel backgroundColor="CursorBackground" cornerRadius="30" position="30,817" size="227,143" zPosition="-2"/>
+	<widget position="38,825" render="Picon" size="212,128" source="session.CurrentService" zPosition="2">
+		<convert type="ServiceName">Reference</convert>
+	</widget>

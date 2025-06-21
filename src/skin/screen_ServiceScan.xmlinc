@@ -1,0 +1,23 @@
+	<screen name="ServiceScan" position="center,170" size="1200,820" title="Service Scan">
+		<widget pixmap="Shadow-FHD/images/scan-s.svg" position="20,10" render="Pixmap" size="200,200" source="FrontendInfo">
+			<convert type="FrontendInfo">TYPE</convert>
+			<convert type="ValueRange">0,0</convert>
+			<convert type="ConditionalShowHide"/>
+		</widget>
+		<widget pixmap="Shadow-FHD/images/scan-c.svg" position="20,10" render="Pixmap" size="200,200" source="FrontendInfo">
+			<convert type="FrontendInfo">TYPE</convert>
+			<convert type="ValueRange">1,1</convert>
+			<convert type="ConditionalShowHide"/>
+		</widget>
+		<widget pixmap="Shadow-FHD/images/scan-t.svg" position="20,10" render="Pixmap" size="200,200" source="FrontendInfo">
+			<convert type="FrontendInfo">TYPE</convert>
+			<convert type="ValueRange">2,2</convert>
+			<convert type="ConditionalShowHide"/>
+		</widget>
+		<widget font="Regular;32" name="network" position="260,15" size="800,40"/>
+		<widget font="Regular;30" name="transponder" position="260,65" size="800,70"/>
+		<widget font="Regular;28" name="scan_state" position="260,145" size="800,32"/>
+		<widget font="Regular;30" name="pass" position="20,230" size="1160,35"/>
+		<widget borderWidth="2" name="scan_progress" position="20,290" size="1160,20"/>
+		<widget name="servicelist" position="20,340" selectionDisabled="1" size="810,450"/>
+	</screen>

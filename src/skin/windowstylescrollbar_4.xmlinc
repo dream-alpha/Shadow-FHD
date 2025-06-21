@@ -1,0 +1,10 @@
+	<windowstylescrollbar id="4">
+		<value name="BackgroundPixmapTopHeight" value="0"/>
+		<value name="BackgroundPixmapBottomHeight" value="0"/>
+		<value name="ValuePixmapTopHeight" value="3"/>
+		<value name="ValuePixmapBottomHeight" value="3"/>
+		<value name="ScrollbarWidth" value="6"/>
+		<value name="ScrollbarBorderWidth" value="0"/>
+		<pixmap filename="Shadow-FHD/images/scrollbar.svg" name="BackgroundPixmap"/>
+		<pixmap filename="Shadow-FHD/images/slider.svg" name="ValuePixmap"/>
+	</windowstylescrollbar>

@@ -1,0 +1,8 @@
+	<screen backgroundColor="dark" name="MessageBox" position="center,center" size="900,10" title="Message">
+		<widget font="Regular;30" name="text" position="160,30" size="880,0" transparent="1"/>
+		<widget name="ErrorPixmap" pixmap="Shadow-FHD/skin_default/icons/input_error.svg" position="20,20" size="100,100"/>
+		<widget name="QuestionPixmap" pixmap="Shadow-FHD/skin_default/icons/input_question.svg" position="20,20" size="100,100"/>
+		<widget name="InfoPixmap" pixmap="Shadow-FHD/skin_default/icons/input_info.svg" position="20,20" size="100,100"/>
+		<widget enableWrapAround="1" name="list" position="20,160" size="860,300" transparent="1"/>
+		<xmlinc file="applet_MessageBox"/>
+	</screen>

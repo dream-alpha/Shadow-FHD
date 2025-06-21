@@ -1,0 +1,60 @@
+	<component beginMargin="10" endMargin="8" piconOffset="15" piconWidth="60" piconWidthBig="120" progressBarHeight="14" progressBarMargin="20" progressBarWidth="80" serviceInfoHeightAdd="8" serviceItemHeight="50" serviceItemHeightLarge="90" serviceNumberWidth="60" textOffset="10" type="ServiceList">
+		<template>
+			{"templates":{
+			"default":(0,[
+			MultiContentEntryText(pos=(0,0),size=(0,0)),]),
+			"MODE_FAVOURITES_Shadow-FHD (1)":(128,[
+			MultiContentEntryPixmapAlphaTest(pos=(5,4),size=(200,120),scale_flags=SCALE_STRETCH,png=40),
+			MultiContentEntryText(pos=(220,10),size=(440,32),font=0,text=36,color=MultiContentTemplateColor(15),color_sel=MultiContentTemplateColor(15)),
+			MultiContentEntryText(pos=(670,10),size=(120,32),flags=RT_HALIGN_RIGHT,font=0,text=22,color=MultiContentTemplateColor(15),color_sel=MultiContentTemplateColor(15)),
+			MultiContentEntryText(pos=(220,42),size=(570,30),font=1,text=2,color=MultiContentTemplateColor(15),color_sel=MultiContentTemplateColor(15)),
+			MultiContentEntryText(pos=(220,72),size=(570,30),font=1,text=20,color=MultiContentTemplateColor(15),color_sel=MultiContentTemplateColor(15)),
+			MultiContentEntryProgressPixmap(pos=(220,110),size=(570,9),percent=-5,png=25,borderWidth=1,foreColor=MultiContentTemplateColor(6),backColor=MultiContentTemplateColor(7)),
+			MultiContentEntryText(pos=(5,0),size=(800,128),flags=RT_HALIGN_CENTER|RT_VALIGN_CENTER,font=2,text=24,color_sel=MultiContentTemplateColor(15)),],True,None,{"ProgressbarPixmapSize":(560,12)}),
+			"MODE_FAVOURITES_Shadow-FHD (2)":(128,[
+			MultiContentEntryPixmapAlphaTest(pos=(5,4),size=(200,120),scale_flags=SCALE_STRETCH,png=40),
+			MultiContentEntryText(pos=(220,10),size=(400,32),font=0,text=1,color=MultiContentTemplateColor(15),color_sel=MultiContentTemplateColor(15)),
+			MultiContentEntryText(pos=(630,10),size=(160,32),flags=RT_HALIGN_RIGHT,font=0,text=30,color=MultiContentTemplateColor(15),color_sel=MultiContentTemplateColor(15)),
+			MultiContentEntryText(pos=(220,42),size=(570,30),font=1,text=2,color=MultiContentTemplateColor(15),color_sel=MultiContentTemplateColor(15)),
+			MultiContentEntryText(pos=(220,72),size=(570,30),font=1,text=20,color=MultiContentTemplateColor(15),color_sel=MultiContentTemplateColor(15)),
+			MultiContentEntryProgressPixmap(pos=(220,110),size=(570,9),percent=-5,png=25,borderWidth=1,foreColor=MultiContentTemplateColor(6),backColor=MultiContentTemplateColor(7)),
+			MultiContentEntryText(pos=(5,0),size=(800,128),flags=RT_HALIGN_CENTER|RT_VALIGN_CENTER,font=2,text=24,color_sel=MultiContentTemplateColor(15)),],True,None,{"ProgressbarPixmapSize":(560,12)}),
+			"MODE_FAVOURITES_Shadow-FHD (3)":(128,[
+			MultiContentEntryPixmapAlphaTest(pos=(5,4),size=(200,120),scale_flags=SCALE_STRETCH,png=40),
+			MultiContentEntryText(pos=(220,20),size=(440,32),font=0,text=36,color=MultiContentTemplateColor(15),color_sel=MultiContentTemplateColor(15)),
+			MultiContentEntryText(pos=(670,20),size=(120,32),flags=RT_HALIGN_RIGHT,font=0,text=22,color=MultiContentTemplateColor(15),color_sel=MultiContentTemplateColor(15)),
+			MultiContentEntryText(pos=(220,60),size=(570,30),font=1,text=2,color=MultiContentTemplateColor(15),color_sel=MultiContentTemplateColor(15)),
+			MultiContentEntryProgressPixmap(pos=(220,100),size=(570,9),percent=-5,png=25,borderWidth=1,foreColor=MultiContentTemplateColor(6),backColor=MultiContentTemplateColor(7)),
+			MultiContentEntryText(pos=(5,0),size=(800,128),flags=RT_HALIGN_CENTER|RT_VALIGN_CENTER,font=2,text=24,color_sel=MultiContentTemplateColor(15)),],True,None,{"ProgressbarPixmapSize":(560,12)}),
+			"MODE_FAVOURITES_Shadow-FHD (4)":(128,[
+			MultiContentEntryPixmapAlphaTest(pos=(5,4),size=(200,120),scale_flags=SCALE_STRETCH,png=40),
+			MultiContentEntryText(pos=(220,18),size=(440,32),font=0,text=36,color=MultiContentTemplateColor(15),color_sel=MultiContentTemplateColor(15)),
+			MultiContentEntryText(pos=(670,18),size=(120,32),flags=RT_HALIGN_RIGHT,font=0,text=22,color=MultiContentTemplateColor(15),color_sel=MultiContentTemplateColor(15)),
+			MultiContentEntryText(pos=(220,55),size=(570,56),font=1,text=26,flags=RT_WRAP,color=MultiContentTemplateColor(15),color_sel=MultiContentTemplateColor(15)),
+ 			MultiContentEntryText(pos=(0,127),size=(820,1),backcolor=MultiContentTemplateColor("CursorBackground"),backcolor_sel=MultiContentTemplateColor("CursorBackground")),
+			MultiContentEntryText(pos=(5,0),size=(800,128),flags=RT_HALIGN_CENTER|RT_VALIGN_CENTER,font=2,text=24,color_sel=MultiContentTemplateColor(15)),],True,None,{"ProgressbarPixmapSize":(0,0)}),
+			"MODE_FAVOURITES_Shadow-FHD (5)":(45,[
+			MultiContentEntryPixmapAlphaTest(pos=(5,5),size=(60,35),png=4),
+			MultiContentEntryText(pos=(80,8),size=(560,32),font=1,text=2,color=MultiContentTemplateColor(15),color_sel=MultiContentTemplateColor(15)),
+			MultiContentEntryText(pos=(670,8),size=(120,32),flags=RT_HALIGN_RIGHT,font=1,text=22,color=MultiContentTemplateColor(15),color_sel=MultiContentTemplateColor(15)),
+			MultiContentEntryText(pos=(5,0),size=(800,128),flags=RT_HALIGN_CENTER|RT_VALIGN_CENTER,font=2,text=24,color_sel=MultiContentTemplateColor(15)),],True,None,{"ProgressbarPixmapSize":(0,0)}),
+			"MODE_FAVOURITES_Shadow-FHD (6)":(90,[
+			MultiContentEntryPixmapAlphaTest(pos=(10,9),size=(120,72),scale_flags=SCALE_STRETCH,png=40),
+			MultiContentEntryText(pos=(145,14),size=(520,32),font=0,text=36,color=MultiContentTemplateColor(15),color_sel=MultiContentTemplateColor(15)),
+			MultiContentEntryText(pos=(690,14),size=(100,32),flags=RT_HALIGN_RIGHT,font=0,text=23,color=MultiContentTemplateColor(15),color_sel=MultiContentTemplateColor(15)),
+			MultiContentEntryText(pos=(145,49),size=(730,30),font=3,text=2,color=MultiContentTemplateColor(15),color_sel=MultiContentTemplateColor(15)),
+			MultiContentEntryText(pos=(5,0),size=(800,90),flags=RT_HALIGN_CENTER|RT_VALIGN_CENTER,font=2,text=24,color_sel=MultiContentTemplateColor(15)),],True,None,{"ProgressbarPixmapSize":(0,0)}),
+			"MODE_FAVOURITES_Shadow-FHD (7)":(90,[
+			MultiContentEntryPixmapAlphaTest(pos=(10,9),size=(120,72),png=4),
+			MultiContentEntryText(pos=(145,14),size=(480,32),font=0,text=35,color=MultiContentTemplateColor(15),color_sel=MultiContentTemplateColor(15)),
+			MultiContentEntryText(pos=(640,14),size=(150,32),flags=RT_HALIGN_RIGHT,font=0,text=32,color=MultiContentTemplateColor(15),color_sel=MultiContentTemplateColor(15)),
+			MultiContentEntryText(pos=(145,49),size=(650,30),font=3,text=31,color=MultiContentTemplateColor(15),color_sel=MultiContentTemplateColor(15)),
+			MultiContentEntryText(pos=(5,0),size=(800,90),flags=RT_HALIGN_CENTER|RT_VALIGN_CENTER,font=2,text=24,color_sel=MultiContentTemplateColor(15)),],True,None,{"ProgressbarPixmapSize":(0,0)}),
+			"MODE_NORMAL":(50,[
+			MultiContentEntryPixmapAlphaTest(pos=(5,5),size=(40,40),png=3),
+			MultiContentEntryText(pos=(60,0),size=(730,50),flags=RT_VALIGN_CENTER,text=1,color_sel=MultiContentTemplateColor(15)),]),
+			"MODE_ALL":(50,[
+			MultiContentEntryText(pos=(10,0),size=(780,50),flags=RT_VALIGN_CENTER,text=1,color=MultiContentTemplateColor(10),color_sel=MultiContentTemplateColor(11)),]),},
+			"fonts":[gFont("Bold",26),gFont("Regular",24),gFont("Bold",40),gFont("Regular",26)]}
+			</template>
+	</component>

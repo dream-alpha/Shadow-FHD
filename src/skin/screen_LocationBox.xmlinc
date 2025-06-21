@@ -1,0 +1,15 @@
+	<screen name="LocationBox" position="0,center" size="1400,1080">
+		<widget font="Regular;30" foregroundColor="yellow" name="text" position="20,5" size="eval($screen_width-40),35"/>
+		<widget font="Regular;30" name="target" position="20,45" size="eval($screen_width-40),35"/>
+		<eLabel backgroundColor="grey" position="20,85" size="eval($screen_width-40),1"/>
+		<widget enableWrapAround="1" name="filelist" position="20,95" scrollbarMode="showOnDemand" selectionDisabled="1" size="eval($screen_width-40),360"/>
+		<eLabel backgroundColor="grey" position="20,455" size="eval($screen_width-40),1"/>
+		<widget font="Regular;30" name="textbook" position="20,475" size="eval($screen_width-40),35"/>
+		<eLabel backgroundColor="grey" position="20,515" size="eval($screen_width-40),1"/>
+		<widget enableWrapAround="1" name="booklist" position="20,525" scrollbarMode="showOnDemand" size="eval($screen_width-40),450"/>
+		<ePixmap pixmap="Default-FHD/skin_default/icons/menu.svg" position="eval($screen_width-80-20),5" size="80,40"/>
+		<xmlinc file="screenpart_1Button_name" name="key_red" position="0,eval($screen_height-50)" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_1Button_name" name="key_green" position="eval($screen_width/4),eval($screen_height-50)" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_1Button_name" name="key_blue" position="eval(3*$screen_width/4),eval($screen_height-50)" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_4Buttons_icon" position="0,eval($screen_height-10)"/>
+	</screen>

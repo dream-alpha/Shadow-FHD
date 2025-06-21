@@ -1,0 +1,24 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="MovieSelection" position="center,center" size="1920,1080">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<xmlinc file="screenpart_4Buttons_name" position="0,eval($screen_height-50)"/>
+		<widget backgroundColor="gradient" enableWrapAround="1" name="list" position="60,145" scrollbarMode="showOnDemand" size="860,810" transparent="1"/>
+		<widget font="Bold;36" position="950,150" render="Label" size="650,80" source="Service" transparent="1" valign="bottom">
+			<convert type="COCEventName">Name</convert>
+		</widget>
+		<widget position="1680,145" render="Picon" size="167,100" source="Service">
+			<convert type="ExtMovieInfo">Picon</convert>
+		</widget>
+		<widget font="Regular;28" position="950,260" render="Label" size="880,560" source="Service" transparent="1">
+			<convert type="COCEventName">FullDescription</convert>
+		</widget>
+		<ePixmap pixmap="Shadow-FHD/images/hardisk.svg" position="950,875" size="80,80"/>
+		<eLabel backgroundColor="background" font="Regular;26" foregroundColor="Heading" position="1050,885" size="100,32" text="FileSize:" transparent="1"/>
+		<widget font="Regular;26" foregroundColor="Heading" position="1153,885" render="Label" size="360,32" source="Service" transparent="1">
+			<convert type="MovieInfo">FileSize</convert>
+		</widget>
+		<widget font="Regular;26" foregroundColor="Heading" position="1050,922" render="Label" size="eval($screen_width-40),32" source="session.CurrentService" transparent="1">
+			<convert type="ExtDiskSpaceInfo">MovieDir</convert>
+		</widget>
+		<eLabel backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1750,915" size="100,38" text="Info" valign="center"/>
+	</screen>

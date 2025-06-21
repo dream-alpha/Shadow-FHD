@@ -1,0 +1,9 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="AutoMountEdit" position="0,0" size="1200,1080">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/images/nwmntmng.svg" source="Title"/>
+		<xmlinc file="screenpart_1Button_source" position="0,eval($screen_height-50)" source="key_red" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_4Buttons_icon" position="0,eval($screen_height-10)"/>
+		<widget name="HelpWindow" position="0,1000"/>
+		<widget enableWrapAround="1" name="config" position="20,120" scrollbarMode="showOnDemand" size="eval($screen_width-40),680" transparent="1"/>
+		<widget backgroundColor="gradient" font="Regular;28" foregroundColor="Heading" halign="center" position="20,910" render="Label" size="eval($screen_width-40),70" source="introduction" transparent="1" valign="center"/>
+	</screen>

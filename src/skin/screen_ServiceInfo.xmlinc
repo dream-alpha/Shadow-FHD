@@ -1,0 +1,24 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="ServiceInfo" position="center,center" size="1200,900" title="Service Info">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<widget name="infolist" position="20,100" selectionDisabled="1" size="eval($screen_width-40),540" transparent="1"/>
+		<eLabel font="Regular;26" position="20,660" size="280,45" text="Audio:" transparent="1" valign="center"/>
+		<widget path="/usr/share/enigma2/Shadow-FHD/skin_default/icons/" position="340,660" render="ExtAudioIcon" size="80,45" source="session.CurrentService">
+			<convert type="Extaudioinfo">AudioIcon</convert>
+		</widget>
+		<eLabel font="Regular;26" position="20,705" size="280,45" text="Video:" transparent="1" valign="center"/>
+		<widget font="Regular;26" position="340,705" render="Label" size="570,45" source="session.CurrentService" transparent="1">
+			<convert type="ServiceResolution">VideoInfoCodec</convert>
+		</widget>
+		<eLabel font="Regular;26" position="20,750" size="200,45" text="Encryption:" valign="center"/>
+		<xmlinc file="screenpart_CAIDInfo" position="340,750"/>
+		<eLabel font="Regular;26" position="20,795" size="80,45" text="SNR:" valign="center"/>
+		<widget font="Regular;26" position="340,795" render="Label" size="130,45" source="session.FrontendStatus" transparent="1" valign="center">
+			<convert type="FrontendInfo">SNRdB</convert>
+		</widget>
+		<xmlinc file="screenpart_1Button_name" name="red" position="0,eval($screen_height-50)" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_1Button_name" name="green" position="eval($screen_width/4),eval($screen_height-50)" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_1Button_name" name="yellow" position="eval(2*$screen_width/4),eval($screen_height-50)" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_1Button_name" name="blue" position="eval(3*$screen_width/4),eval($screen_height-50)" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_4Buttons_icon" position="0,eval($screen_height-10)"/>
+	</screen>

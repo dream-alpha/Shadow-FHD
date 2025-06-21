@@ -1,0 +1,12 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="HelpMenu" position="0,center" size="1200,1080" title="Help">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<widget name="rc" pixmaps="Shadow-FHD/skin_default/rc0.png,skin_default/rc1.png,skin_default/rc2.png,skin_default/rc3.png" position="100,90" size="256,800"/>
+		<widget name="arrowdown" pixmap="Shadow-FHD/skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="1"/>
+		<widget name="arrowdown2" pixmap="Shadow-FHD/skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="1"/>
+		<widget name="arrowup" pixmap="Shadow-FHD/skin_default/arrowup.png" position="-100,-100" size="37,70" zPosition="1"/>
+		<widget name="arrowup2" pixmap="Shadow-FHD/skin_default/arrowup.png" position="-100,-100" size="37,70" zPosition="1"/>
+		<widget enableWrapAround="1" name="list" position="440,90" scrollbarMode="showOnDemand" size="eval($screen_width-25-440),800" transparent="1"/>
+		<widget font="Bold;28" halign="center" name="long_key" position="25,910" size="406,35" transparent="1"/>
+		<eLabel font="Regular;28" foregroundColor="Heading" halign="center" position="25,970" size="406,35" text="Press OK to apply"/>
+	</screen>

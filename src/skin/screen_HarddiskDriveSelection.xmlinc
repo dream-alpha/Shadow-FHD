@@ -1,0 +1,17 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="HarddiskDriveSelection" position="0,0" size="1200,1080">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<xmlinc file="screenpart_4Buttons_source" position="0,1030" width="300"/>
+		<ePixmap pixmap="Shadow-FHD/images/ok_neutral.svg" position="eval($screen_width-20-50),30" size="50,50"/>
+		<ePixmap pixmap="Shadow-FHD/images/info.svg" position="eval($screen_width-20-50-20-50),30" size="50,50"/>
+		<widget enableWrapAround="1" position="20,120" render="Listbox" scrollbarMode="showOnDemand" size="eval($screen_width-40),eval($screen_height-120-100)" source="hddlist" transparent="1">
+			<convert type="TemplatedMultiContent">
+			{"template":[MultiContentEntryText(pos=(100,5),size=(1000,35),font=0,text=0),
+			MultiContentEntryText(pos=(130,40),size=(1000,60),font=1,flags=RT_WRAP,text=2),
+			MultiContentEntryPixmapAlphaTest(pos=(0,10),size=(80,80),png=7),
+			MultiContentEntryPixmapAlphaTest(pos=(90,42),size=(25,25),png=8),
+			MultiContentEntryPixmapAlphaTest(pos=(0,0),size=(0,0),png=9),],
+			"fonts":[gFont("Bold",26),gFont("Regular",24)],"itemHeight":100}
+			</convert>
+		</widget>
+	</screen>

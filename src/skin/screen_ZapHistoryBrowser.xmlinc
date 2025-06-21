@@ -1,0 +1,10 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="ZapHistoryBrowser" position="0,0" size="1200,1080" title="Zap-History Browser">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/skin_default/icons/timerlist_zap.svg" source="Title"/>
+		<ePixmap pixmap="Shadow-FHD/images/del_red.svg" position="420,30" size="50,50"/>
+		<ePixmap pixmap="Shadow-FHD/images/del_green.svg" position="490,30" size="50,50"/>
+		<ePixmap pixmap="Shadow-FHD/images/ok_yellow.svg" position="560,30" size="50,50"/>
+		<ePixmap pixmap="Shadow-FHD/images/menu_blue.svg" position="630,30" size="50,50"/>
+		<widget enableWrapAround="1" name="list" position="20,255" scrollbarMode="showNever" size="eval($screen_width-40),680" transparent="1"/>
+		<xmlinc file="screenpart_menu_arrow_down"/>
+	</screen>

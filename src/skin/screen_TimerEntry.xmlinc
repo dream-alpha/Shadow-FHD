@@ -1,0 +1,10 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="TimerEntry" position="0,0" size="1200,1080" title="Timer entry">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/images/timer.svg" source="Title"/>
+		<widget enableWrapAround="0" name="config" position="20,120" scrollbarMode="showOnDemand" separation="400" size="eval($screen_width-40),630" transparent="1"/>
+		<xmlinc file="screenpart_1Button_name" name="canceltext" position="0,eval($screen_height-50)" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_1Button_name" name="oktext" position="eval($screen_width/4),eval($screen_height-50)" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_1Button_text" position="eval(2*$screen_width/4),eval($screen_height-50)" text=" " width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_1Button_text" position="eval(3*$screen_width/4),eval($screen_height-50)" text=" " width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_4Buttons_icon" position="0,eval($screen_height-10)"/>
+	</screen>
