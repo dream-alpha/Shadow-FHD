@@ -709,9 +709,9 @@
 		<eLabel backgroundColor="#3366cc" position="900,1070" size="300,10"/>
 	</screen>
 	<screen backgroundColor="transparent" flags="wfNoBorder" name="DfuFlashGuard" position="center,center" size="1040,450">
-		<ePixmap gradient="#ff000000,#131a1d,vertical" position="0,0" size="1040,202" zPosition="-1"/>
-		<eLabel backgroundColor="#131a1d" position="0,202" size="1040,45" zPosition="-1"/>
-		<ePixmap gradient="#131a1d,#ff000000,vertical" position="0,247" size="1040,202" zPosition="-1"/>
+		<ePixmap gradient="#ff000000,#131a1d,vertical" position="0,0" size="1040,203" zPosition="-1"/>
+		<eLabel backgroundColor="#131a1d" position="0,203" size="1040,45" zPosition="-1"/>
+		<ePixmap gradient="#131a1d,#ff000000,vertical" position="0,248" size="1040,203" zPosition="-1"/>
 		<widget font="Bold;32" noWrap="1" position="20,30" render="Label" size="1000,43" source="Title" transparent="1"/>
 		<eLabel backgroundColor="CursorBackground" font="Bold;100" foregroundColor="#bababa" halign="center" position="60,15" size="100,100" text="!" transparent="1" valign="center"/>
 		<widget font="Regular;28" halign="center" name="text" position="20,140" size="1000,200" valign="center"/>
@@ -721,9 +721,9 @@
 		<widget backgroundColor="grey" foregroundColor="Progress" position="10,412" render="Progress" size="1020,28" source="progress"/>
 	</screen>
 	<screen backgroundColor="transparent" flags="wfNoBorder" name="DfuLog" position="center,center" size="1040,570">
-		<ePixmap gradient="#ff000000,#131a1d,vertical" position="0,0" size="1040,256" zPosition="-1"/>
-		<eLabel backgroundColor="#131a1d" position="0,256" size="1040,57" zPosition="-1"/>
-		<ePixmap gradient="#131a1d,#ff000000,vertical" position="0,313" size="1040,256" zPosition="-1"/>
+		<ePixmap gradient="#ff000000,#131a1d,vertical" position="0,0" size="1040,257" zPosition="-1"/>
+		<eLabel backgroundColor="#131a1d" position="0,257" size="1040,57" zPosition="-1"/>
+		<ePixmap gradient="#131a1d,#ff000000,vertical" position="0,314" size="1040,257" zPosition="-1"/>
 		<widget font="Bold;32" noWrap="1" position="20,30" render="Label" size="1000,43" source="Title" transparent="1"/>
 		<widget font="Regular;26" name="log" position="20,135" size="1000,420" transparent="1"/>
 	</screen>
@@ -746,9 +746,9 @@
 		<widget font="Regular;28" foregroundColor="Heading" halign="center" position="60,880" render="Label" size="1800,70" source="help" transparent="1" valign="center"/>
 	</screen>
 	<screen backgroundColor="transparent" flags="wfNoBorder" name="EPGRefreshConfigurationFunctionContextMenu" position="center,center" size="1200,450" title="EPGRefresh Functions">
-		<ePixmap gradient="#ff000000,#131a1d,vertical" position="0,0" size="1200,202" zPosition="-1"/>
-		<eLabel backgroundColor="#131a1d" position="0,202" size="1200,45" zPosition="-1"/>
-		<ePixmap gradient="#131a1d,#ff000000,vertical" position="0,247" size="1200,202" zPosition="-1"/>
+		<ePixmap gradient="#ff000000,#131a1d,vertical" position="0,0" size="1200,203" zPosition="-1"/>
+		<eLabel backgroundColor="#131a1d" position="0,203" size="1200,45" zPosition="-1"/>
+		<ePixmap gradient="#131a1d,#ff000000,vertical" position="0,248" size="1200,203" zPosition="-1"/>
 		<widget font="Bold;32" noWrap="1" position="20,30" render="Label" size="1160,43" source="Title" transparent="1"/>
 		<widget enableWrapAround="on" position="20,120" render="Listbox" scrollbarMode="showOnDemand" size="1160,200" source="menu">
 			<convert type="TemplatedMultiContent"> {"template":[MultiContentEntryText(pos=(10,0),size=(1140,50),flags=RT_VALIGN_CENTER,text=0)], "fonts":[gFont("Regular",26)],"itemHeight":50} </convert>
@@ -1312,9 +1312,9 @@
 		<eLabel backgroundColor="#3366cc" position="1050,1070" size="350,10"/>
 	</screen>
 	<screen backgroundColor="background" flags="wfNoBorder" name="MMIDialog" position="center,center" size="1040,450" title="CI/CA Menu">
-		<ePixmap gradient="#ff000000,#131a1d,vertical" position="0,0" size="1040,202" zPosition="-1"/>
-		<eLabel backgroundColor="#131a1d" position="0,202" size="1040,45" zPosition="-1"/>
-		<ePixmap gradient="#131a1d,#ff000000,vertical" position="0,247" size="1040,202" zPosition="-1"/>
+		<ePixmap gradient="#ff000000,#131a1d,vertical" position="0,0" size="1040,203" zPosition="-1"/>
+		<eLabel backgroundColor="#131a1d" position="0,203" size="1040,45" zPosition="-1"/>
+		<ePixmap gradient="#131a1d,#ff000000,vertical" position="0,248" size="1040,203" zPosition="-1"/>
 		<widget font="Bold;32" name="title" position="20,170" size="400,40"/>
 		<widget font="Bold;32" halign="right" name="subtitle" position="620,170" size="400,40"/>
 		<widget enableWrapAround="1" itemHeight="45" name="entries" position="20,230" scrollbarMode="showOnDemand" size="1000,135"/>
@@ -1521,16 +1521,16 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth) / 2, (1080 - wsizey
 		<eLabel backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1750,915" size="100,38" text="Info" valign="center"/>
 	</screen>
 	<screen name="MultiInputBox" position="center,center" size="800,130" title="Input">
-		<ePixmap gradient="#ff000000,#131a1d,vertical" position="0,0" size="800,58" zPosition="-1"/>
-		<eLabel backgroundColor="#131a1d" position="0,58" size="800,13" zPosition="-1"/>
-		<ePixmap gradient="#131a1d,#ff000000,vertical" position="0,71" size="800,58" zPosition="-1"/>
+		<ePixmap gradient="#ff000000,#131a1d,vertical" position="0,0" size="800,59" zPosition="-1"/>
+		<eLabel backgroundColor="#131a1d" position="0,59" size="800,13" zPosition="-1"/>
+		<ePixmap gradient="#131a1d,#ff000000,vertical" position="0,72" size="800,59" zPosition="-1"/>
 		<widget font="Regular;30" position="10,10" render="Label" size="780,35" source="title"/>
 		<widget name="config" position="10,56" size="780,60"/>
 	</screen>
 	<screen backgroundColor="transparent" flags="wfNoBorder" name="Mute" position="1740,15" size="160,55">
-		<ePixmap gradient="#ff000000,#131a1d,vertical" position="0,0" size="160,24" zPosition="-1"/>
-		<eLabel backgroundColor="#131a1d" position="0,24" size="160,5" zPosition="-1"/>
-		<ePixmap gradient="#131a1d,#ff000000,vertical" position="0,30" size="160,24" zPosition="-1"/>
+		<ePixmap gradient="#ff000000,#131a1d,vertical" position="0,0" size="160,25" zPosition="-1"/>
+		<eLabel backgroundColor="#131a1d" position="0,25" size="160,6" zPosition="-1"/>
+		<ePixmap gradient="#131a1d,#ff000000,vertical" position="0,30" size="160,25" zPosition="-1"/>
 		<eLabel backgroundColor="gradient" position="0,0" size="160,55"/>
 		<ePixmap pixmap="Shadow-FHD/skin_default/mute.png" position="56,5" size="45,45"/>
 	</screen>
@@ -1681,9 +1681,9 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth) / 2, (1080 - wsizey
 		</widget>
 	</screen>
 	<screen backgroundColor="transparent" flags="wfNoBorder" name="PinInput" position="center,center" size="1040,450" title="Pin code needed">
-		<ePixmap gradient="#ff000000,#131a1d,vertical" position="0,0" size="1040,202" zPosition="-1"/>
-		<eLabel backgroundColor="#131a1d" position="0,202" size="1040,45" zPosition="-1"/>
-		<ePixmap gradient="#131a1d,#ff000000,vertical" position="0,247" size="1040,202" zPosition="-1"/>
+		<ePixmap gradient="#ff000000,#131a1d,vertical" position="0,0" size="1040,203" zPosition="-1"/>
+		<eLabel backgroundColor="#131a1d" position="0,203" size="1040,45" zPosition="-1"/>
+		<ePixmap gradient="#131a1d,#ff000000,vertical" position="0,248" size="1040,203" zPosition="-1"/>
 		<widget font="Bold;32" noWrap="1" position="20,30" render="Label" size="1000,43" source="Title" transparent="1"/>
 		<ePixmap pixmap="Shadow-FHD/images/setup.svg" position="58,18" size="100,100"/>
 		<widget font="Bold;36" halign="center" name="service" position="20,200" size="1000,46"/>
@@ -1757,9 +1757,9 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth) / 2, (1080 - wsizey
 		<widget font="Regular;28" foregroundColor="Heading" halign="center" position="20,910" render="Label" size="1160,70" source="status" transparent="1" valign="center"/>
 	</screen>
 	<screen backgroundColor="transparent" flags="wfNoBorder" name="RadioInfoBar" position="330,940" size="1220,35">
-		<ePixmap gradient="#ff000000,#131a1d,vertical" position="0,0" size="1220,15" zPosition="-1"/>
-		<eLabel backgroundColor="#131a1d" position="0,15" size="1220,3" zPosition="-1"/>
-		<ePixmap gradient="#131a1d,#ff000000,vertical" position="0,19" size="1220,15" zPosition="-1"/>
+		<ePixmap gradient="#ff000000,#131a1d,vertical" position="0,0" size="1220,16" zPosition="-1"/>
+		<eLabel backgroundColor="#131a1d" position="0,16" size="1220,4" zPosition="-1"/>
+		<ePixmap gradient="#131a1d,#ff000000,vertical" position="0,19" size="1220,16" zPosition="-1"/>
 		<widget font="Bold;28" position="0,0" render="Label" size="1220,35" source="RdsDecoder" transparent="1">
 			<convert type="RdsInfo">RadioText</convert>
 		</widget>
@@ -1812,9 +1812,9 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth) / 2, (1080 - wsizey
 		<widget enableWrapAround="1" name="filelist" position="20,120" scrollbarMode="showOnDemand" size="1160,720" transparent="1"/>
 	</screen>
 	<screen backgroundColor="transparent" flags="wfNoBorder" name="RotorNimSelection" position="center,center" size="1040,450" title="select Slot">
-		<ePixmap gradient="#ff000000,#131a1d,vertical" position="0,0" size="1040,202" zPosition="-1"/>
-		<eLabel backgroundColor="#131a1d" position="0,202" size="1040,45" zPosition="-1"/>
-		<ePixmap gradient="#131a1d,#ff000000,vertical" position="0,247" size="1040,202" zPosition="-1"/>
+		<ePixmap gradient="#ff000000,#131a1d,vertical" position="0,0" size="1040,203" zPosition="-1"/>
+		<eLabel backgroundColor="#131a1d" position="0,203" size="1040,45" zPosition="-1"/>
+		<ePixmap gradient="#131a1d,#ff000000,vertical" position="0,248" size="1040,203" zPosition="-1"/>
 		<widget font="Bold;32" noWrap="1" position="20,30" render="Label" size="1000,43" source="Title" transparent="1"/>
 		<ePixmap pixmap="Shadow-FHD/images/tuner.svg" position="58,18" size="100,100"/>
 		<widget enableWrapAround="1" name="nimlist" position="20,120" scrollbarMode="showOnDemand" size="1000,250"/>
@@ -1840,9 +1840,9 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth) / 2, (1080 - wsizey
 		<eLabel backgroundColor="#3366cc" position="1440,1070" size="480,10"/>
 	</screen>
 	<screen backgroundColor="background" flags="wfNoBorder" name="SatNimSelection" position="center,center" size="1040,450" title="select Slot">
-		<ePixmap gradient="#ff000000,#131a1d,vertical" position="0,0" size="1040,202" zPosition="-1"/>
-		<eLabel backgroundColor="#131a1d" position="0,202" size="1040,45" zPosition="-1"/>
-		<ePixmap gradient="#131a1d,#ff000000,vertical" position="0,247" size="1040,202" zPosition="-1"/>
+		<ePixmap gradient="#ff000000,#131a1d,vertical" position="0,0" size="1040,203" zPosition="-1"/>
+		<eLabel backgroundColor="#131a1d" position="0,203" size="1040,45" zPosition="-1"/>
+		<ePixmap gradient="#131a1d,#ff000000,vertical" position="0,248" size="1040,203" zPosition="-1"/>
 		<ePixmap pixmap="Shadow-FHD/images/tuner.svg" position="25,15" size="70,70"/>
 		<widget font="Bold;32" noWrap="1" position="130,30" render="Label" size="865,40" source="Title" transparent="1"/>
 		<widget enableWrapAround="1" name="nimlist" position="20,120" scrollbarMode="showOnDemand" size="1000,250"/>
@@ -1884,9 +1884,9 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth) / 2, (1080 - wsizey
 		<ePixmap pixmap="Shadow-FHD/images/scan.svg" position="140,810" size="160,160"/>
 	</screen>
 	<screen backgroundColor="background" flags="wfNoBorder" name="ScanIP" position="center,center" size="1040,450" title="Scan IP">
-		<ePixmap gradient="#ff000000,#131a1d,vertical" position="0,0" size="1040,202" zPosition="-1"/>
-		<eLabel backgroundColor="#131a1d" position="0,202" size="1040,45" zPosition="-1"/>
-		<ePixmap gradient="#131a1d,#ff000000,vertical" position="0,247" size="1040,202" zPosition="-1"/>
+		<ePixmap gradient="#ff000000,#131a1d,vertical" position="0,0" size="1040,203" zPosition="-1"/>
+		<eLabel backgroundColor="#131a1d" position="0,203" size="1040,45" zPosition="-1"/>
+		<ePixmap gradient="#131a1d,#ff000000,vertical" position="0,248" size="1040,203" zPosition="-1"/>
 		<ePixmap pixmap="Shadow-FHD/images/network.svg" position="25,15" size="70,70"/>
 		<widget font="Bold;32" noWrap="1" position="130,30" render="Label" size="865,40" source="Title" transparent="1"/>
 		<widget enableWrapAround="1" name="config" position="20,200" scrollbarMode="showOnDemand" size="1000,60" transparent="1"/>
@@ -2512,9 +2512,9 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 		<ePixmap pixmap="Shadow-FHD/skin_default/icons/arrow_down.svg" position="center,1010" size="60,60"/>
 	</screen>
 	<screen backgroundColor="background" flags="wfNoBorder" name="UserDialog" position="center,center" size="1040,450">
-		<ePixmap gradient="#ff000000,#131a1d,vertical" position="0,0" size="1040,202" zPosition="-1"/>
-		<eLabel backgroundColor="#131a1d" position="0,202" size="1040,45" zPosition="-1"/>
-		<ePixmap gradient="#131a1d,#ff000000,vertical" position="0,247" size="1040,202" zPosition="-1"/>
+		<ePixmap gradient="#ff000000,#131a1d,vertical" position="0,0" size="1040,203" zPosition="-1"/>
+		<eLabel backgroundColor="#131a1d" position="0,203" size="1040,45" zPosition="-1"/>
+		<ePixmap gradient="#131a1d,#ff000000,vertical" position="0,248" size="1040,203" zPosition="-1"/>
 		<widget font="Bold;32" noWrap="1" position="20,30" render="Label" size="1000,43" source="Title" transparent="1"/>
 		<widget enableWrapAround="1" name="config" position="20,120" scrollbarMode="showOnDemand" size="1000,120"/>
 		<eLabel backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="920,330" size="100,38" text="TXT" valign="center"/>
@@ -2612,7 +2612,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 		<eLabel backgroundColor="#3366cc" position="900,1070" size="300,10"/>
 		<widget enableWrapAround="1" itemHeight="65" name="config" position="20,120" scrollbarMode="showOnDemand" size="1160,845" transparent="1"/>
 	</screen>
-	<screen backgroundColor="transparent" flags="wfNoBorder" name="NumberZap" position="center,center" size="200,82">
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="NumberZap" position="center,center" size="200,82" title="QuickZap">
 		<widget backgroundColor="CursorBackground" cornerRadius="82" font="Regular;60" halign="center" name="number" position="0,0" size="200,82" valign="center"/>
 	</screen>
 	<screen backgroundColor="background" flags="wfNoBorder" name="ZapHistoryBrowser" position="0,0" size="1200,1080" title="Zap-History Browser">
