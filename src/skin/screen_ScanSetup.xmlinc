@@ -1,0 +1,8 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="ScanSetup" position="0,0" size="1200,1080" title="Service scan">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/images/scan.svg" source="Title"/>
+		<ePixmap pixmap="Shadow-FHD/images/ok_neutral.svg" position="eval($screen_width-20-50),30" size="50,50"/>
+		<widget backgroundColor="gradient" enableWrapAround="1" name="config" position="20,120" scrollbarMode="showOnDemand" size="eval($screen_width-40),725" transparent="1"/>
+		<xmlinc file="screenpart_1Button_text" position="0,eval($screen_height-50)" text="Cancel" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_4Buttons_icon" position="0,eval($screen_height-10)"/>
+	</screen>

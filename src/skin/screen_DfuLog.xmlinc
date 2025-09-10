@@ -1,0 +1,5 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="DfuLog" position="center,center" size="1040,570">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<widget font="Regular;26" name="log" position="20,135" size="1000,420" transparent="1"/>
+	</screen>

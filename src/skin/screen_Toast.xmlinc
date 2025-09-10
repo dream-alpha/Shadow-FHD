@@ -1,0 +1,4 @@
+	<screen backgroundColor="dark" name="Toast" position="center,center" size="900,10" title="Message">
+		<widget font="Regular;30" name="text" position="20,30" size="860,0" transparent="1"/>
+		<xmlinc file="applet_ToastBox"/>
+	</screen>

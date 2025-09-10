@@ -1,0 +1,7 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="FileBrowser" position="0,0" size="1200,1080">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/extensions/directory.svg" source="Title"/>
+		<xmlinc file="screenpart_1Button_source" position="0,eval($screen_height-50)" source="key_red" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_1Button_source" position="eval($screen_width/4),eval($screen_height-50)" source="key_green" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_4Buttons_icon" position="0,eval($screen_height-10)"/>
+	</screen>

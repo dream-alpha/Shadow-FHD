@@ -1,0 +1,53 @@
+	<eLabel backgroundColor="grey" position="20,968" size="1880,4" zPosition="-1"/>
+	<widget backgroundColor="grey" pixmap="Shadow-FHD/images/progress.svg" position="20,965" render="Progress" size="1880,10" source="session.Event_Now">
+		<convert type="EventTime">Progress</convert>
+	</widget>
+	<widget backgroundColor="gradient" font="Regular;45" halign="right" position="725,1010" render="Label" size="200,50" source="session.Event_Now" transparent="1">
+		<convert type="EventTime">Remaining</convert>
+		<convert type="RemainingToText">OnlyMinutes</convert>
+	</widget>
+	<eLabel backgroundColor="gradient" font="Regular;45" halign="center" position="935,1010" size="20,50" text="/" transparent="1"/>
+	<widget backgroundColor="gradient" font="Regular;45" position="965,1010" render="Label" size="200,50" source="session.Event_Now" transparent="1">
+		<convert type="EventTime">Duration</convert>
+		<convert type="ClockToText">InMinutes</convert>
+	</widget>
+	<widget backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1805,995" render="TunerLabel,0,input" size="70,70" source="session.FrontendInfo" valign="center" zPosition="2">
+		<convert type="FrontendInfo">INPUT</convert>
+		<convert type="ValueRange">0,0</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<widget backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1805,995" render="TunerLabel,1,input" size="70,70" source="session.FrontendInfo" valign="center" zPosition="2">
+		<convert type="FrontendInfo">INPUT</convert>
+		<convert type="ValueRange">1,1</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<widget backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1805,995" render="TunerLabel,2,input" size="70,70" source="session.FrontendInfo" valign="center" zPosition="2">
+		<convert type="FrontendInfo">INPUT</convert>
+		<convert type="ValueRange">2,2</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<widget backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1805,995" render="TunerLabel,3,input" size="70,70" source="session.FrontendInfo" valign="center" zPosition="2">
+		<convert type="FrontendInfo">INPUT</convert>
+		<convert type="ValueRange">3,3</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<widget backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1805,995" render="TunerLabel,4,input" size="70,70" source="session.FrontendInfo" valign="center" zPosition="2">
+		<convert type="FrontendInfo">INPUT</convert>
+		<convert type="ValueRange">4,4</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<widget backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1805,995" render="TunerLabel,5,input" size="70,70" source="session.FrontendInfo" valign="center" zPosition="2">
+		<convert type="FrontendInfo">INPUT</convert>
+		<convert type="ValueRange">5,5</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<widget backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1805,995" render="TunerLabel,6,input" size="70,70" source="session.FrontendInfo" valign="center" zPosition="2">
+		<convert type="FrontendInfo">INPUT</convert>
+		<convert type="ValueRange">6,6</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<widget backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1805,995" render="TunerLabel,7,input" size="70,70" source="session.FrontendInfo" valign="center" zPosition="2">
+		<convert type="FrontendInfo">INPUT</convert>
+		<convert type="ValueRange">7,7</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>

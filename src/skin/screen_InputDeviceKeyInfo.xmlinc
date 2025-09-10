@@ -1,0 +1,11 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="InputDeviceKeyInfo" position="center,center" size="1920,1080">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<widget name="rc" pixmaps="Shadow-FHD/skin_default/rc0.png,skin_default/rc1.png,skin_default/rc2.png,skin_default/rc3.png" position="200,150" size="256,800"/>
+		<widget name="arrowdown" pixmap="Shadow-FHD/skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="1"/>
+		<widget name="arrowdown2" pixmap="Shadow-FHD/skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="1"/>
+		<widget name="arrowup" pixmap="Shadow-FHD/skin_default/arrowup.png" position="-100,-100" size="37,70" zPosition="1"/>
+		<widget name="arrowup2" pixmap="Shadow-FHD/skin_default/arrowup.png" position="-100,-100" size="37,70" zPosition="1"/>
+		<eLabel backgroundColor="background" position="700,90" size="1140,940" zPosition="-1"/>
+		<widget enableWrapAround="1" name="list" position="720,110" scrollbarMode="showOnDemand" size="1100,900" transparent="1"/>
+	</screen>

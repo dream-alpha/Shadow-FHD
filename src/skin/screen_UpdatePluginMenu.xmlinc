@@ -1,0 +1,9 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="UpdatePluginMenu" position="0,0" size="1200,1080">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/images/softmanager.svg" source="Title"/>
+		<ePixmap pixmap="Shadow-FHD/skin_default/icons/menu.svg" position="eval($screen_width-20-80),30" size="80,40"/>
+		<widget enableWrapAround="1" position="20,120" render="Listbox" scrollbarMode="showNever" size="eval($screen_width-40),680" source="menu" transparent="1">
+			<convert type="TemplatedMultiContent">{"template": [MultiContentEntryPixmapAlphaTest(pos=(23,8), size=(45,45), png=5), MultiContentEntryText(pos=(10,0), size=(655,60), flags=RT_VALIGN_CENTER, text=1), ], "fonts": [gFont("Regular",27)], "itemHeight":60}</convert>
+		</widget>
+		<xmlinc file="screenpart_menu_arrow_down"/>
+	</screen>

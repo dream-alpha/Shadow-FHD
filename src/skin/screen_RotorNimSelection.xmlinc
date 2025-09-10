@@ -1,0 +1,6 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="RotorNimSelection" position="center,center" size="1040,450" title="select Slot">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<ePixmap pixmap="Shadow-FHD/images/tuner.svg" position="58,18" size="100,100"/>
+		<widget enableWrapAround="1" name="nimlist" position="20,120" scrollbarMode="showOnDemand" size="1000,250"/>
+	</screen>

@@ -1,0 +1,5 @@
+	<screen backgroundColor="dark" name="InfoBarStateInfo" position="center,center" size="700,140" title="Message">
+		<ePixmap pixmap="Shadow-FHD/skin_default/icons/input_info.svg" position="20,20" size="100,100"/>
+		<widget font="Regular;30" halign="center" name="state" position="140,15" size="540,35" transparent="1"/>
+		<widget font="Regular;26" halign="center" name="message" position="140,60" size="540,60" transparent="1" valign="center"/>
+	</screen>

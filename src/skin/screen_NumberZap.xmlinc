@@ -1,0 +1,3 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="NumberZap" position="center,center" size="200,82" title="QuickZap">
+		<widget backgroundColor="CursorBackground" cornerRadius="82" font="Regular;60" halign="center" name="number" position="0,0" size="200,82" valign="center"/>
+	</screen>

@@ -1,0 +1,5 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="Mute" position="1740,15" size="160,55">
+		<xmlinc file="screenpart_Background"/>
+		<eLabel backgroundColor="gradient" position="0,0" size="160,55"/>
+		<ePixmap pixmap="Shadow-FHD/skin_default/mute.png" position="56,5" size="45,45"/>
+	</screen>

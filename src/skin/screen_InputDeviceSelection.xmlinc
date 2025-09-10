@@ -1,0 +1,13 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="InputDeviceSelection" position="0,0" size="1200,1080">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/menu/input_device_setup.svg" source="Title" width="$screen_width"/>
+		<widget position="20,120" render="Listbox" scrollbarMode="showOnDemand" size="eval($screen_width-40),900" source="list" transparent="1">
+			<convert type="TemplatedMultiContent">
+			{"template":[MultiContentEntryText(pos=(10,0),size=(eval($screen_width-40-20),60),font=0,flags=RT_HALIGN_LEFT|RT_VALIGN_CENTER|RT_WRAP,text=1),],
+			"fonts":[gFont("Regular",28)],"itemHeight":60}
+			</convert>
+		</widget>
+		<xmlinc file="screenpart_1Button_source" position="eval($screen_width/4),eval($screen_height-50)" source="key_green" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_1Button_source" position="eval(3*$screen_width/4),eval($screen_height-50)" source="key_blue" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_4Buttons_icon" position="0,eval($screen_height-10)"/>
+	</screen>

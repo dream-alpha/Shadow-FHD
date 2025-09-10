@@ -1,0 +1,38 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="InfoBar" position="center,center" size="1920,1080" zPosition="1">
+		<xmlinc file="screenpart_Infobar_Clock"/>
+		<xmlinc file="screenpart_Infobar_Picon"/>
+		<xmlinc file="screenpart_Resolution"/>
+		<xmlinc file="screenpart_Infobar"/>
+		<xmlinc file="screenpart_Bar_gradient"/>
+		<widget pixmap="Shadow-FHD/skin_default/icons/record_long.svg" position="1770,105" render="Pixmap" size="128,38" source="session.RecordState">
+			<convert type="ConditionalShowHide"/>
+		</widget>
+		<widget font="Bold;29" foregroundColor="#cccccc" position="285,821" render="Label" size="83,33" source="session.Event_Now" transparent="1">
+			<convert type="EventTime">StartTime</convert>
+			<convert type="ClockToText">Default</convert>
+		</widget>
+		<widget font="Bold;29" foregroundColor="#cccccc" position="365,821" render="Label" size="105,33" source="session.Event_Now" transparent="1">
+			<convert type="EventTime">EndTime</convert>
+			<convert type="ClockToText">Format:- %H:%M</convert>
+		</widget>
+		<widget font="Bold;38" noWrap="1" position="488,815" render="Label" size="1260,45" source="session.Event_Now" transparent="1">
+			<convert type="COCEventName">Name</convert>
+		</widget>
+		<widget font="Regular;26" position="488,868" render="Label" size="1605,64" source="session.Event_Now" transparent="1">
+			<convert type="COCEventName">Description,singleShortDesc</convert>
+		</widget>
+		<widget font="Bold;29" foregroundColor="#cccccc" position="285,926" render="Label" size="83,33" source="session.Event_Next" transparent="1">
+			<convert type="EventTime">StartTime</convert>
+			<convert type="ClockToText">Default</convert>
+		</widget>
+		<widget font="Bold;29" foregroundColor="#cccccc" position="365,926" render="Label" size="105,33" source="session.Event_Next" transparent="1">
+			<convert type="EventTime">EndTime</convert>
+			<convert type="ClockToText">Format:- %H:%M</convert>
+		</widget>
+		<widget font="Bold;29" foregroundColor="#cccccc" noWrap="1" position="488,926" render="Label" size="1403,33" source="session.Event_Next" transparent="1">
+			<convert type="COCEventName">NameShortDescription,noShortDescNewline,singleShortDesc</convert>
+		</widget>
+		<widget backgroundColor="CursorBackground" cornerRadius="60" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1455,1005" render="FixedLabel" size="105,60" source="HbbtvApplication" text="HBBTV" valign="center">
+			<convert type="ConditionalShowHide"/>
+		</widget>
+	</screen>

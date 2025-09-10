@@ -1,0 +1,6 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="EPGSelectionMulti" position="center,center" size="1920,1080" title="EPG Selection">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_4Buttons_name" position="0,eval($screen_height-50)"/>
+		<xmlinc file="screenpart_EPG"/>
+		<widget itemHeight="45" name="list" position="20,295" scrollbarMode="showOnDemand" size="1880,675" transparent="1"/>
+	</screen>

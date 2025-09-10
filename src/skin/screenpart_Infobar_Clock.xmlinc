@@ -1,0 +1,7 @@
+	<widget backgroundColor="CursorBackground" cornerRadius="52" font="Bold;30" halign="center" position="1755,19" render="Label" size="150,53" source="global.CurrentTime" valign="center">
+		<convert type="ClockToText">Default</convert>
+	</widget>
+	<widget backgroundColor="CursorBackground" cornerRadius="52" font="Bold;30" halign="center" position="1755,815" render="Label" size="150,53" source="session.Event_Now" valign="center">
+		<convert type="EventTime">EndTime</convert>
+		<convert type="ClockToText">Format:&gt;%H:%M</convert>
+	</widget>

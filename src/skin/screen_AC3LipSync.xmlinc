@@ -1,0 +1,17 @@
+	<screen flags="wfNoBorder" name="AC3LipSync" position="0,0" size="1200,1080" title="Audio Sync">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<widget font="Regular;28" foregroundColors="foreground,yellow" name="ChannelLabel" position="20,120" size="300,30" transparent="1"/>
+		<widget font="Regular;28" foregroundColors="foreground,yellow" name="GlobalLabel" position="320,120" size="300,30" transparent="1"/>
+		<widget font="Regular;28" foregroundColor="yellow" name="COCServiceInfoLabel" position="20,170" size="300,30"/>
+		<widget font="Regular;28" name="COCServiceInfo" position="320,170" size="530,30"/>
+		<eLabel backgroundColor="yellow" position="20,272" size="eval($screen_width-40),38"/>
+		<eLabel backgroundColor="grey" position="eval($screen_width/2-1),272" size="3,38" zPosition="3"/>
+		<widget name="AudioSliderBar" orientation="orLeftToRight" position="20,272" size="eval($screen_width-40),38" transparent="1" zPosition="2"/>
+		<widget font="Regular;32" halign="center" name="AudioSlider" position="20,220" size="eval($screen_width-40),40" transparent="1" valign="center"/>
+		<ePixmap pixmap="Default-FHD/skin_default/icons/help.svg" position="eval($screen_width-80-20),30" size="80,40"/>
+		<xmlinc file="screenpart_1Button_name" name="key_red" position="0,eval($screen_height-50)" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_1Button_name" name="key_green" position="eval($screen_width/4),eval($screen_height-50)" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_1Button_name" name="key_blue" position="eval(3*$screen_width/4),eval($screen_height-50)" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_4Buttons_icon" position="0,eval($screen_height-10)"/>
+	</screen>

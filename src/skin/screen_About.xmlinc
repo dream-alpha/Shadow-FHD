@@ -1,0 +1,79 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="About" position="center,center" size="1920,1080">
+		<xmlinc file="screenpart_Background"/>
+		<widget font="Bold;32" position="40,20" render="Label" size="650,40" source="Model" transparent="1">
+			<convert type="DreamboxModel"/>
+		</widget>
+		<ePixmap pixmap="Shadow-FHD/images/network.svg" position="40,96" size="50,50"/>
+		<widget font="Bold;28" position="110,100" render="Label" size="530,35" source="IPHeader" transparent="1"/>
+		<widget font="Regular;24" position="110,145" render="Label" size="530,28" source="ipA" transparent="1"/>
+		<ePixmap pixmap="Shadow-FHD/images/tuner.svg" position="40,226" size="50,50"/>
+		<widget font="Bold;28" position="110,230" render="Label" size="530,35" source="TunerHeader" transparent="1"/>
+		<widget font="Regular;24" position="110,275" render="Label" size="530,28" source="Tuner0" transparent="1"/>
+		<widget font="Regular;24" position="110,315" render="Label" size="530,28" source="Tuner1" transparent="1"/>
+		<widget font="Regular;24" position="110,355" render="Label" size="530,28" source="Tuner2" transparent="1"/>
+		<widget font="Regular;24" position="110,395" render="Label" size="530,28" source="Tuner3" transparent="1"/>
+		<widget font="Regular;24" position="110,435" render="Label" size="530,28" source="Tuner4" transparent="1"/>
+		<ePixmap pixmap="Shadow-FHD/images/info.svg" position="40,516" size="50,50"/>
+		<eLabel backgroundColor="background" font="Bold;28" position="110,520" size="530,35" text="CPU Info:" transparent="1"/>
+		<widget font="Regular;24" position="110,565" render="Label" size="530,28" source="session.CurrentService" transparent="1">
+			<convert type="ExtDiskSpaceInfo">LoadAvg</convert>
+		</widget>
+		<ePixmap pixmap="Shadow-FHD/images/hardisk.svg" position="40,646" size="50,50"/>
+		<widget font="Bold;28" position="110,650" render="Label" size="530,35" source="HDDHeader" transparent="1"/>
+		<widget font="Regular;24" position="110,695" render="Label" size="530,60" source="hddA" transparent="1"/>
+		<ePixmap pixmap="Shadow-FHD/images/nwmntmng.svg" position="720,96" size="50,50"/>
+		<eLabel backgroundColor="background" font="Bold;28" position="790,100" size="1050,35" text="Speicher - Mount Info:" transparent="1"/>
+		<widget font="Regular;24" position="790,150" render="Label" size="1000,28" source="session.CurrentService" transparent="1">
+			<convert type="ExtDiskSpaceInfo">MemInfo,Full</convert>
+		</widget>
+		<widget backgroundColor="dark" foregroundColor="Progress" position="790,185" render="Progress" size="1000,6" source="session.CurrentService">
+			<convert type="ExtDiskSpaceInfo">MemInfo</convert>
+		</widget>
+		<widget font="Regular;24" position="790,220" render="Label" size="1000,28" source="session.CurrentService" transparent="1">
+			<convert type="ExtDiskSpaceInfo">FlashInfo,Full</convert>
+		</widget>
+		<widget backgroundColor="dark" foregroundColor="Progress" position="790,255" render="Progress" size="1000,6" source="session.CurrentService">
+			<convert type="ExtDiskSpaceInfo">FlashInfo</convert>
+		</widget>
+		<widget font="Regular;24" position="790,290" render="Label" size="1000,28" source="session.CurrentService" transparent="1">
+			<convert type="ExtDiskSpaceInfo">DataInfo,Full</convert>
+		</widget>
+		<widget backgroundColor="dark" foregroundColor="Progress" position="790,325" render="Progress" size="1000,6" source="session.CurrentService">
+			<convert type="ExtDiskSpaceInfo">DataInfo</convert>
+		</widget>
+		<widget font="Regular;24" position="790,360" render="Label" size="1000,28" source="session.CurrentService" transparent="1">
+			<convert type="ExtDiskSpaceInfo">HddInfo,Full</convert>
+		</widget>
+		<widget backgroundColor="dark" foregroundColor="Progress" position="790,395" render="Progress" size="1000,6" source="session.CurrentService">
+			<convert type="ExtDiskSpaceInfo">HddInfo</convert>
+		</widget>
+		<widget font="Regular;24" position="790,430" render="Label" size="1000,28" source="session.CurrentService" transparent="1">
+			<convert type="ExtDiskSpaceInfo">UsbInfo,Full</convert>
+		</widget>
+		<widget backgroundColor="dark" foregroundColor="Progress" position="790,465" render="Progress" size="1000,6" source="session.CurrentService">
+			<convert type="ExtDiskSpaceInfo">UsbInfo</convert>
+		</widget>
+		<ePixmap pixmap="Shadow-FHD/images/bluetooth.svg" position="720,586" size="50,50"/>
+		<eLabel backgroundColor="background" font="Bold;28" position="790,590" size="1050,35" text="BT-Remote Control:" transparent="1"/>
+		<eLabel backgroundColor="background" font="Regular;24" position="790,640" size="80,28" text="Signal:" transparent="1"/>
+		<widget font="Regular;24" position="870,640" render="Label" size="800,28" source="session.InputDevice" transparent="1">
+			<convert type="InputDeviceInfo">rssi</convert>
+		</widget>
+		<widget backgroundColor="dark" foregroundColor="Progress" position="790,675" render="Progress" size="1000,6" source="session.InputDevice">
+			<convert type="InputDeviceInfo">rssi</convert>
+			<convert type="SegmentedProgress">4</convert>
+		</widget>
+		<eLabel backgroundColor="background" font="Regular;24" position="790,710" size="100,28" text="Batterie:" transparent="1"/>
+		<widget font="Regular;24" position="890,710" render="Label" size="800,28" source="session.InputDevice" transparent="1">
+			<convert type="InputDeviceInfo">batteryLevel</convert>
+		</widget>
+		<widget backgroundColor="dark" foregroundColor="Progress" position="790,745" render="Progress" size="1000,6" source="session.InputDevice">
+			<convert type="InputDeviceInfo"/>
+		</widget>
+		<ePixmap pixmap="Shadow-FHD/images/info.svg" position="40,810" size="160,160"/>
+		<eLabel backgroundColor="background" font="Regular;45" position="250,795" size="1300,56" text="Image Info:" transparent="1"/>
+		<eLabel backgroundColor="grey" position="250,858" size="1540,1"/>
+		<widget font="Regular;26" position="250,873" render="Label" size="900,30" source="EnigmaVersion" transparent="1"/>
+		<widget font="Regular;26" position="250,910" render="Label" size="900,30" source="ImageVersion" transparent="1"/>
+		<widget font="Regular;26" position="250,948" render="Label" size="900,30" source="FPVersion" transparent="1"/>
+	</screen>

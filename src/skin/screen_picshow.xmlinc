@@ -1,0 +1,10 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="picshow" position="center,580" size="1920,500" title="PicturePlayer">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_4Buttons_source" position="0,eval($screen_width-50)"/>
+		<eLabel backgroundColor="grey" position="830,75" size="1,310"/>
+		<widget font="Bold;40" position="120,10" render="Label" size="300,47" source="Title" transparent="1"/>
+		<widget name="thn" pixmap="Shadow-FHD/skin_default/no_coverArt.svg" position="105,80" size="300,300"/>
+		<widget font="Regular;28" halign="center" position="440,80" render="Label" size="350,300" source="label" transparent="1" valign="center"/>
+		<widget enableWrapAround="1" name="filelist" position="860,80" scrollbarMode="showOnDemand" size="950,300" transparent="1"/>
+		<widget font="Regular;30" foregroundColor="Heading" halign="right" name="path" position="500,15" size="1310,40" transparent="1"/>
+	</screen>

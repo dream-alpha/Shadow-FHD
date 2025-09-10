@@ -1,0 +1,25 @@
+	<widget font="Bold;40" position="20,20" render="Label" size="1440,48" source="Event" transparent="1">
+		<convert type="COCEventName">Name</convert>
+	</widget>
+	<widget font="Regular;28" position="20,105" render="Label" size="1880,190" source="Event" transparent="1">
+		<convert type="COCEventName">FullDescription</convert>
+	</widget>
+	<eLabel backgroundColor="foreground" position="20,328" size="1880,1"/>
+	<eLabel backgroundColor="foreground" position="20,376" size="1880,1"/>
+	<eLabel backgroundColor="background" position="20,328" size="1880,602" zPosition="-1"/>
+	<eLabel backgroundColor="background" cornerRadius="60" position="1475,15" size="430,60" zPosition="-1"/>
+	<widget font="Regular;28" position="1500,24" render="Label" size="240,30" source="Event">
+		<convert type="EventTime">StartTime</convert>
+		<convert type="ClockToText">Format:%a %d.%m.  %H:%M</convert>
+	</widget>
+	<widget font="Regular;28" halign="right" position="1750,24" render="Label" size="130,30" source="Event">
+		<convert type="EventTime">Remaining</convert>
+		<convert type="RemainingToText">inMinutes</convert>
+	</widget>
+	<widget backgroundColor="black" pixmap="Shadow-FHD/images/progress.svg" position="1500,64" render="Progress" size="380,6" source="Event">
+		<convert type="EventTime">Progress</convert>
+	</widget>
+	<widget name="timeline_now" pixmap="Shadow-FHD/skin_default/icons/timeline-now.svg" position="0,382" size="20,540" zPosition="2"/>
+	<eLabel backgroundColor="CursorBackground" cornerRadius="20" position="20,910" size="1880,70" zPosition="-2"/>
+	<eLabel backgroundColor="background" cornerRadius="38" font="Regular;26" halign="center" position="1650,936" size="100,38" text="Info" valign="center"/>
+	<eLabel backgroundColor="background" cornerRadius="38" font="Regular;26" halign="center" position="1780,936" size="100,38" text="menu" valign="center"/>

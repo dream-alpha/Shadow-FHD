@@ -1,0 +1,11 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="EventView" position="center,center" size="1200,820">
+		<xmlinc file="screenpart_Background"/>
+		<widget font="Bold;40" name="channel" position="20,20" size="400,53" transparent="1"/>
+		<widget font="Regular;30" foregroundColor="Heading" halign="right" name="datetime" position="440,25" size="280,40" transparent="1"/>
+		<widget font="Regular;30" foregroundColor="Heading" halign="right" name="duration" position="740,25" size="150,40" transparent="1"/>
+		<widget font="Regular;30" foregroundColor="Heading" halign="right" position="eval($screen_width-270-20),25" render="Label" size="270,40" source="global.CurrentTime" transparent="1">
+			<convert type="ClockToText">Format:%a %d.%m. %H:%M</convert>
+		</widget>
+		<widget font="Regular;28" name="epg_description" position="20,100" size="eval($screen_width-40),560" transparent="1"/>
+		<xmlinc file="screenpart_4Buttons_name" position="0,eval($screen_height-50)"/>
+	</screen>

@@ -1,0 +1,14 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="AutoMountManager" position="0,0" size="1200,1080">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/images/nwmntmng.svg" source="Title"/>
+		<xmlinc file="screenpart_1Button_source" position="0,eval($screen_height-50)" source="key_red" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_4Buttons_icon" position="0,eval($screen_height-10)"/>
+		<widget enableWrapAround="1" position="20,120" render="Listbox" scrollbarMode="showOnDemand" size="eval($screen_width-40),680" source="config" transparent="1">
+			<convert type="TemplatedMultiContent">
+			{"template":[MultiContentEntryText(pos=(10,20),size=(640,35),font=0,text=0),
+			MultiContentEntryText(pos=(10,55),size=(640,25),font=1,text=2),
+			MultiContentEntryPixmapAlphaTest(pos=(0,0),size=(0,0),png=3),],
+			"fonts":[gFont("Bold",26),gFont("Regular",22)],"itemHeight":100}
+			</convert>
+		</widget>
+	</screen>

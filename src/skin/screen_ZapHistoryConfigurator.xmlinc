@@ -1,0 +1,5 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="ZapHistoryConfigurator" position="0,0" size="1200,1080" title="Zap-History Configurator">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/skin_default/icons/timerlist_zap.svg" source="Title"/>
+		<widget enableWrapAround="1" name="config" position="20,120" scrollbarMode="showOnDemand" size="eval($screen_width-40),680" transparent="1"/>
+	</screen>

@@ -1,0 +1,16 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="VideoPlayer" position="center,580" size="1920,500">
+		<xmlinc file="screenpart_Background"/>
+		<eLabel backgroundColor="background" font="Bold;40" position="120,10" size="760,47" text="Video Player" transparent="1"/>
+		<eLabel backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1710,15" size="100,38" text="Bouq." valign="center"/>
+		<widget enableWrapAround="1" position="120,80" render="Listbox" scrollbarMode="showOnDemand" size="1690,300" source="playlist" transparent="1">
+			<convert type="TemplatedMultiContent">
+			{"template":[MultiContentEntryText(pos=(5,0),size=(1680,50),font=0,flags=RT_VALIGN_CENTER,text=2),],
+			"fonts":[gFont("Regular",28)],"itemHeight":50}
+			</convert>
+		</widget>
+		<xmlinc file="screenpart_1Button_text" position="0,eval($screen_height-50)" text="Clear List" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_1Button_text" position="eval($screen_width/4),eval($screen_height-50)" text="Add" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_1Button_text" position="eval(2*$screen_width/4),eval($screen_height-50)" text=" " width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_1Button_text" position="eval(3*$screen_width/4),eval($screen_height-50)" text="Remove" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_4Buttons_icon" position="0,eval($screen_height-10)"/>
+	</screen>

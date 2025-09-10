@@ -1,0 +1,6 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="MovieContextMenu" position="0,0" size="1200,1080" title="Movielist menu">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/images/movies.svg" source="Title"/>
+		<widget enableWrapAround="1" name="menu" position="20,120" scrollbarMode="showNever" size="eval($screen_width-40),680" transparent="1"/>
+		<xmlinc file="screenpart_menu_arrow_down"/>
+	</screen>

@@ -1,0 +1,76 @@
+	<eLabel backgroundColor="background" position="30,979" size="1860,5" zPosition="-1"/>
+	<widget backgroundColor="dark" pixmap="Shadow-FHD/images/progress.png" position="30,977" render="Progress" size="1860,9" source="session.Event_Now">
+		<convert type="EventTime">Progress</convert>
+	</widget>
+	<widget font="Regular;34" halign="right" position="600,1020" render="Label" size="225,41" source="session.Event_Now" transparent="1">
+		<convert type="COCEventTime">Position,Negate</convert>
+	</widget>
+	<widget font="Regular;41" halign="center" position="863,1016" render="Label" size="195,41" source="session.Event_Now" transparent="1">
+		<convert type="EventTime">Duration</convert>
+		<convert type="COCClockToText">InMinutes</convert>
+	</widget>
+	<widget font="Regular;34" halign="left" position="1099,1020" render="Label" size="225,41" source="session.Event_Now" transparent="1">
+		<convert type="COCEventTime">Remaining</convert>
+	</widget>
+	<eLabel backgroundColor="CursorBackground" cornerRadius="60" position="1830,1005" size="60,60" zPosition="1"/>
+	<widget font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1830,1005" render="TunerLabel,0,input" size="60,60" source="session.FrontendInfo" transparent="1" valign="center" zPosition="2">
+		<convert type="FrontendInfo">INPUT</convert>
+		<convert type="ValueRange">0,0</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<widget font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1830,1005" render="TunerLabel,1,input" size="60,60" source="session.FrontendInfo" transparent="1" valign="center" zPosition="2">
+		<convert type="FrontendInfo">INPUT</convert>
+		<convert type="ValueRange">1,1</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<widget font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1830,1005" render="TunerLabel,2,input" size="60,60" source="session.FrontendInfo" transparent="1" valign="center" zPosition="2">
+		<convert type="FrontendInfo">INPUT</convert>
+		<convert type="ValueRange">2,2</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<widget font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1830,1005" render="TunerLabel,3,input" size="60,60" source="session.FrontendInfo" transparent="1" valign="center" zPosition="2">
+		<convert type="FrontendInfo">INPUT</convert>
+		<convert type="ValueRange">3,3</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<widget font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1830,1005" render="TunerLabel,4,input" size="60,60" source="session.FrontendInfo" transparent="1" valign="center" zPosition="2">
+		<convert type="FrontendInfo">INPUT</convert>
+		<convert type="ValueRange">4,4</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<widget font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1830,1005" render="TunerLabel,5,input" size="60,60" source="session.FrontendInfo" transparent="1" valign="center" zPosition="2">
+		<convert type="FrontendInfo">INPUT</convert>
+		<convert type="ValueRange">5,5</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<widget font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1830,1005" render="TunerLabel,6,input" size="60,60" source="session.FrontendInfo" transparent="1" valign="center" zPosition="2">
+		<convert type="FrontendInfo">INPUT</convert>
+		<convert type="ValueRange">6,6</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<widget font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1830,1005" render="TunerLabel,7,input" size="60,60" source="session.FrontendInfo" transparent="1" valign="center" zPosition="2">
+		<convert type="FrontendInfo">INPUT</convert>
+		<convert type="ValueRange">7,7</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<widget pixmap="Shadow-FHD/images/streamserver.svg" position="1838,1013" render="Pixmap" size="45,45" source="session.CurrentService" zPosition="2">
+		<convert type="COCServiceInfo">IsStream</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<eLabel backgroundColor="CursorBackground" cornerRadius="60" position="30,1005" size="525,60" zPosition="1"/>
+	<eLabel backgroundColor="background" cornerRadius="60" position="30,1005" size="116,60" zPosition="1"/>
+	<widget path="/usr/share/enigma2/Shadow-FHD/skin_default/icons/" position="49,1019" render="ExtAudioIcon" size="79,35" source="session.CurrentService" zPosition="2">
+		<convert type="Extaudioinfo">AudioIcon</convert>
+	</widget>
+	<widget backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="150,1013" render="Label" size="368,45" source="session.CurrentService" valign="center" zPosition="2">
+		<convert type="ServiceResolution">VideoInfoCodec</convert>
+	</widget>
+	<widget backgroundColor="CursorBackground" cornerRadius="60" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1583,1005" render="FixedLabel" size="60,60" source="session.CurrentService" text="TXT" valign="center" zPosition="2">
+		<convert type="COCServiceInfo">HasTelext</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>
+	<eLabel backgroundColor="CursorBackground" cornerRadius="60" font="Regular;26" foregroundColor="grey" halign="center" position="1583,1005" size="60,60" text="TXT" valign="center" zPosition="1"/>
+	<widget cornerRadius="60" font="Regular;26" halign="center" position="1455,1005" render="FixedLabel" size="105,60" source="session.CurrentService" text="SUB" valign="center" zPosition="2">
+		<convert type="COCServiceInfo">SubservicesAvailable</convert>
+		<convert type="ConditionalShowHide"/>
+	</widget>

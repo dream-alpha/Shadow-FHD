@@ -1,0 +1,29 @@
+	<screen backgroundColor="transparent" flags="wfNoBorder" name="SubservicesQuickzap" position="center,center" size="1920,1080">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Tuner"/>
+		<xmlinc file="screenpart_Resolution"/>
+		<widget backgroundColor="black" font="Bold;50" position="20,20" render="Label" size="1700,60" source="session.Event_Now" transparent="1">
+			<convert type="COCEventName">Name</convert>
+		</widget>
+		<widget backgroundColor="black" font="Regular;34" position="22,90" render="Label" size="600,40" source="session.CurrentService" transparent="1">
+			<convert type="ServiceResolution">VideoInfoCodec</convert>
+		</widget>
+		<widget backgroundColor="gradient" font="Bold;30" position="320,845" render="Label" size="1560,40" source="session.Event_Now" transparent="1">
+			<convert type="COCEventName">Description</convert>
+		</widget>
+		<widget backgroundColor="gradient" font="Regular;28" position="320,888" render="Label" size="1560,70" source="session.Event_Now" transparent="1">
+			<convert type="COCEventName">ExtendedDescription</convert>
+		</widget>
+		<widget path="/usr/share/enigma2/Shadow-FHD/skin_default/icons/" position="1555,1010" render="ExtAudioIcon" size="105,46" source="session.CurrentService">
+			<convert type="Extaudioinfo">AudioIcon</convert>
+		</widget>
+		<eLabel backgroundColor="CursorBackground" font="Regular;26" foregroundColor="dark" halign="center" position="1705,995" size="70,70" text="TXT" valign="center"/>
+		<widget backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1705,995" render="FixedLabel" size="70,70" source="session.CurrentService" text="TXT" valign="center" zPosition="1">
+			<convert type="COCServiceInfo">HasTelext</convert>
+			<convert type="ConditionalShowHide"/>
+		</widget>
+		<widget backgroundColor="gradient" font="Regular;80" halign="center" name="CurrentSubserviceNumber" position="50,715" size="220,80" transparent="1"/>
+		<widget position="50,815" render="Picon" size="220,132" source="session.CurrentService">
+			<convert type="ServiceName">Reference</convert>
+		</widget>
+	</screen>

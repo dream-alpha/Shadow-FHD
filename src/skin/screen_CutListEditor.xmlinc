@@ -1,0 +1,28 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="CutListEditor" position="center,center" size="1920,1080" title="Cutlist editor...">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<widget font="Regular;45" position="110,800" render="Label" size="1300,56" source="session.CurrentService" transparent="1">
+			<convert type="ServiceName">Name</convert>
+		</widget>
+		<widget font="Regular;40" halign="right" position="1470,805" render="Label" size="350,40" source="session.CurrentService" transparent="1">
+			<convert type="ServicePosition">Position,Detailed</convert>
+		</widget>
+		<eLabel backgroundColor="grey" position="110,880" size="1710,18"/>
+		<widget backgroundColor="grey" foregroundColor="black" name="Timeline" pointer="Shadow-FHD/skin_default/icons/arrow_seek.svg:0,4" position="120,880" size="1690,18" zPosition="1"/>
+		<widget font="Regular;30" halign="center" name="SeekState" position="center,940" size="400,56" transparent="1"/>
+		<eLabel backgroundColor="gradient" position="80,90" size="550,680" zPosition="-1"/>
+		<eLabel backgroundColor="gradient" font="Bold;36" position="100,95" size="400,42" text="Cutlist"/>
+		<ePixmap pixmap="Shadow-FHD/extensions/cut.svg" position="570,95" size="45,45"/>
+		<eLabel backgroundColor="grey" position="90,145" size="530,1"/>
+		<widget backgroundColor="gradient" position="90,160" render="Listbox" scrollbarMode="showOnDemand" size="530,600" source="cutlist">
+			<convert type="TemplatedMultiContent">
+			{"template":[MultiContentEntryText(pos=(0,0),size=(400,50),text=1,flags=RT_HALIGN_CENTER|RT_VALIGN_CENTER,backcolor=MultiContentTemplateColor(3)),
+			MultiContentEntryText(pos=(400,0),size=(130,50),text=2,flags=RT_HALIGN_CENTER|RT_VALIGN_CENTER,backcolor=MultiContentTemplateColor(3))],
+			"fonts":[gFont("Regular",28)],"itemHeight":50}
+			</convert>
+		</widget>
+		<widget backgroundColor="transparent" name="Video" position="715,105" size="1110,650"/>
+		<ePixmap pixmap="Shadow-FHD/skin_default/icons/logo.svg" position="center,1030" size="428,26"/>
+		<eLabel backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="110,930" size="100,38" text="Help" valign="center"/>
+		<eLabel backgroundColor="CursorBackground" font="Regular;26" foregroundColor="HeaderForeground" halign="center" position="1720,930" size="100,38" text="OK" valign="center"/>
+	</screen>

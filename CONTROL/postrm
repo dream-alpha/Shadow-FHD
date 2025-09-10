@@ -1,0 +1,3 @@
+#!/bin/sh
+echo "Skin removed successfully."
+exit 0

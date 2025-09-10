@@ -1,0 +1,7 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="TimerLog" position="0,0" size="1200,1080" title="Timer Log">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/images/timer.svg" source="Title"/>
+		<xmlinc file="screenpart_4Buttons_name" position="0,eval($screen_height-50)"/>
+		<widget enableWrapAround="1" name="loglist" position="20,120" scrollbarMode="showOnDemand" size="eval($screen_width-40),eval($screen_height-270)" transparent="1"/>
+		<widget font="Regular;30" name="logentry" position="20,690" size="eval($screen_width-40),80" transparent="1"/>
+	</screen>

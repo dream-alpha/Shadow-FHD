@@ -1,0 +1,15 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="HarddiskDriveSetup" position="0,0" size="1200,1080">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_Title" menu_pixmap="Shadow-FHD/images/setup.svg" source="Title"/>
+		<xmlinc file="screenpart_1Button_text" position="eval($screen_width/4),eval($screen_height-50)" text="Save" width="eval($screen_width/4)"/>
+		<xmlinc file="screenpart_4Buttons_icon" position="0,eval($screen_height-10)"/>
+		<widget name="HelpWindow" position="0,1000"/>
+		<widget position="20,288" render="Pixmap" size="100,100" source="icon">
+			<convert type="ValueToPixmap">Path</convert>
+		</widget>
+		<widget font="Regular;30" position="140,280" render="Label" size="540,35" source="model" transparent="1"/>
+		<widget font="Regular;30" position="140,320" render="Label" size="540,35" source="capacity" transparent="1"/>
+		<widget font="Regular;30" position="140,360" render="Label" size="540,35" source="bus" transparent="1"/>
+		<widget enableWrapAround="1" name="config" position="20,430" scrollbarMode="showOnDemand" size="eval($screen_width-40),180" transparent="1"/>
+		<widget backgroundColor="gradient" font="Regular;28" foregroundColor="Heading" halign="center" position="20,910" render="Label" size="eval($screen_width-40),70" source="introduction" transparent="1" valign="center"/>
+	</screen>
